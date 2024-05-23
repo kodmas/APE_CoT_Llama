@@ -1,0 +1,2 @@
+Test score: 0.4
+Best prompt: Take the first sentence of the two sentences given as the output.

@@ -1,0 +1,298 @@
+Message from TWCC HPC admin
+-----------------------
+loading miniconda3 with conda 4.8.4/python 3.7
+docs : https://hackmd.io/@kmo/twcc_hpc_conda
+-----------------------
+
+# conda environments:
+#
+                         /home/kodmas2023/miniconda3/envs/ape
+                         /home/kodmas2023/miniconda3/envs/ape2
+base                  *  /opt/ohpc/twcc/conda/4.8.3/miniconda3
+
+kodmas
+WARNING: overwriting environment variables set in the machine
+overwriting variable HF_HOME
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/torch/cuda/__init__.py:138: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+[INFO] : Generating prompts from llama2 ...
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  6.92it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  6.57it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  6.97it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  8.05it/s]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+make_response
+in make response-------------
+reply strings 0 system{{ You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise. }}user{{I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: boats, tablecloths
+Output: go on top of something.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: picture, issue
+Output: involve frames.
+
+Input: magnetic resonance imaging, propaganda
+Output: involve spins.
+
+Input: snowman, marzipan fruit
+Output: inanimate, but made to imitate something animate.
+
+Observe the input-output pair and output the instruction without any further explanation or words.
+The instruction was to}}assistant
+
+
+"Describe how [something] is related to [other thing]."
+tmp 0 =  "Describe how [something] is related to [other thing]."
+------
+
+reply strings 1 system{{ You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise. }}user{{I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: magnetic resonance imaging, propaganda
+Output: involve spins.
+
+Input: picture, issue
+Output: involve frames.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: snowman, marzipan fruit
+Output: inanimate, but made to imitate something animate.
+
+Observe the input-output pair and output the instruction without any further explanation or words.
+The instruction was to}}assistant
+
+
+"Identify the relationship between the input elements."
+tmp 1 =  "Identify the relationship between the input elements."
+------
+
+reply strings 2 system{{ You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise. }}user{{I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: magnetic resonance imaging, propaganda
+Output: involve spins.
+
+Input: snowman, marzipan fruit
+Output: inanimate, but made to imitate something animate.
+
+Input: boats, tablecloths
+Output: go on top of something.
+
+Input: picture, issue
+Output: involve frames.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pair and output the instruction without any further explanation or words.
+The instruction was to}}assistant
+
+
+"Describe a relationship between the inputs."
+tmp 2 =  "Describe a relationship between the inputs."
+------
+
+generate.generate_llama2_prompts ['"Describe how [something] is related to [other thing]."', '"Identify the relationship between the input elements."', '"Describe a relationship between the inputs."']
+Model returned 3 prompts. Deduplicating...
+Deduplicated to 3 prompts.
+Evaluating prompts...
+Prompt: "Describe how [something] is related to [other thing]."
+Query:  Instruction: "Describe how [something] is related to [other thing]."
+
+Input: ballet, snow, running
+Output: 
+Ground Truth answer: ['use specialized shoes.']
+
+
+Query:  Instruction: "Describe how [something] is related to [other thing]."
+
+Input: normal distribution, Pavlov
+Output: 
+Ground Truth answer: ['relate to bells.']
+
+
+Query:  Instruction: "Describe how [something] is related to [other thing]."
+
+Input: squirrel foraging, memoization
+Output: 
+Ground Truth answer: ['involve caching.']
+
+
+Query:  Instruction: "Describe how [something] is related to [other thing]."
+
+Input: dentistry, construction
+Output: 
+Ground Truth answer: ['involve drilling.']
+
+
+Query:  Instruction: "Describe how [something] is related to [other thing]."
+
+Input: folding, committee
+Output: 
+Ground Truth answer: ['types of chairs.']
+
+
+Query:  Instruction: "Describe how [something] is related to [other thing]."
+
+Input: guitars, pendulums
+Output: 
+Ground Truth answer: ['involve oscillations.']
+
+
+Query:  Instruction: "Describe how [something] is related to [other thing]."
+
+Input: bamboo, memory
+Output: 
+Ground Truth answer: ['have segments.']
+
+
+Query:  Instruction: "Describe how [something] is related to [other thing]."
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: "Describe how [something] is related to [other thing]."
+
+Input: poker, displays of embarrassment
+Output: 
+Ground Truth answer: ['involve flushes.']
+
+
+Prompt: "Describe a relationship between the inputs."
+Query:  Instruction: "Describe a relationship between the inputs."
+
+Input: dentistry, construction
+Output: 
+Ground Truth answer: ['involve drilling.']
+
+
+Query:  Instruction: "Describe a relationship between the inputs."
+
+Input: normal distribution, Pavlov
+Output: 
+Ground Truth answer: ['relate to bells.']
+
+
+Query:  Instruction: "Describe a relationship between the inputs."
+
+Input: poker, displays of embarrassment
+Output: 
+Ground Truth answer: ['involve flushes.']
+
+
+Query:  Instruction: "Describe a relationship between the inputs."
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: "Describe a relationship between the inputs."
+
+Input: ballet, snow, running
+Output: 
+Ground Truth answer: ['use specialized shoes.']
+
+
+Query:  Instruction: "Describe a relationship between the inputs."
+
+Input: bamboo, memory
+Output: 
+Ground Truth answer: ['have segments.']
+
+
+Query:  Instruction: "Describe a relationship between the inputs."
+
+Input: guitars, pendulums
+Output: 
+Ground Truth answer: ['involve oscillations.']
+
+
+Query:  Instruction: "Describe a relationship between the inputs."
+
+Input: folding, committee
+Output: 
+Ground Truth answer: ['types of chairs.']
+
+
+Query:  Instruction: "Describe a relationship between the inputs."
+
+Input: squirrel foraging, memoization
+Output: 
+Ground Truth answer: ['involve caching.']
+
+
+Prompt: "Identify the relationship between the input elements."
+Query:  Instruction: "Identify the relationship between the input elements."
+
+Input: squirrel foraging, memoization
+Output: 
+Ground Truth answer: ['involve caching.']
+
+
+Query:  Instruction: "Identify the relationship between the input elements."
+
+Input: ballet, snow, running
+Output: 
+Ground Truth answer: ['use specialized shoes.']
+
+
+Query:  Instruction: "Identify the relationship between the input elements."
+
+Input: normal distribution, Pavlov
+Output: 
+Ground Truth answer: ['relate to bells.']
+
+
+Query:  Instruction: "Identify the relationship between the input elements."
+
+Input: bamboo, memory
+Output: 
+Ground Truth answer: ['have segments.']
+
+
+Query:  Instruction: "Identify the relationship between the input elements."
+
+Input: guitars, pendulums
+Output: 
+Ground Truth answer: ['involve oscillations.']
+
+
+Query:  Instruction: "Identify the relationship between the input elements."
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: "Identify the relationship between the input elements."
+
+Input: dentistry, construction
+Output: 
+Ground Truth answer: ['involve drilling.']
+
+
+Query:  Instruction: "Identify the relationship between the input elements."
+
+Input: poker, displays of embarrassment
+Output: 
+Ground Truth answer: ['involve flushes.']
+
+
+Query:  Instruction: "Identify the relationship between the input elements."
+
+Input: folding, committee
+Output: 
+Ground Truth answer: ['types of chairs.']
+
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00, 11.25it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 12.81it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 12.54it/s]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+slurmstepd: error: *** JOB 595063 ON gn0507 CANCELLED AT 2024-05-01T02:11:24 ***

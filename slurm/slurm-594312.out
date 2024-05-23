@@ -1,0 +1,26 @@
+Message from TWCC HPC admin
+-----------------------
+loading miniconda3 with conda 4.8.4/python 3.7
+docs : https://hackmd.io/@kmo/twcc_hpc_conda
+-----------------------
+
+# conda environments:
+#
+                         /home/kodmas2023/miniconda3/envs/ape
+                         /home/kodmas2023/miniconda3/envs/ape2
+base                  *  /opt/ohpc/twcc/conda/4.8.3/miniconda3
+
+kodmas
+WARNING: overwriting environment variables set in the machine
+overwriting variable HF_HOME
+[INFO] : Generating prompts from llama2 ...
+tokenizer.json:   0%|          | 0.00/9.09M [00:00<?, ?B/s]tokenizer.json: 100%|██████████| 9.09M/9.09M [00:01<00:00, 6.64MB/s]tokenizer.json: 100%|██████████| 9.09M/9.09M [00:01<00:00, 6.62MB/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/torch/cuda/__init__.py:138: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]Downloading shards:  25%|██▌       | 1/4 [00:00<00:00,  4.34it/s]Downloading shards:  50%|█████     | 2/4 [00:00<00:00,  4.33it/s]Downloading shards:  75%|███████▌  | 3/4 [00:00<00:00,  4.29it/s]Downloading shards: 100%|██████████| 4/4 [00:00<00:00,  4.27it/s]Downloading shards: 100%|██████████| 4/4 [00:00<00:00,  4.28it/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.35s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.36s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.61s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.69s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.90s/it]
+generation_config.json:   0%|          | 0.00/187 [00:00<?, ?B/s]generation_config.json: 100%|██████████| 187/187 [00:00<00:00, 56.9kB/s]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+A decoder-only architecture is being used, but right-padding was detected! For correct generation results, please set `padding_side='left'` when initializing the tokenizer.
+slurmstepd: error: *** JOB 594312 ON gn1104 CANCELLED AT 2024-04-29T17:53:18 ***

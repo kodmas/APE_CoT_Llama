@@ -1,0 +1,2 @@
+Test score: 0.044845779220779224
+Best prompt: Classify inputs based on shared properties or behaviors that also apply to their corresponding outputs.

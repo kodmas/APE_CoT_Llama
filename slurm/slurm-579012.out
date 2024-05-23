@@ -1,0 +1,4706 @@
+Message from TWCC HPC admin
+-----------------------
+loading miniconda3 with conda 4.8.4/python 3.7
+docs : https://hackmd.io/@kmo/twcc_hpc_conda
+-----------------------
+
+# conda environments:
+#
+                         /home/kodmas2023/miniconda3/envs/ape
+                         /home/kodmas2023/miniconda3/envs/ape2
+base                  *  /opt/ohpc/twcc/conda/4.8.3/miniconda3
+
+/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/torch/cuda/__init__.py:138: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+[INFO] : Generating prompts from llama2 ...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.60s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.04s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.13s/it]
+make_response
+in make response-------------
+reply strings 0 I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+tmp 0 =  I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+------
+
+reply strings 1 I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+tmp 1 =  I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+------
+
+reply strings 2 I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+tmp 2 =  I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+------
+
+generate.generate_llama2_prompts ['I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:\n\nInput: avalanches, rock polishing\nOutput: involve tumbling.\n\nInput: poker, displays of embarrassment\nOutput: involve flushes.\n\nInput: blue whales, Jupiter, top quarks\nOutput: the largest of their kind.\n\nInput: sewing, wrenches, glue\nOutput: can be used for repairs.\n\nInput: green, light, dog\nOutput: types of house.\n\nObserve the input-output pairs and output the instruction only without any explanation.\n\nInstruction: Give a word that is related to each pair of words in a clever or unexpected way.', 'I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:\n\nInput: avalanches, rock polishing\nOutput: involve tumbling.\n\nInput: dentistry, construction\nOutput: involve drilling.\n\nInput: blue whales, Jupiter, top quarks\nOutput: the largest of their kind.\n\nInput: sewing, wrenches, glue\nOutput: can be used for repairs.\n\nInput: squirrel foraging, memoization\nOutput: involve caching.\n\nObserve the input-output pairs and output the instruction only without any explanation.\n\nInstruction: Produce an output that is related to the given input in some way.', 'I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:\n\nInput: ballet, snow, running\nOutput: use specialized shoes.\n\nInput: avalanches, rock polishing\nOutput: involve tumbling.\n\nInput: blue whales, Jupiter, top quarks\nOutput: the largest of their kind.\n\nInput: green, light, dog\nOutput: types of house.\n\nInput: squirrel foraging, memoization\nOutput: involve caching.\n\nObserve the input-output pairs and output the instruction only without any explanation.\n\nInstruction: Produce an output that is related to the given input in some way.']
+Model returned 3 prompts. Deduplicating...
+Deduplicated to 3 prompts.
+Evaluating prompts...
+Prompt: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: bamboo, memory
+Output: 
+Ground Truth answer: ['have segments.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: snowman, marzipan fruit
+Output: 
+Ground Truth answer: ['inanimate, but made to imitate something animate.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: folding, committee
+Output: 
+Ground Truth answer: ['types of chairs.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: magnetic resonance imaging, propaganda
+Output: 
+Ground Truth answer: ['involve spins.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: picture, issue
+Output: 
+Ground Truth answer: ['involve frames.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: normal distribution, Pavlov
+Output: 
+Ground Truth answer: ['relate to bells.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: boats, tablecloths
+Output: 
+Ground Truth answer: ['go on top of something.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: guitars, pendulums
+Output: 
+Ground Truth answer: ['involve oscillations.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Prompt: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: picture, issue
+Output: 
+Ground Truth answer: ['involve frames.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: guitars, pendulums
+Output: 
+Ground Truth answer: ['involve oscillations.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: folding, committee
+Output: 
+Ground Truth answer: ['types of chairs.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: snowman, marzipan fruit
+Output: 
+Ground Truth answer: ['inanimate, but made to imitate something animate.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: normal distribution, Pavlov
+Output: 
+Ground Truth answer: ['relate to bells.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: boats, tablecloths
+Output: 
+Ground Truth answer: ['go on top of something.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: bamboo, memory
+Output: 
+Ground Truth answer: ['have segments.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: magnetic resonance imaging, propaganda
+Output: 
+Ground Truth answer: ['involve spins.']
+
+
+Prompt: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: normal distribution, Pavlov
+Output: 
+Ground Truth answer: ['relate to bells.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: snowman, marzipan fruit
+Output: 
+Ground Truth answer: ['inanimate, but made to imitate something animate.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: boats, tablecloths
+Output: 
+Ground Truth answer: ['go on top of something.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: folding, committee
+Output: 
+Ground Truth answer: ['types of chairs.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: picture, issue
+Output: 
+Ground Truth answer: ['involve frames.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: magnetic resonance imaging, propaganda
+Output: 
+Ground Truth answer: ['involve spins.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: guitars, pendulums
+Output: 
+Ground Truth answer: ['involve oscillations.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: bamboo, memory
+Output: 
+Ground Truth answer: ['have segments.']
+
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.93s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.18s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.29s/it]
+make_response
+in make response-------------
+Evaluation
+reply strings 0 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: bamboo, memory
+Output:
+bamboo memory
+tmp 0 =  bamboo memory
+------
+
+reply strings 1 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: snowman, marzipan fruit
+Output:
+
+(Note: Please provide the output as a single word or phrase without any explanation.)
+tmp 1 =  (Note: Please provide the output as a single word or phrase without any explanation.)
+------
+
+reply strings 2 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: folding, committee
+Output:
+
+(Note: Please provide the output without any explanation.)
+tmp 2 =  (Note: Please provide the output without any explanation.)
+------
+
+reply strings 3 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: magnetic resonance imaging, propaganda
+Output:
+
+(Note: The output may not be directly related to the input, but it should be somehow connected or similar in nature.)
+tmp 3 =  (Note: The output may not be directly related to the input, but it should be somehow connected or similar in nature.)
+------
+
+reply strings 4 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: picture, issue
+Output:
+
+Input: computer, program
+Output:
+
+Input: tree, branch
+Output:
+
+Input: car, gasoline
+Output:
+
+Input: book, chapter
+Output:
+
+Input: water, droplet
+tmp 4 =  Input: water, droplet
+------
+
+reply strings 5 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: normal distribution, Pavlov
+Output:
+
+Please provide the output without any explanation.
+tmp 5 =  Please provide the output without any explanation.
+------
+
+reply strings 6 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: boats, tablecloths
+Output:
+
+(Note: The output may not be directly related to both inputs, but it should be related to one or both of them in some way.)
+tmp 6 =  (Note: The output may not be directly related to both inputs, but it should be related to one or both of them in some way.)
+------
+
+reply strings 7 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: guitars, pendulums
+Output:
+
+(Note: The output may not always be immediately apparent or straightforwardly related to the input.)
+tmp 7 =  (Note: The output may not always be immediately apparent or straightforwardly related to the input.)
+------
+
+reply strings 8 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: sewing, wrenches, glue
+Output:
+stitching
+tmp 8 =  stitching
+------
+
+reply strings 9 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: sewing, wrenches, glue
+Output:
+
+Please provide the output without any explanation.
+tmp 9 =  Please provide the output without any explanation.
+------
+
+reply strings 10 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: picture, issue
+Output:
+
+Please provide the output without any explanation.
+tmp 10 =  Please provide the output without any explanation.
+------
+
+reply strings 11 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: guitars, pendulums
+Output:
+
+Please provide the output without any explanation.
+tmp 11 =  Please provide the output without any explanation.
+------
+
+reply strings 12 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: folding, committee
+Output:
+
+Please provide the output without any explanation.
+tmp 12 =  Please provide the output without any explanation.
+------
+
+reply strings 13 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: snowman, marzipan fruit
+Output:
+
+Please provide the output without any explanation.
+tmp 13 =  Please provide the output without any explanation.
+------
+
+reply strings 14 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: normal distribution, Pavlov
+Output:
+
+Please provide the output without any explanation.
+tmp 14 =  Please provide the output without any explanation.
+------
+
+reply strings 15 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: boats, tablecloths
+Output:
+
+Please provide the output without any explanation.
+tmp 15 =  Please provide the output without any explanation.
+------
+
+reply strings 16 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: bamboo, memory
+Output:
+
+Please provide the output without any explanation.
+tmp 16 =  Please provide the output without any explanation.
+------
+
+reply strings 17 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: magnetic resonance imaging, propaganda
+Output:
+
+Input: cats, dogs, elephants
+Output: animals with fur.
+tmp 17 =  animals with fur.
+------
+
+reply strings 18 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: normal distribution, Pavlov
+Output:
+
+Input: cats, dogs, elephants
+Output:
+
+Input: pineapples, penguins, kangaroos
+Output:
+
+Input: rainbows, unicorns, merma
+tmp 18 =  Input: rainbows, unicorns, merma
+------
+
+reply strings 19 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: snowman, marzipan fruit
+Output:
+snowman
+tmp 19 =  snowman
+------
+
+reply strings 20 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: boats, tablecloths
+Output:
+boats
+
+Input: cats, pillows
+Output:
+pillows
+
+Input: cars, umbrellas
+Output:
+cars
+
+Input: dogs, blankets
+Output:
+blankets
+
+tmp 20 =  blankets
+------
+
+reply strings 21 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: folding, committee
+Output:
+folding chair
+committee room
+tmp 21 =  folding chair
+committee room
+------
+
+reply strings 22 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: picture, issue
+Output:
+picture
+
+Input: mountain, climb
+Output:
+climb
+
+Input: apple, tree
+Output:
+tree
+
+Input: car, drive
+Output:
+drive
+
+Input: book, read
+Output:
+tmp 22 =  
+------
+
+reply strings 23 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: sewing, wrenches, glue
+Output: stitches
+tmp 23 =  stitches
+------
+
+reply strings 24 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: magnetic resonance imaging, propaganda
+Output:
+
+Input: cats, dogs, elephants
+Output:
+
+Input: bicycles, skateboards, rollerblades
+Output:
+
+Input: pineapples, watermelons, cantal
+tmp 24 =  Input: pineapples, watermelons, cantal
+------
+
+reply strings 25 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: guitars, pendulums
+Output:
+
+Input: cats, bicycles
+Output:
+
+Input: rainbows, unicorns
+Output:
+
+Input: clocks, chessboards
+Output:
+
+Input: snowflakes,
+tmp 25 =  Input: snowflakes,
+------
+
+reply strings 26 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: bamboo, memory
+Output:
+bamboo
+
+Input: pineapple, sunset
+Output:
+pineapple
+
+Input: elephant, castle
+Output:
+castle
+
+Input: kangaroo, rainbow
+Output:
+
+tmp 26 =  
+------
+
+Model_output bamboo memory
+Model_output (Note: Please provide the output as a single word or phrase without any explanation.)
+Model_output (Note: Please provide the output without any explanation.)
+Model_output (Note: The output may not be directly related to the input, but it should be somehow connected or similar in nature.)
+Model_output Input: water, droplet
+Model_output Please provide the output without any explanation.
+Model_output (Note: The output may not be directly related to both inputs, but it should be related to one or both of them in some way.)
+Model_output (Note: The output may not always be immediately apparent or straightforwardly related to the input.)
+Model_output stitching
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output animals with fur.
+Model_output Input: rainbows, unicorns, merma
+Model_output snowman
+Model_output blankets
+Model_output folding chair
+committee room
+Model_output 
+Model_output stitches
+Model_output Input: pineapples, watermelons, cantal
+Model_output Input: snowflakes,
+Model_output 
+Using metric "f1" for task "common_concept"...
+Prediction and Answer =  ('bamboo memory........\\.........', 'have segments.')
+Prediction and Answer =  ('(Note: Please provide the output as a single word or phrase without any explanation.)........\\.........', 'inanimate, but made to imitate something animate.')
+Prediction and Answer =  ('(Note: Please provide the output without any explanation.)........\\.........', 'types of chairs.')
+Prediction and Answer =  ('(Note: The output may not be directly related to the input, but it should be somehow connected or similar in nature.)........\\.........', 'involve spins.')
+Prediction and Answer =  ('Input: water, droplet........\\.........', 'involve frames.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'relate to bells.')
+Prediction and Answer =  ('(Note: The output may not be directly related to both inputs, but it should be related to one or both of them in some way.)........\\.........', 'go on top of something.')
+Prediction and Answer =  ('(Note: The output may not always be immediately apparent or straightforwardly related to the input.)........\\.........', 'involve oscillations.')
+Prediction and Answer =  ('stitching........\\.........', 'can help repair something.')
+Prediction and Answer =  ('stitching........\\.........', 'can be used for repairs.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'can help repair something.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'can be used for repairs.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'involve frames.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'involve oscillations.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'types of chairs.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'inanimate, but made to imitate something animate.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'relate to bells.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'go on top of something.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'have segments.')
+Prediction and Answer =  ('animals with fur.........\\.........', 'involve spins.')
+Prediction and Answer =  ('Input: rainbows, unicorns, merma........\\.........', 'relate to bells.')
+Prediction and Answer =  ('snowman........\\.........', 'inanimate, but made to imitate something animate.')
+Prediction and Answer =  ('blankets........\\.........', 'go on top of something.')
+Prediction and Answer =  ('folding chair\ncommittee room........\\.........', 'types of chairs.')
+Prediction and Answer =  ('........\\.........', 'involve frames.')
+Prediction and Answer =  ('stitches........\\.........', 'can help repair something.')
+Prediction and Answer =  ('stitches........\\.........', 'can be used for repairs.')
+Prediction and Answer =  ('Input: pineapples, watermelons, cantal........\\.........', 'involve spins.')
+Prediction and Answer =  ('Input: snowflakes,........\\.........', 'involve oscillations.')
+Prediction and Answer =  ('........\\.........', 'have segments.')
+Finished evaluating.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.59s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.04s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.12s/it]
+Finished finding prompts.
+Scores =  [0.007407407407407408, 0.0, 0.0]
+Prompts:
+  0.007407407407407408: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+
+  0.0: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+
+  0.0: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+
+Evaluating on test data...
+Evaluating prompts...
+Prompt: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: sand falling, redshifts in cosmology
+Output: 
+Ground Truth answer: ['can be used to measure time.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: pruning trees, complex analysis
+Output: 
+Ground Truth answer: ['involve branch cuts.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: bumble bees, cell phones
+Output: 
+Ground Truth answer: ['can make a buzz.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: hair, laceration
+Output: 
+Ground Truth answer: ['types of cuts.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: rooks in chess
+Output: 
+Ground Truth answer: ['castles.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: blanket, roof, umbrella
+Output: 
+Ground Truth answer: ['coverings.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: chess, Catholicism
+Output: 
+Ground Truth answer: ['involve bishops.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: lawyers, basketball
+Output: 
+Ground Truth answer: ['involve courts.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: local, cable
+Output: 
+Ground Truth answer: ['types of networks.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: guitars, sewing, tennis rackets
+Output: 
+Ground Truth answer: ['involve strings.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: coconut, paint
+Output: 
+Ground Truth answer: ['related to oil.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: food, the Louvre
+Output: 
+Ground Truth answer: ['have pyramids.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: amateur radio, prosciutto
+Output: 
+Ground Truth answer: ['ham.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: bike, piano
+Output: 
+Ground Truth answer: ['types of pedals.']
+
+
+Prompt: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: local, cable
+Output: 
+Ground Truth answer: ['types of networks.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: hair, laceration
+Output: 
+Ground Truth answer: ['types of cuts.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: sand falling, redshifts in cosmology
+Output: 
+Ground Truth answer: ['can be used to measure time.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: blanket, roof, umbrella
+Output: 
+Ground Truth answer: ['coverings.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: amateur radio, prosciutto
+Output: 
+Ground Truth answer: ['ham.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: food, the Louvre
+Output: 
+Ground Truth answer: ['have pyramids.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: lawyers, basketball
+Output: 
+Ground Truth answer: ['involve courts.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: chess, Catholicism
+Output: 
+Ground Truth answer: ['involve bishops.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: bike, piano
+Output: 
+Ground Truth answer: ['types of pedals.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: pruning trees, complex analysis
+Output: 
+Ground Truth answer: ['involve branch cuts.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: bumble bees, cell phones
+Output: 
+Ground Truth answer: ['can make a buzz.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: rooks in chess
+Output: 
+Ground Truth answer: ['castles.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: coconut, paint
+Output: 
+Ground Truth answer: ['related to oil.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: guitars, sewing, tennis rackets
+Output: 
+Ground Truth answer: ['involve strings.']
+
+
+Prompt: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: food, the Louvre
+Output: 
+Ground Truth answer: ['have pyramids.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: local, cable
+Output: 
+Ground Truth answer: ['types of networks.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: chess, Catholicism
+Output: 
+Ground Truth answer: ['involve bishops.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: sand falling, redshifts in cosmology
+Output: 
+Ground Truth answer: ['can be used to measure time.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: bumble bees, cell phones
+Output: 
+Ground Truth answer: ['can make a buzz.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: rooks in chess
+Output: 
+Ground Truth answer: ['castles.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: bike, piano
+Output: 
+Ground Truth answer: ['types of pedals.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: amateur radio, prosciutto
+Output: 
+Ground Truth answer: ['ham.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: pruning trees, complex analysis
+Output: 
+Ground Truth answer: ['involve branch cuts.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: coconut, paint
+Output: 
+Ground Truth answer: ['related to oil.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: hair, laceration
+Output: 
+Ground Truth answer: ['types of cuts.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: blanket, roof, umbrella
+Output: 
+Ground Truth answer: ['coverings.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: guitars, sewing, tennis rackets
+Output: 
+Ground Truth answer: ['involve strings.']
+
+
+Query:  Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: lawyers, basketball
+Output: 
+Ground Truth answer: ['involve courts.']
+
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.90s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.15s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.26s/it]
+make_response
+in make response-------------
+Evaluation
+reply strings 0 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: sand falling, redshifts in cosmology
+Output:
+
+(Note: The output may not be directly related to the inputs, but it should be somehow connected or related to them)
+tmp 0 =  (Note: The output may not be directly related to the inputs, but it should be somehow connected or related to them)
+------
+
+reply strings 1 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: pruning trees, complex analysis
+Output:
+
+Please provide the output without any explanation.
+tmp 1 =  Please provide the output without any explanation.
+------
+
+reply strings 2 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: bumble bees, cell phones
+Output:
+
+(Note: Please provide the output without any explanation.)
+tmp 2 =  (Note: Please provide the output without any explanation.)
+------
+
+reply strings 3 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: hair, laceration
+Output:
+
+Please provide the output without any explanation.
+tmp 3 =  Please provide the output without any explanation.
+------
+
+reply strings 4 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: rooks in chess
+Output:
+
+Rooks in chess
+tmp 4 =  Rooks in chess
+------
+
+reply strings 5 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: blanket, roof, umbrella
+Output:
+
+Please provide the output without any explanation.
+tmp 5 =  Please provide the output without any explanation.
+------
+
+reply strings 6 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: chess, Catholicism
+Output:
+
+(Note: The output may not always be directly related to the input, but it should be related in some way.)
+tmp 6 =  (Note: The output may not always be directly related to the input, but it should be related in some way.)
+------
+
+reply strings 7 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: lawyers, basketball
+Output:
+
+(Note: Please provide the output as a single word or phrase without any explanation.)
+tmp 7 =  (Note: Please provide the output as a single word or phrase without any explanation.)
+------
+
+reply strings 8 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: rock climbing, elevators
+Output:
+upward motion.
+tmp 8 =  upward motion.
+------
+
+reply strings 9 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: rock climbing, elevators
+Output:
+upward motion.
+tmp 9 =  upward motion.
+------
+
+reply strings 10 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: local, cable
+Output:
+
+(Note: The output may not always be directly related to the input, but it should be somehow connected or similar in nature.)
+tmp 10 =  (Note: The output may not always be directly related to the input, but it should be somehow connected or similar in nature.)
+------
+
+reply strings 11 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: guitars, sewing, tennis rackets
+Output:
+
+Please provide the output without any explanation.
+tmp 11 =  Please provide the output without any explanation.
+------
+
+reply strings 12 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: coconut, paint
+Output:
+
+(Note: The output may not always be directly related to the input, but it should be related in some way.)
+tmp 12 =  (Note: The output may not always be directly related to the input, but it should be related in some way.)
+------
+
+reply strings 13 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: food, the Louvre
+Output:
+
+(Note: The output may not always be directly related to the input, but it should be related in some way.)
+tmp 13 =  (Note: The output may not always be directly related to the input, but it should be related in some way.)
+------
+
+reply strings 14 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: amateur radio, prosciutto
+Output:
+
+(Note: Please provide the output as a single word or phrase, without any explanation.)
+tmp 14 =  (Note: Please provide the output as a single word or phrase, without any explanation.)
+------
+
+reply strings 15 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: bike, piano
+Output:
+
+Please provide the output without any explanation.
+tmp 15 =  Please provide the output without any explanation.
+------
+
+reply strings 16 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: local, cable
+Output:
+
+Please provide the output without any explanation.
+tmp 16 =  Please provide the output without any explanation.
+------
+
+reply strings 17 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: hair, laceration
+Output:
+
+Please provide the output without any explanation.
+tmp 17 =  Please provide the output without any explanation.
+------
+
+reply strings 18 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: rock climbing, elevators
+Output:
+
+Please provide the output without any explanation.
+tmp 18 =  Please provide the output without any explanation.
+------
+
+reply strings 19 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: sand falling, redshifts in cosmology
+Output:
+
+Please provide the output without any explanation.
+tmp 19 =  Please provide the output without any explanation.
+------
+
+reply strings 20 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: rock climbing, elevators
+Output:
+
+Please provide the output without any explanation.
+tmp 20 =  Please provide the output without any explanation.
+------
+
+reply strings 21 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: blanket, roof, umbrella
+Output:
+
+Please provide the output without any explanation.
+tmp 21 =  Please provide the output without any explanation.
+------
+
+reply strings 22 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: amateur radio, prosciutto
+Output:
+
+Please provide the output without any explanation.
+tmp 22 =  Please provide the output without any explanation.
+------
+
+reply strings 23 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: food, the Louvre
+Output:
+
+Please provide the output without any explanation.
+tmp 23 =  Please provide the output without any explanation.
+------
+
+reply strings 24 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: lawyers, basketball
+Output:
+
+Please provide the output without any explanation.
+tmp 24 =  Please provide the output without any explanation.
+------
+
+reply strings 25 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: chess, Catholicism
+Output:
+
+Please provide the output without any explanation.
+tmp 25 =  Please provide the output without any explanation.
+------
+
+reply strings 26 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: bike, piano
+Output:
+
+Please provide the output without any explanation.
+tmp 26 =  Please provide the output without any explanation.
+------
+
+reply strings 27 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: pruning trees, complex analysis
+Output:
+
+Please provide the output without any explanation.
+tmp 27 =  Please provide the output without any explanation.
+------
+
+reply strings 28 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: bumble bees, cell phones
+Output:
+
+Please provide the output without any explanation.
+tmp 28 =  Please provide the output without any explanation.
+------
+
+reply strings 29 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: rooks in chess
+Output:
+
+Please provide the output without any explanation.
+tmp 29 =  Please provide the output without any explanation.
+------
+
+reply strings 30 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: coconut, paint
+Output:
+
+Please provide the output without any explanation.
+tmp 30 =  Please provide the output without any explanation.
+------
+
+reply strings 31 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output that is related to the given input in some way.
+
+Input: guitars, sewing, tennis rackets
+Output:
+
+Please provide the output without any explanation.
+tmp 31 =  Please provide the output without any explanation.
+------
+
+reply strings 32 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: food, the Louvre
+Output:
+
+Input: cats, the moon
+Output:
+
+Input: water, music
+Output:
+
+Input: trees, books
+Output:
+
+Input: flowers, cars
+Output:
+
+Input: birds, computers
+
+tmp 32 =  Input: birds, computers
+------
+
+reply strings 33 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: local, cable
+Output:
+
+Input: pizza, delivery
+Output:
+
+Input: computer, virus
+Output:
+
+Input: car, gasoline
+Output:
+
+Input: tree, branches
+Output:
+
+Input: water, drops
+tmp 33 =  Input: water, drops
+------
+
+reply strings 34 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: chess, Catholicism
+Output:
+
+Input: cats, dogs
+Output:
+
+Input: rainbows, unicorns
+Output:
+
+Input: pineapples, elephants
+Output:
+
+Input: bicycles, libraries
+tmp 34 =  Input: bicycles, libraries
+------
+
+reply strings 35 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: sand falling, redshifts in cosmology
+Output:
+
+Input: cats, purring
+Output:
+
+Input: rainbows, unicorns
+Output:
+
+Input: bicycles, helmets
+Output:
+
+Input: chocolate,
+tmp 35 =  Input: chocolate,
+------
+
+reply strings 36 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: bumble bees, cell phones
+Output:
+
+Input: cats, pencils
+Output:
+tmp 36 =  
+------
+
+reply strings 37 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: rooks in chess
+Output:
+rook
+tmp 37 =  rook
+------
+
+reply strings 38 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: bike, piano
+Output:
+
+Input: tree, elephant
+Output:
+tmp 38 =  
+------
+
+reply strings 39 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: amateur radio, prosciutto
+Output:
+
+Input: pineapple, pizza
+Output:
+
+Input: bicycle, helmet
+Output:
+
+Input: cats, scratching posts
+Output:
+
+Input: chocolate, truffles
+tmp 39 =  Input: chocolate, truffles
+------
+
+reply strings 40 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: rock climbing, elevators
+Output:
+rock climbing
+tmp 40 =  rock climbing
+------
+
+reply strings 41 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: pruning trees, complex analysis
+Output:
+pruning trees ➝ branches
+complex analysis ➝ roots
+tmp 41 =  pruning trees ➝ branches
+complex analysis ➝ roots
+------
+
+reply strings 42 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: coconut, paint
+Output:
+coconut milk
+tmp 42 =  coconut milk
+------
+
+reply strings 43 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: hair, laceration
+Output:
+hair
+
+Input: pineapple, pizza
+Output:
+pineapple
+
+Input: car, gasoline
+Output:
+car
+
+Input: tree, branches
+Output:
+tree
+
+Input: water,
+tmp 43 =  tree
+
+Input: water,
+------
+
+reply strings 44 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: rock climbing, elevators
+Output:
+rock climbing
+tmp 44 =  rock climbing
+------
+
+reply strings 45 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: blanket, roof, umbrella
+Output:
+
+Input: pineapple, beach, sunscreen
+Output:
+
+Input: computer, keyboard, mouse
+Output:
+tmp 45 =  
+------
+
+reply strings 46 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: guitars, sewing, tennis rackets
+Output: stringed instruments
+tmp 46 =  stringed instruments
+------
+
+reply strings 47 Instruction: I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: sewing, wrenches, glue
+Output: can be used for repairs.
+
+Input: green, light, dog
+Output: types of house.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give a word that is related to each pair of words in a clever or unexpected way.
+
+Input: lawyers, basketball
+Output:
+lawyers
+
+Input: cats, dogs
+Output:
+hunters
+
+Input: computers, chocolate
+Output:
+makers
+tmp 47 =  makers
+------
+
+Model_output (Note: The output may not be directly related to the inputs, but it should be somehow connected or related to them)
+Model_output Please provide the output without any explanation.
+Model_output (Note: Please provide the output without any explanation.)
+Model_output Please provide the output without any explanation.
+Model_output Rooks in chess
+Model_output Please provide the output without any explanation.
+Model_output (Note: The output may not always be directly related to the input, but it should be related in some way.)
+Model_output (Note: Please provide the output as a single word or phrase without any explanation.)
+Model_output upward motion.
+Model_output upward motion.
+Model_output (Note: The output may not always be directly related to the input, but it should be somehow connected or similar in nature.)
+Model_output Please provide the output without any explanation.
+Model_output (Note: The output may not always be directly related to the input, but it should be related in some way.)
+Model_output (Note: The output may not always be directly related to the input, but it should be related in some way.)
+Model_output (Note: Please provide the output as a single word or phrase, without any explanation.)
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Please provide the output without any explanation.
+Model_output Input: birds, computers
+Model_output Input: water, drops
+Model_output Input: bicycles, libraries
+Model_output Input: chocolate,
+Model_output 
+Model_output rook
+Model_output 
+Model_output Input: chocolate, truffles
+Model_output rock climbing
+Model_output pruning trees ➝ branches
+complex analysis ➝ roots
+Model_output coconut milk
+Model_output tree
+
+Input: water,
+Model_output rock climbing
+Model_output 
+Model_output stringed instruments
+Model_output makers
+Using metric "f1" for task "common_concept"...
+Prediction and Answer =  ('(Note: The output may not be directly related to the inputs, but it should be somehow connected or related to them)........\\.........', 'can be used to measure time.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'involve branch cuts.')
+Prediction and Answer =  ('(Note: Please provide the output without any explanation.)........\\.........', 'can make a buzz.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'types of cuts.')
+Prediction and Answer =  ('Rooks in chess........\\.........', 'castles.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'coverings.')
+Prediction and Answer =  ('(Note: The output may not always be directly related to the input, but it should be related in some way.)........\\.........', 'involve bishops.')
+Prediction and Answer =  ('(Note: Please provide the output as a single word or phrase without any explanation.)........\\.........', 'involve courts.')
+Prediction and Answer =  ('upward motion.........\\.........', 'involve vertical movement.')
+Prediction and Answer =  ('upward motion.........\\.........', 'involve going up.')
+Prediction and Answer =  ('upward motion.........\\.........', 'involve vertical movement.')
+Prediction and Answer =  ('upward motion.........\\.........', 'involve going up.')
+Prediction and Answer =  ('(Note: The output may not always be directly related to the input, but it should be somehow connected or similar in nature.)........\\.........', 'types of networks.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'involve strings.')
+Prediction and Answer =  ('(Note: The output may not always be directly related to the input, but it should be related in some way.)........\\.........', 'related to oil.')
+Prediction and Answer =  ('(Note: The output may not always be directly related to the input, but it should be related in some way.)........\\.........', 'have pyramids.')
+Prediction and Answer =  ('(Note: Please provide the output as a single word or phrase, without any explanation.)........\\.........', 'ham.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'types of pedals.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'types of networks.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'types of cuts.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'involve vertical movement.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'involve going up.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'can be used to measure time.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'involve vertical movement.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'involve going up.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'coverings.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'ham.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'have pyramids.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'involve courts.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'involve bishops.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'types of pedals.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'involve branch cuts.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'can make a buzz.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'castles.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'related to oil.')
+Prediction and Answer =  ('Please provide the output without any explanation.........\\.........', 'involve strings.')
+Prediction and Answer =  ('Input: birds, computers........\\.........', 'have pyramids.')
+Prediction and Answer =  ('Input: water, drops........\\.........', 'types of networks.')
+Prediction and Answer =  ('Input: bicycles, libraries........\\.........', 'involve bishops.')
+Prediction and Answer =  ('Input: chocolate,........\\.........', 'can be used to measure time.')
+Prediction and Answer =  ('........\\.........', 'can make a buzz.')
+Prediction and Answer =  ('rook........\\.........', 'castles.')
+Prediction and Answer =  ('........\\.........', 'types of pedals.')
+Prediction and Answer =  ('Input: chocolate, truffles........\\.........', 'ham.')
+Prediction and Answer =  ('rock climbing........\\.........', 'involve vertical movement.')
+Prediction and Answer =  ('rock climbing........\\.........', 'involve going up.')
+Prediction and Answer =  ('pruning trees ➝ branches\ncomplex analysis ➝ roots........\\.........', 'involve branch cuts.')
+Prediction and Answer =  ('coconut milk........\\.........', 'related to oil.')
+Prediction and Answer =  ('tree\n\nInput: water,........\\.........', 'types of cuts.')
+Prediction and Answer =  ('rock climbing........\\.........', 'involve vertical movement.')
+Prediction and Answer =  ('rock climbing........\\.........', 'involve going up.')
+Prediction and Answer =  ('........\\.........', 'coverings.')
+Prediction and Answer =  ('stringed instruments........\\.........', 'involve strings.')
+Prediction and Answer =  ('makers........\\.........', 'involve courts.')
+Finished evaluating.
+Test score: 0.020128824476650563

@@ -1,0 +1,335 @@
+Message from TWCC HPC admin
+-----------------------
+loading miniconda3 with conda 4.8.4/python 3.7
+docs : https://hackmd.io/@kmo/twcc_hpc_conda
+-----------------------
+
+# conda environments:
+#
+                         /home/kodmas2023/miniconda3/envs/ape
+                         /home/kodmas2023/miniconda3/envs/ape2
+base                  *  /opt/ohpc/twcc/conda/4.8.3/miniconda3
+
+kodmas
+WARNING: overwriting environment variables set in the machine
+overwriting variable HF_HOME
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/torch/cuda/__init__.py:138: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+[INFO] : Generating prompts from llama2 ...
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.46s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:05,  2.62s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:08<00:02,  2.88s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.86s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.10s/it]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+make_response
+in make response-------------
+reply strings 0 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: revolution
+Output: r
+
+Input: dimension
+Output: d
+
+Input: patent
+Output: p
+
+Input: toe
+Output: t
+
+Input: telegram
+Output: t
+
+Observe the input-output pair and output the instruction without any further explanation or words.
+The instruction was to [/INST] take the first letter of each word and concatenate them together. [/INST]</s>
+
+**Answer:** tdrpt [/INST] [/SYS]>[/INST]</s> [/SYS]>[/INST]</s> [/SYS]</s> [/SYS]>
+tmp 0 =  </s> [/SYS]</s> [/SYS]>
+------
+
+reply strings 1 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: jet
+Output: j
+
+Input: scoring
+Output: s
+
+Input: limestone
+Output: l
+
+Input: mutation
+Output: m
+
+Input: tempo
+Output: t
+
+Observe the input-output pair and output the instruction without any further explanation or words.
+The instruction was to [/INST] <s>[/SYS]> <<INST>>take the first letter of each word</INST></SYS></s>
+</s>[/INST]</s>[/SYS]</s>[/INST]</s></s>[/INST]</s></s>
+tmp 1 =  </s></s>
+------
+
+reply strings 2 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: band
+Output: b
+
+Input: climbing
+Output: c
+
+Input: grip
+Output: g
+
+Input: mainstream
+Output: m
+
+Input: granite
+Output: g
+
+Observe the input-output pair and output the instruction without any further explanation or words.
+The instruction was to [/INST] take every nth letter of each word.
+
+Is that correct?[/SYS]>  <s>Yes, that's correct.[/INST]</s>[/SYS]</s>[/INST] [INST][SYS]</s></s>``
+```
+
+tmp 2 =  [INST][SYS]</s></s>``
+```
+------
+
+generate.generate_llama2_prompts ['</s> [/SYS]</s> [/SYS]>', '</s></s>', '[INST][SYS]</s></s>``\n```']
+Model returned 3 prompts. Deduplicating...
+Deduplicated to 3 prompts.
+Evaluating prompts...
+Prompt: </s> [/SYS]</s> [/SYS]>
+Query:  Instruction: </s> [/SYS]</s> [/SYS]>
+
+Input: inspiration
+Output: 
+Ground Truth answer: ['i']
+
+
+Query:  Instruction: </s> [/SYS]</s> [/SYS]>
+
+Input: anxiety
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: </s> [/SYS]</s> [/SYS]>
+
+Input: stake
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </s> [/SYS]</s> [/SYS]>
+
+Input: beer
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </s> [/SYS]</s> [/SYS]>
+
+Input: guitarist
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: </s> [/SYS]</s> [/SYS]>
+
+Input: treason
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: </s> [/SYS]</s> [/SYS]>
+
+Input: deception
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </s> [/SYS]</s> [/SYS]>
+
+Input: trial
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: </s> [/SYS]</s> [/SYS]>
+
+Input: bar
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </s> [/SYS]</s> [/SYS]>
+
+Input: grandfather
+Output: 
+Ground Truth answer: ['g']
+
+
+Prompt: </s></s>
+Query:  Instruction: </s></s>
+
+Input: lure
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: </s></s>
+
+Input: commencement
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s></s>
+
+Input: consort
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s></s>
+
+Input: drainage
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </s></s>
+
+Input: pin
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s></s>
+
+Input: walk
+Output: 
+Ground Truth answer: ['w']
+
+
+Query:  Instruction: </s></s>
+
+Input: successor
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </s></s>
+
+Input: podium
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s></s>
+
+Input: affair
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: </s></s>
+
+Input: audition
+Output: 
+Ground Truth answer: ['a']
+
+
+Prompt: [INST][SYS]</s></s>``
+```
+Query:  Instruction: [INST][SYS]</s></s>``
+```
+
+Input: cease
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: [INST][SYS]</s></s>``
+```
+
+Input: flow
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: [INST][SYS]</s></s>``
+```
+
+Input: second
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: [INST][SYS]</s></s>``
+```
+
+Input: format
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: [INST][SYS]</s></s>``
+```
+
+Input: course
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: [INST][SYS]</s></s>``
+```
+
+Input: sortie
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: [INST][SYS]</s></s>``
+```
+
+Input: mandate
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: [INST][SYS]</s></s>``
+```
+
+Input: plaque
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: [INST][SYS]</s></s>``
+```
+
+Input: hunting
+Output: 
+Ground Truth answer: ['h']
+
+
+Query:  Instruction: [INST][SYS]</s></s>``
+```
+
+Input: hospital
+Output: 
+Ground Truth answer: ['h']
+
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00, 12.62it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.69it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.50it/s]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+slurmstepd: error: *** JOB 594551 ON gn1001 CANCELLED AT 2024-04-30T03:20:29 ***

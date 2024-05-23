@@ -1,0 +1,437 @@
+Message from TWCC HPC admin
+-----------------------
+loading miniconda3 with conda 4.8.4/python 3.7
+docs : https://hackmd.io/@kmo/twcc_hpc_conda
+-----------------------
+
+# conda environments:
+#
+                         /home/kodmas2023/miniconda3/envs/ape
+                         /home/kodmas2023/miniconda3/envs/ape2
+base                  *  /opt/ohpc/twcc/conda/4.8.3/miniconda3
+
+kodmas
+WARNING: overwriting environment variables set in the machine
+overwriting variable HF_HOME
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/torch/cuda/__init__.py:138: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+[INFO] : Generating prompts from llama2 ...
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.70s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:05,  2.61s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.70s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.75s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.01s/it]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+make_response
+in make response-------------
+reply strings 0 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: folding, committee
+Output: types of chairs.
+
+Input: magnetic resonance imaging, propaganda
+Output: involve spins.
+
+Input: snowman, marzipan fruit
+Output: inanimate, but made to imitate something animate.
+
+Observe the input-output pair,think step by step and then output the instruction. The final answer should start with:
+The instruction was to
+assistant
+
+After analyzing the input-output pairs, I noticed that the inputs seem to be combining two unrelated concepts or objects, and the outputs are related to the second concept or object.
+
+Here's my thought process:
+
+* "squirrel foraging" -> "memoization" (the second part is a technique used in programming)
+* "avalanches, rock polishing" -> "tumbling" (rock polishing often involves tumbling)
+* "folding, committee" -> "types of chairs" (committees can decide on types of chairs)
+* "magnetic resonance imaging, propaganda" -> "involve spins" (MRI machines use spin techniques)
+* "snowman, marzipan fruit" -> "inanimate, but made to imitate something animate" (marzipan fruits are edible decorations, like the snowman)
+
+Based on this pattern, it seems that the instruction is asking you to combine the first concept or object with the second concept or object and describe how the second one relates to
+tmp 0 =  * "squirrel foraging" -> "memoization" (the second part is a technique used in programming)
+* "avalanches, rock polishing" -> "tumbling" (rock polishing often involves tumbling)
+* "folding, committee" -> "types of chairs" (committees can decide on types of chairs)
+* "magnetic resonance imaging, propaganda" -> "involve spins" (MRI machines use spin techniques)
+* "snowman, marzipan fruit" -> "inanimate, but made to imitate something animate" (marzipan fruits are edible decorations, like the snowman)
+
+Based on this pattern, it seems that the instruction is asking you to combine the first concept or object with the second concept or object and describe how the second one relates to
+------
+
+reply strings 1 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: magnetic resonance imaging, propaganda
+Output: involve spins.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: boats, tablecloths
+Output: go on top of something.
+
+Input: folding, committee
+Output: types of chairs.
+
+Observe the input-output pair,think step by step and then output the instruction. The final answer should start with:
+The instruction was to
+assistant
+
+After analyzing the input-output pairs, I noticed that each output seems to be related to a common theme or characteristic among the inputs. Here's my thought process:
+
+1. Input: sewing, wrenches, glue; Output: can help repair something.
+	* These items are all tools used for fixing or repairing things.
+2. Input: magnetic resonance imaging, propaganda; Output: involve spins.
+	* Both MRI and propaganda involve spinning or rotating motions (spinning atoms in an MRI machine and spinning words in propaganda).
+3. Input: avalanches, rock polishing; Output: involve tumbling.
+	* Avalanches involve rocks tumbling down a slope, and rock polishing involves tumbling rocks to smooth out their surfaces.
+4. Input: boats, tablecloths; Output: go on top of something.
+	* Boats sit on top of water, and tablecloths cover tables.
+5. Input: folding, committee; Output: types of chairs.
+	* Folding is a feature
+tmp 1 =  types of chairs.
+	* Folding is a feature
+------
+
+reply strings 2 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: avalanches, rock polishing
+Output: involve tumbling.
+
+Input: folding, committee
+Output: types of chairs.
+
+Input: magnetic resonance imaging, propaganda
+Output: involve spins.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pair,think step by step and then output the instruction. The final answer should start with:
+The instruction was to
+assistant
+
+A fascinating puzzle! After analyzing the input-output pairs, I think I have found a pattern. Here's my thought process:
+
+* "squirrel foraging" and "avalanches, rock polishing" both describe natural processes that don't seem directly related to their corresponding outputs ("memoization" and "tumbling"). However, they both involve physical movement or action.
+* "folding" is an activity that involves manipulating fabric, and it seems unrelated to "types of chairs". But, "committee" could be interpreted as a group of people working together, which might be related to designing or creating chairs.
+* "magnetic resonance imaging" is a medical technique, and "propaganda" is a form of communication. Both involve conveying information in some way, but they also share the idea of using specific techniques or methods to achieve this (e.g., resonating frequencies in MRI, persuasive messages in propaganda). This led me to notice that the second item in each pair might be a verb
+tmp 2 =  * "squirrel foraging" and "avalanches, rock polishing" both describe natural processes that don't seem directly related to their corresponding outputs ("memoization" and "tumbling"). However, they both involve physical movement or action.
+* "folding" is an activity that involves manipulating fabric, and it seems unrelated to "types of chairs". But, "committee" could be interpreted as a group of people working together, which might be related to designing or creating chairs.
+* "magnetic resonance imaging" is a medical technique, and "propaganda" is a form of communication. Both involve conveying information in some way, but they also share the idea of using specific techniques or methods to achieve this (e.g., resonating frequencies in MRI, persuasive messages in propaganda). This led me to notice that the second item in each pair might be a verb
+------
+
+generate.generate_llama2_prompts ['* "squirrel foraging" -> "memoization" (the second part is a technique used in programming)\n* "avalanches, rock polishing" -> "tumbling" (rock polishing often involves tumbling)\n* "folding, committee" -> "types of chairs" (committees can decide on types of chairs)\n* "magnetic resonance imaging, propaganda" -> "involve spins" (MRI machines use spin techniques)\n* "snowman, marzipan fruit" -> "inanimate, but made to imitate something animate" (marzipan fruits are edible decorations, like the snowman)\n\nBased on this pattern, it seems that the instruction is asking you to combine the first concept or object with the second concept or object and describe how the second one relates to', 'types of chairs.\n\t* Folding is a feature', '* "squirrel foraging" and "avalanches, rock polishing" both describe natural processes that don\'t seem directly related to their corresponding outputs ("memoization" and "tumbling"). However, they both involve physical movement or action.\n* "folding" is an activity that involves manipulating fabric, and it seems unrelated to "types of chairs". But, "committee" could be interpreted as a group of people working together, which might be related to designing or creating chairs.\n* "magnetic resonance imaging" is a medical technique, and "propaganda" is a form of communication. Both involve conveying information in some way, but they also share the idea of using specific techniques or methods to achieve this (e.g., resonating frequencies in MRI, persuasive messages in propaganda). This led me to notice that the second item in each pair might be a verb']
+Model returned 3 prompts. Deduplicating...
+Deduplicated to 3 prompts.
+Evaluating prompts...
+Prompt: types of chairs.
+	* Folding is a feature
+Query:  Instruction: types of chairs.
+	* Folding is a feature
+
+Input: guitars, pendulums
+Output: 
+Ground Truth answer: ['involve oscillations.']
+
+
+Query:  Instruction: types of chairs.
+	* Folding is a feature
+
+Input: ballet, snow, running
+Output: 
+Ground Truth answer: ['use specialized shoes.']
+
+
+Query:  Instruction: types of chairs.
+	* Folding is a feature
+
+Input: picture, issue
+Output: 
+Ground Truth answer: ['involve frames.']
+
+
+Query:  Instruction: types of chairs.
+	* Folding is a feature
+
+Input: dentistry, construction
+Output: 
+Ground Truth answer: ['involve drilling.']
+
+
+Query:  Instruction: types of chairs.
+	* Folding is a feature
+
+Input: blue whales, Jupiter, top quarks
+Output: 
+Ground Truth answer: ['the largest of their kind.']
+
+
+Query:  Instruction: types of chairs.
+	* Folding is a feature
+
+Input: poker, displays of embarrassment
+Output: 
+Ground Truth answer: ['involve flushes.']
+
+
+Query:  Instruction: types of chairs.
+	* Folding is a feature
+
+Input: green, light, dog
+Output: 
+Ground Truth answer: ['types of house.']
+
+
+Query:  Instruction: types of chairs.
+	* Folding is a feature
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: types of chairs.
+	* Folding is a feature
+
+Input: normal distribution, Pavlov
+Output: 
+Ground Truth answer: ['relate to bells.']
+
+
+Prompt: * "squirrel foraging" -> "memoization" (the second part is a technique used in programming)
+* "avalanches, rock polishing" -> "tumbling" (rock polishing often involves tumbling)
+* "folding, committee" -> "types of chairs" (committees can decide on types of chairs)
+* "magnetic resonance imaging, propaganda" -> "involve spins" (MRI machines use spin techniques)
+* "snowman, marzipan fruit" -> "inanimate, but made to imitate something animate" (marzipan fruits are edible decorations, like the snowman)
+
+Based on this pattern, it seems that the instruction is asking you to combine the first concept or object with the second concept or object and describe how the second one relates to
+Query:  Instruction: * "squirrel foraging" -> "memoization" (the second part is a technique used in programming)
+* "avalanches, rock polishing" -> "tumbling" (rock polishing often involves tumbling)
+* "folding, committee" -> "types of chairs" (committees can decide on types of chairs)
+* "magnetic resonance imaging, propaganda" -> "involve spins" (MRI machines use spin techniques)
+* "snowman, marzipan fruit" -> "inanimate, but made to imitate something animate" (marzipan fruits are edible decorations, like the snowman)
+
+Based on this pattern, it seems that the instruction is asking you to combine the first concept or object with the second concept or object and describe how the second one relates to
+
+Input: green, light, dog
+Output: 
+Ground Truth answer: ['types of house.']
+
+
+Query:  Instruction: * "squirrel foraging" -> "memoization" (the second part is a technique used in programming)
+* "avalanches, rock polishing" -> "tumbling" (rock polishing often involves tumbling)
+* "folding, committee" -> "types of chairs" (committees can decide on types of chairs)
+* "magnetic resonance imaging, propaganda" -> "involve spins" (MRI machines use spin techniques)
+* "snowman, marzipan fruit" -> "inanimate, but made to imitate something animate" (marzipan fruits are edible decorations, like the snowman)
+
+Based on this pattern, it seems that the instruction is asking you to combine the first concept or object with the second concept or object and describe how the second one relates to
+
+Input: picture, issue
+Output: 
+Ground Truth answer: ['involve frames.']
+
+
+Query:  Instruction: * "squirrel foraging" -> "memoization" (the second part is a technique used in programming)
+* "avalanches, rock polishing" -> "tumbling" (rock polishing often involves tumbling)
+* "folding, committee" -> "types of chairs" (committees can decide on types of chairs)
+* "magnetic resonance imaging, propaganda" -> "involve spins" (MRI machines use spin techniques)
+* "snowman, marzipan fruit" -> "inanimate, but made to imitate something animate" (marzipan fruits are edible decorations, like the snowman)
+
+Based on this pattern, it seems that the instruction is asking you to combine the first concept or object with the second concept or object and describe how the second one relates to
+
+Input: blue whales, Jupiter, top quarks
+Output: 
+Ground Truth answer: ['the largest of their kind.']
+
+
+Query:  Instruction: * "squirrel foraging" -> "memoization" (the second part is a technique used in programming)
+* "avalanches, rock polishing" -> "tumbling" (rock polishing often involves tumbling)
+* "folding, committee" -> "types of chairs" (committees can decide on types of chairs)
+* "magnetic resonance imaging, propaganda" -> "involve spins" (MRI machines use spin techniques)
+* "snowman, marzipan fruit" -> "inanimate, but made to imitate something animate" (marzipan fruits are edible decorations, like the snowman)
+
+Based on this pattern, it seems that the instruction is asking you to combine the first concept or object with the second concept or object and describe how the second one relates to
+
+Input: dentistry, construction
+Output: 
+Ground Truth answer: ['involve drilling.']
+
+
+Query:  Instruction: * "squirrel foraging" -> "memoization" (the second part is a technique used in programming)
+* "avalanches, rock polishing" -> "tumbling" (rock polishing often involves tumbling)
+* "folding, committee" -> "types of chairs" (committees can decide on types of chairs)
+* "magnetic resonance imaging, propaganda" -> "involve spins" (MRI machines use spin techniques)
+* "snowman, marzipan fruit" -> "inanimate, but made to imitate something animate" (marzipan fruits are edible decorations, like the snowman)
+
+Based on this pattern, it seems that the instruction is asking you to combine the first concept or object with the second concept or object and describe how the second one relates to
+
+Input: poker, displays of embarrassment
+Output: 
+Ground Truth answer: ['involve flushes.']
+
+
+Query:  Instruction: * "squirrel foraging" -> "memoization" (the second part is a technique used in programming)
+* "avalanches, rock polishing" -> "tumbling" (rock polishing often involves tumbling)
+* "folding, committee" -> "types of chairs" (committees can decide on types of chairs)
+* "magnetic resonance imaging, propaganda" -> "involve spins" (MRI machines use spin techniques)
+* "snowman, marzipan fruit" -> "inanimate, but made to imitate something animate" (marzipan fruits are edible decorations, like the snowman)
+
+Based on this pattern, it seems that the instruction is asking you to combine the first concept or object with the second concept or object and describe how the second one relates to
+
+Input: guitars, pendulums
+Output: 
+Ground Truth answer: ['involve oscillations.']
+
+
+Query:  Instruction: * "squirrel foraging" -> "memoization" (the second part is a technique used in programming)
+* "avalanches, rock polishing" -> "tumbling" (rock polishing often involves tumbling)
+* "folding, committee" -> "types of chairs" (committees can decide on types of chairs)
+* "magnetic resonance imaging, propaganda" -> "involve spins" (MRI machines use spin techniques)
+* "snowman, marzipan fruit" -> "inanimate, but made to imitate something animate" (marzipan fruits are edible decorations, like the snowman)
+
+Based on this pattern, it seems that the instruction is asking you to combine the first concept or object with the second concept or object and describe how the second one relates to
+
+Input: ballet, snow, running
+Output: 
+Ground Truth answer: ['use specialized shoes.']
+
+
+Query:  Instruction: * "squirrel foraging" -> "memoization" (the second part is a technique used in programming)
+* "avalanches, rock polishing" -> "tumbling" (rock polishing often involves tumbling)
+* "folding, committee" -> "types of chairs" (committees can decide on types of chairs)
+* "magnetic resonance imaging, propaganda" -> "involve spins" (MRI machines use spin techniques)
+* "snowman, marzipan fruit" -> "inanimate, but made to imitate something animate" (marzipan fruits are edible decorations, like the snowman)
+
+Based on this pattern, it seems that the instruction is asking you to combine the first concept or object with the second concept or object and describe how the second one relates to
+
+Input: normal distribution, Pavlov
+Output: 
+Ground Truth answer: ['relate to bells.']
+
+
+Query:  Instruction: * "squirrel foraging" -> "memoization" (the second part is a technique used in programming)
+* "avalanches, rock polishing" -> "tumbling" (rock polishing often involves tumbling)
+* "folding, committee" -> "types of chairs" (committees can decide on types of chairs)
+* "magnetic resonance imaging, propaganda" -> "involve spins" (MRI machines use spin techniques)
+* "snowman, marzipan fruit" -> "inanimate, but made to imitate something animate" (marzipan fruits are edible decorations, like the snowman)
+
+Based on this pattern, it seems that the instruction is asking you to combine the first concept or object with the second concept or object and describe how the second one relates to
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Prompt: * "squirrel foraging" and "avalanches, rock polishing" both describe natural processes that don't seem directly related to their corresponding outputs ("memoization" and "tumbling"). However, they both involve physical movement or action.
+* "folding" is an activity that involves manipulating fabric, and it seems unrelated to "types of chairs". But, "committee" could be interpreted as a group of people working together, which might be related to designing or creating chairs.
+* "magnetic resonance imaging" is a medical technique, and "propaganda" is a form of communication. Both involve conveying information in some way, but they also share the idea of using specific techniques or methods to achieve this (e.g., resonating frequencies in MRI, persuasive messages in propaganda). This led me to notice that the second item in each pair might be a verb
+Query:  Instruction: * "squirrel foraging" and "avalanches, rock polishing" both describe natural processes that don't seem directly related to their corresponding outputs ("memoization" and "tumbling"). However, they both involve physical movement or action.
+* "folding" is an activity that involves manipulating fabric, and it seems unrelated to "types of chairs". But, "committee" could be interpreted as a group of people working together, which might be related to designing or creating chairs.
+* "magnetic resonance imaging" is a medical technique, and "propaganda" is a form of communication. Both involve conveying information in some way, but they also share the idea of using specific techniques or methods to achieve this (e.g., resonating frequencies in MRI, persuasive messages in propaganda). This led me to notice that the second item in each pair might be a verb
+
+Input: poker, displays of embarrassment
+Output: 
+Ground Truth answer: ['involve flushes.']
+
+
+Query:  Instruction: * "squirrel foraging" and "avalanches, rock polishing" both describe natural processes that don't seem directly related to their corresponding outputs ("memoization" and "tumbling"). However, they both involve physical movement or action.
+* "folding" is an activity that involves manipulating fabric, and it seems unrelated to "types of chairs". But, "committee" could be interpreted as a group of people working together, which might be related to designing or creating chairs.
+* "magnetic resonance imaging" is a medical technique, and "propaganda" is a form of communication. Both involve conveying information in some way, but they also share the idea of using specific techniques or methods to achieve this (e.g., resonating frequencies in MRI, persuasive messages in propaganda). This led me to notice that the second item in each pair might be a verb
+
+Input: ballet, snow, running
+Output: 
+Ground Truth answer: ['use specialized shoes.']
+
+
+Query:  Instruction: * "squirrel foraging" and "avalanches, rock polishing" both describe natural processes that don't seem directly related to their corresponding outputs ("memoization" and "tumbling"). However, they both involve physical movement or action.
+* "folding" is an activity that involves manipulating fabric, and it seems unrelated to "types of chairs". But, "committee" could be interpreted as a group of people working together, which might be related to designing or creating chairs.
+* "magnetic resonance imaging" is a medical technique, and "propaganda" is a form of communication. Both involve conveying information in some way, but they also share the idea of using specific techniques or methods to achieve this (e.g., resonating frequencies in MRI, persuasive messages in propaganda). This led me to notice that the second item in each pair might be a verb
+
+Input: guitars, pendulums
+Output: 
+Ground Truth answer: ['involve oscillations.']
+
+
+Query:  Instruction: * "squirrel foraging" and "avalanches, rock polishing" both describe natural processes that don't seem directly related to their corresponding outputs ("memoization" and "tumbling"). However, they both involve physical movement or action.
+* "folding" is an activity that involves manipulating fabric, and it seems unrelated to "types of chairs". But, "committee" could be interpreted as a group of people working together, which might be related to designing or creating chairs.
+* "magnetic resonance imaging" is a medical technique, and "propaganda" is a form of communication. Both involve conveying information in some way, but they also share the idea of using specific techniques or methods to achieve this (e.g., resonating frequencies in MRI, persuasive messages in propaganda). This led me to notice that the second item in each pair might be a verb
+
+Input: normal distribution, Pavlov
+Output: 
+Ground Truth answer: ['relate to bells.']
+
+
+Query:  Instruction: * "squirrel foraging" and "avalanches, rock polishing" both describe natural processes that don't seem directly related to their corresponding outputs ("memoization" and "tumbling"). However, they both involve physical movement or action.
+* "folding" is an activity that involves manipulating fabric, and it seems unrelated to "types of chairs". But, "committee" could be interpreted as a group of people working together, which might be related to designing or creating chairs.
+* "magnetic resonance imaging" is a medical technique, and "propaganda" is a form of communication. Both involve conveying information in some way, but they also share the idea of using specific techniques or methods to achieve this (e.g., resonating frequencies in MRI, persuasive messages in propaganda). This led me to notice that the second item in each pair might be a verb
+
+Input: picture, issue
+Output: 
+Ground Truth answer: ['involve frames.']
+
+
+Query:  Instruction: * "squirrel foraging" and "avalanches, rock polishing" both describe natural processes that don't seem directly related to their corresponding outputs ("memoization" and "tumbling"). However, they both involve physical movement or action.
+* "folding" is an activity that involves manipulating fabric, and it seems unrelated to "types of chairs". But, "committee" could be interpreted as a group of people working together, which might be related to designing or creating chairs.
+* "magnetic resonance imaging" is a medical technique, and "propaganda" is a form of communication. Both involve conveying information in some way, but they also share the idea of using specific techniques or methods to achieve this (e.g., resonating frequencies in MRI, persuasive messages in propaganda). This led me to notice that the second item in each pair might be a verb
+
+Input: green, light, dog
+Output: 
+Ground Truth answer: ['types of house.']
+
+
+Query:  Instruction: * "squirrel foraging" and "avalanches, rock polishing" both describe natural processes that don't seem directly related to their corresponding outputs ("memoization" and "tumbling"). However, they both involve physical movement or action.
+* "folding" is an activity that involves manipulating fabric, and it seems unrelated to "types of chairs". But, "committee" could be interpreted as a group of people working together, which might be related to designing or creating chairs.
+* "magnetic resonance imaging" is a medical technique, and "propaganda" is a form of communication. Both involve conveying information in some way, but they also share the idea of using specific techniques or methods to achieve this (e.g., resonating frequencies in MRI, persuasive messages in propaganda). This led me to notice that the second item in each pair might be a verb
+
+Input: dentistry, construction
+Output: 
+Ground Truth answer: ['involve drilling.']
+
+
+Query:  Instruction: * "squirrel foraging" and "avalanches, rock polishing" both describe natural processes that don't seem directly related to their corresponding outputs ("memoization" and "tumbling"). However, they both involve physical movement or action.
+* "folding" is an activity that involves manipulating fabric, and it seems unrelated to "types of chairs". But, "committee" could be interpreted as a group of people working together, which might be related to designing or creating chairs.
+* "magnetic resonance imaging" is a medical technique, and "propaganda" is a form of communication. Both involve conveying information in some way, but they also share the idea of using specific techniques or methods to achieve this (e.g., resonating frequencies in MRI, persuasive messages in propaganda). This led me to notice that the second item in each pair might be a verb
+
+Input: blue whales, Jupiter, top quarks
+Output: 
+Ground Truth answer: ['the largest of their kind.']
+
+
+Query:  Instruction: * "squirrel foraging" and "avalanches, rock polishing" both describe natural processes that don't seem directly related to their corresponding outputs ("memoization" and "tumbling"). However, they both involve physical movement or action.
+* "folding" is an activity that involves manipulating fabric, and it seems unrelated to "types of chairs". But, "committee" could be interpreted as a group of people working together, which might be related to designing or creating chairs.
+* "magnetic resonance imaging" is a medical technique, and "propaganda" is a form of communication. Both involve conveying information in some way, but they also share the idea of using specific techniques or methods to achieve this (e.g., resonating frequencies in MRI, persuasive messages in propaganda). This led me to notice that the second item in each pair might be a verb
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00, 12.34it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.59it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.38it/s]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+slurmstepd: error: *** JOB 595287 ON gn1202 CANCELLED AT 2024-05-01T17:49:19 ***

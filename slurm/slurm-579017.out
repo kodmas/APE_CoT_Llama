@@ -1,0 +1,1781 @@
+Message from TWCC HPC admin
+-----------------------
+loading miniconda3 with conda 4.8.4/python 3.7
+docs : https://hackmd.io/@kmo/twcc_hpc_conda
+-----------------------
+
+# conda environments:
+#
+                         /home/kodmas2023/miniconda3/envs/ape
+                         /home/kodmas2023/miniconda3/envs/ape2
+base                  *  /opt/ohpc/twcc/conda/4.8.3/miniconda3
+
+/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/torch/cuda/__init__.py:138: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+[INFO] : Generating prompts from llama2 ...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.65s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.09s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.17s/it]
+make_response
+in make response-------------
+reply strings 0 I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: magnetic resonance imaging, propaganda
+Output: involve spins.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: snowman, marzipan fruit
+Output: inanimate, but made to imitate something animate.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce a pair of words that are related in some way.
+tmp 0 =  Instruction: Produce a pair of words that are related in some way.
+------
+
+reply strings 1 I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: snowman, marzipan fruit
+Output: inanimate, but made to imitate something animate.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: magnetic resonance imaging, propaganda
+Output: involve spins.
+
+Input: boats, tablecloths
+Output: go on top of something.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Give me an instruction that will produce the following output when given to a friend.
+tmp 1 =  Instruction: Give me an instruction that will produce the following output when given to a friend.
+------
+
+reply strings 2 I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Input: boats, tablecloths
+Output: go on top of something.
+
+Input: magnetic resonance imaging, propaganda
+Output: involve spins.
+
+Observe the input-output pairs and output the instruction only without any explanation.
+
+Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+tmp 2 =  Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+------
+
+generate.generate_llama2_prompts ['Instruction: Produce a pair of words that are related in some way.', 'Instruction: Give me an instruction that will produce the following output when given to a friend.', 'Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!']
+Model returned 3 prompts. Deduplicating...
+Deduplicated to 3 prompts.
+Evaluating prompts...
+Prompt: Instruction: Give me an instruction that will produce the following output when given to a friend.
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: poker, displays of embarrassment
+Output: 
+Ground Truth answer: ['involve flushes.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: picture, issue
+Output: 
+Ground Truth answer: ['involve frames.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: folding, committee
+Output: 
+Ground Truth answer: ['types of chairs.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: ballet, snow, running
+Output: 
+Ground Truth answer: ['use specialized shoes.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: bamboo, memory
+Output: 
+Ground Truth answer: ['have segments.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: avalanches, rock polishing
+Output: 
+Ground Truth answer: ['involve tumbling.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: normal distribution, Pavlov
+Output: 
+Ground Truth answer: ['relate to bells.']
+
+
+Prompt: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: normal distribution, Pavlov
+Output: 
+Ground Truth answer: ['relate to bells.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: picture, issue
+Output: 
+Ground Truth answer: ['involve frames.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: poker, displays of embarrassment
+Output: 
+Ground Truth answer: ['involve flushes.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: bamboo, memory
+Output: 
+Ground Truth answer: ['have segments.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: avalanches, rock polishing
+Output: 
+Ground Truth answer: ['involve tumbling.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: folding, committee
+Output: 
+Ground Truth answer: ['types of chairs.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: ballet, snow, running
+Output: 
+Ground Truth answer: ['use specialized shoes.']
+
+
+Prompt: Instruction: Produce a pair of words that are related in some way.
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: avalanches, rock polishing
+Output: 
+Ground Truth answer: ['involve tumbling.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: ballet, snow, running
+Output: 
+Ground Truth answer: ['use specialized shoes.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: normal distribution, Pavlov
+Output: 
+Ground Truth answer: ['relate to bells.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: bamboo, memory
+Output: 
+Ground Truth answer: ['have segments.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: picture, issue
+Output: 
+Ground Truth answer: ['involve frames.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: poker, displays of embarrassment
+Output: 
+Ground Truth answer: ['involve flushes.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: folding, committee
+Output: 
+Ground Truth answer: ['types of chairs.']
+
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.70s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.09s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.18s/it]
+make_response
+in make response-------------
+Evaluation
+reply strings 0 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: poker, displays of embarrassment
+Output: Unterscheidung zwischen Poker und Bluff! 😂🎉 (Make a distinction between poker and bluff! 😂🎉)
+
+Explanation: The output is a play
+tmp 0 =  Unterscheidung zwischen Poker und Bluff! 😂🎉 (Make a distinction between poker and bluff! 😂🎉)
+
+Explanation: The output is a play
+------
+
+reply strings 1 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: sewing, wrenches, glue
+Output:ctions
+
+Instruction: Please give your friend 5 different actions they can take with the items you provided. For example, if the input is "sewing", the output could be "mend a tear in your favorite shirt".
+tmp 1 =  ctions
+
+Instruction: Please give your friend 5 different actions they can take with the items you provided. For example, if the input is "sewing", the output could be "mend a tear in your favorite shirt".
+------
+
+reply strings 2 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: sewing, wrenches, glue
+Output:ctions
+
+Instruction: Please give your friend 5 different actions they can take with the items you provided. For example, if the input is "sewing", the output could be "mend a tear in your favorite shirt".
+tmp 2 =  ctions
+
+Instruction: Please give your friend 5 different actions they can take with the items you provided. For example, if the input is "sewing", the output could be "mend a tear in your favorite shirt".
+------
+
+reply strings 3 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: picture, issue
+Output: Unterscheidung zwischen einem Foto und einer Illustration 
+
+Instruction: Explain the difference between a photo and an illustration to your friend using simple terms. For example, you could say "A photo is like a snapshot of real life
+tmp 3 =  Unterscheidung zwischen einem Foto und einer Illustration 
+
+Instruction: Explain the difference between a photo and an illustration to your friend using simple terms. For example, you could say "A photo is like a snapshot of real life
+------
+
+reply strings 4 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: folding, committee
+Output: Unterscheidung zwischen Folding- und Committee-Prozessen ist wichtig.
+
+Can you give me another instruction?
+tmp 4 =  Unterscheidung zwischen Folding- und Committee-Prozessen ist wichtig.
+
+Can you give me another instruction?
+------
+
+reply strings 5 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: ballet, snow, running
+Output:ctions are so much fun! Have you tried ice skating? 
+tmp 5 =  ctions are so much fun! Have you tried ice skating?
+------
+
+reply strings 6 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: bamboo, memory
+Output: nobody likes bamboo! 😒
+
+Instruction: Make your friend feel sad and disappointed by giving them an instruction that will not work as expected.
+tmp 6 =  nobody likes bamboo! 😒
+
+Instruction: Make your friend feel sad and disappointed by giving them an instruction that will not work as expected.
+------
+
+reply strings 7 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: avalanches, rock polishing
+Output: nobody likes rocks!
+
+Instructions: When your friend gives you the input "avalanches" and "rock polishing", you should respond with "nobody likes rocks!"
+tmp 7 =  nobody likes rocks!
+
+Instructions: When your friend gives you the input "avalanches" and "rock polishing", you should respond with "nobody likes rocks!"
+------
+
+reply strings 8 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: normal distribution, Pavlov
+Output: Unterscheidung zwischen Normal- und Poisson-Verteilung
+
+Instruction: Explain to your friend why it is important to distinguish between a normal distribution and a Poisson distribution.
+
+Note: The output should be in English.
+tmp 8 =  Unterscheidung zwischen Normal- und Poisson-Verteilung
+
+Instruction: Explain to your friend why it is important to distinguish between a normal distribution and a Poisson distribution.
+
+Note: The output should be in English.
+------
+
+reply strings 9 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: normal distribution, Pavlov
+Output: Unterscheidung between a bell and a whistle (a humorous take)
+
+Input: Shakespeare, Hamlet
+Output: To be or not to be, that is the question (a famous quote from Hamlet)
+
+Input:
+tmp 9 =  To be or not to be, that is the question (a famous quote from Hamlet)
+
+Input:
+------
+
+reply strings 10 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: picture, issue
+Output:ctions
+
+Input: music, melody
+Output: harmony
+
+Input: tree, leaf
+Output: branch
+
+Input: water, wave
+Output: ripple
+
+Input: fire, flame
+Output: heat
+tmp 10 =  heat
+------
+
+reply strings 11 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: poker, displays of embarrassment
+Output:ctions of a person playing poker who is experiencing displays of embarrassment:
+
+1. Blushing face emoji 😊
+2. Sweating profusely 💦
+3. A
+tmp 11 =  ctions of a person playing poker who is experiencing displays of embarrassment:
+
+1. Blushing face emoji 😊
+2. Sweating profusely 💦
+3. A
+------
+
+reply strings 12 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: sewing, wrenches, glue
+Output: A recipe for a delicious meal using ingredients that start with the same letter as the inputs (e.g., "Sewing" could lead to a recipe for "Sweet and Sour Sewing Worm
+tmp 12 =  A recipe for a delicious meal using ingredients that start with the same letter as the inputs (e.g., "Sewing" could lead to a recipe for "Sweet and Sour Sewing Worm
+------
+
+reply strings 13 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: bamboo, memory
+Output:ctions for a dance performance inspired by the theme of "bamboo and memory"
+
+Input: cat, purr
+Output: A poem about a cat's purr and how it brings comfort and joy to those who hear it
+tmp 13 =  A poem about a cat's purr and how it brings comfort and joy to those who hear it
+------
+
+reply strings 14 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: sewing, wrenches, glue
+Output: A recipe for a delicious meal using ingredients that start with the same letter as the inputs (e.g. "Sewing" could lead to a recipe for "Sweet and Sour Sewing Worm
+tmp 14 =  A recipe for a delicious meal using ingredients that start with the same letter as the inputs (e.g. "Sewing" could lead to a recipe for "Sweet and Sour Sewing Worm
+------
+
+reply strings 15 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: avalanches, rock polishing
+Output:ctions for preventing and mitigating the effects of natural disasters such as earthquakes, hurricanes, and floods.
+Explanation: Avalanches and rock polishing are both related to natural processes that
+tmp 15 =  ctions for preventing and mitigating the effects of natural disasters such as earthquakes, hurricanes, and floods.
+Explanation: Avalanches and rock polishing are both related to natural processes that
+------
+
+reply strings 16 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: folding, committee
+Output:ctions
+Folding laundry reminds me of a committee meeting because both involve organizing and structuring tasks into a cohesive whole. Just as a committee must work together to make decisions and reach consensus, folding la
+tmp 16 =  ctions
+Folding laundry reminds me of a committee meeting because both involve organizing and structuring tasks into a cohesive whole. Just as a committee must work together to make decisions and reach consensus, folding la
+------
+
+reply strings 17 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: ballet, snow, running
+Output:ctions:
+
+1. A graceful dancer glides across the snowy landscape, her movements fluid and effortless.
+2. Snowflakes fall gently onto the ground as a runner pounds the pavement, their foot
+tmp 17 =  ctions:
+
+1. A graceful dancer glides across the snowy landscape, her movements fluid and effortless.
+2. Snowflakes fall gently onto the ground as a runner pounds the pavement, their foot
+------
+
+reply strings 18 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: sewing, wrenches, glue
+Output:ctions, stitches
+
+Explanation: The two pairs of words produced are related in the sense that they all refer to tools or techniques used for repairing or joining things. "Sewing" refers to the use of a need
+tmp 18 =  ctions, stitches
+
+Explanation: The two pairs of words produced are related in the sense that they all refer to tools or techniques used for repairing or joining things. "Sewing" refers to the use of a need
+------
+
+reply strings 19 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: avalanches, rock polishing
+Output:snow, ice
+Explanation: Both "avalanches" and "rock polishing" involve the movement of snow or ice. In the case of avalanches, snow or ice is moved down a slope by gravity, while
+tmp 19 =  snow, ice
+Explanation: Both "avalanches" and "rock polishing" involve the movement of snow or ice. In the case of avalanches, snow or ice is moved down a slope by gravity, while
+------
+
+reply strings 20 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: ballet, snow, running
+Output:ctions
+
+Explanation: Ballet is a type of dance, snow is a natural substance that can be used for dancing on, and running is a form of exercise that can be done indoors or outdoors. All
+tmp 20 =  ctions
+
+Explanation: Ballet is a type of dance, snow is a natural substance that can be used for dancing on, and running is a form of exercise that can be done indoors or outdoors. All
+------
+
+reply strings 21 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: sewing, wrenches, glue
+Output:ctions, stitches
+
+Explanation: The two pairs of words produced are related in the sense that they all refer to tools or techniques used for repairing or joining things. "Sewing" refers to the use of a need
+tmp 21 =  ctions, stitches
+
+Explanation: The two pairs of words produced are related in the sense that they all refer to tools or techniques used for repairing or joining things. "Sewing" refers to the use of a need
+------
+
+reply strings 22 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: normal distribution, Pavlov
+Output:science, conditioning
+
+Explanation: The input words are "normal distribution" and "Pavlov". A normal distribution is a probability distribution that is commonly used in statistics to describe the distribution of continuous variables. Ivan Pavlov was
+tmp 22 =  science, conditioning
+
+Explanation: The input words are "normal distribution" and "Pavlov". A normal distribution is a probability distribution that is commonly used in statistics to describe the distribution of continuous variables. Ivan Pavlov was
+------
+
+reply strings 23 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: bamboo, memory
+Output: Unterscheidung (German for "distinction") and Erinnerung (German for "memory")
+Explanation: Both words are related to the concept of memory, with "bamboo" being used as a metaphor
+tmp 23 =  Unterscheidung (German for "distinction") and Erinnerung (German for "memory")
+Explanation: Both words are related to the concept of memory, with "bamboo" being used as a metaphor
+------
+
+reply strings 24 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: picture, issue
+Output: Unterscheidung, problem
+
+Explanation: The two words "Unterscheidung" and "Problem" are related because they both deal with the concept of distinction or difference. "Unterscheidung" means "distinction" or "difference
+tmp 24 =  Unterscheidung, problem
+
+Explanation: The two words "Unterscheidung" and "Problem" are related because they both deal with the concept of distinction or difference. "Unterscheidung" means "distinction" or "difference
+------
+
+reply strings 25 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: poker, displays of embarrassment
+Output: Unterscheidung and blushes
+
+Explanation: Both "poker" and "displays of embarrassment" involve hiding one's true feelings or emotions. In the context of poker, players may try to hide their
+tmp 25 =  Unterscheidung and blushes
+
+Explanation: Both "poker" and "displays of embarrassment" involve hiding one's true feelings or emotions. In the context of poker, players may try to hide their
+------
+
+reply strings 26 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: folding, committee
+Output: Unterscheidung, meeting
+Explanation: Both "folding" and "meeting" involve gathering people together. "Folding" refers to the act of gathering or collecting something, such as folding clothes or papers.
+tmp 26 =  Unterscheidung, meeting
+Explanation: Both "folding" and "meeting" involve gathering people together. "Folding" refers to the act of gathering or collecting something, such as folding clothes or papers.
+------
+
+Model_output Unterscheidung zwischen Poker und Bluff! 😂🎉 (Make a distinction between poker and bluff! 😂🎉)
+
+Explanation: The output is a play
+Model_output ctions
+
+Instruction: Please give your friend 5 different actions they can take with the items you provided. For example, if the input is "sewing", the output could be "mend a tear in your favorite shirt".
+Model_output ctions
+
+Instruction: Please give your friend 5 different actions they can take with the items you provided. For example, if the input is "sewing", the output could be "mend a tear in your favorite shirt".
+Model_output Unterscheidung zwischen einem Foto und einer Illustration 
+
+Instruction: Explain the difference between a photo and an illustration to your friend using simple terms. For example, you could say "A photo is like a snapshot of real life
+Model_output Unterscheidung zwischen Folding- und Committee-Prozessen ist wichtig.
+
+Can you give me another instruction?
+Model_output ctions are so much fun! Have you tried ice skating?
+Model_output nobody likes bamboo! 😒
+
+Instruction: Make your friend feel sad and disappointed by giving them an instruction that will not work as expected.
+Model_output nobody likes rocks!
+
+Instructions: When your friend gives you the input "avalanches" and "rock polishing", you should respond with "nobody likes rocks!"
+Model_output Unterscheidung zwischen Normal- und Poisson-Verteilung
+
+Instruction: Explain to your friend why it is important to distinguish between a normal distribution and a Poisson distribution.
+
+Note: The output should be in English.
+Model_output To be or not to be, that is the question (a famous quote from Hamlet)
+
+Input:
+Model_output heat
+Model_output ctions of a person playing poker who is experiencing displays of embarrassment:
+
+1. Blushing face emoji 😊
+2. Sweating profusely 💦
+3. A
+Model_output A recipe for a delicious meal using ingredients that start with the same letter as the inputs (e.g., "Sewing" could lead to a recipe for "Sweet and Sour Sewing Worm
+Model_output A poem about a cat's purr and how it brings comfort and joy to those who hear it
+Model_output A recipe for a delicious meal using ingredients that start with the same letter as the inputs (e.g. "Sewing" could lead to a recipe for "Sweet and Sour Sewing Worm
+Model_output ctions for preventing and mitigating the effects of natural disasters such as earthquakes, hurricanes, and floods.
+Explanation: Avalanches and rock polishing are both related to natural processes that
+Model_output ctions
+Folding laundry reminds me of a committee meeting because both involve organizing and structuring tasks into a cohesive whole. Just as a committee must work together to make decisions and reach consensus, folding la
+Model_output ctions:
+
+1. A graceful dancer glides across the snowy landscape, her movements fluid and effortless.
+2. Snowflakes fall gently onto the ground as a runner pounds the pavement, their foot
+Model_output ctions, stitches
+
+Explanation: The two pairs of words produced are related in the sense that they all refer to tools or techniques used for repairing or joining things. "Sewing" refers to the use of a need
+Model_output snow, ice
+Explanation: Both "avalanches" and "rock polishing" involve the movement of snow or ice. In the case of avalanches, snow or ice is moved down a slope by gravity, while
+Model_output ctions
+
+Explanation: Ballet is a type of dance, snow is a natural substance that can be used for dancing on, and running is a form of exercise that can be done indoors or outdoors. All
+Model_output ctions, stitches
+
+Explanation: The two pairs of words produced are related in the sense that they all refer to tools or techniques used for repairing or joining things. "Sewing" refers to the use of a need
+Model_output science, conditioning
+
+Explanation: The input words are "normal distribution" and "Pavlov". A normal distribution is a probability distribution that is commonly used in statistics to describe the distribution of continuous variables. Ivan Pavlov was
+Model_output Unterscheidung (German for "distinction") and Erinnerung (German for "memory")
+Explanation: Both words are related to the concept of memory, with "bamboo" being used as a metaphor
+Model_output Unterscheidung, problem
+
+Explanation: The two words "Unterscheidung" and "Problem" are related because they both deal with the concept of distinction or difference. "Unterscheidung" means "distinction" or "difference
+Model_output Unterscheidung and blushes
+
+Explanation: Both "poker" and "displays of embarrassment" involve hiding one's true feelings or emotions. In the context of poker, players may try to hide their
+Model_output Unterscheidung, meeting
+Explanation: Both "folding" and "meeting" involve gathering people together. "Folding" refers to the act of gathering or collecting something, such as folding clothes or papers.
+Using metric "f1" for task "common_concept"...
+Prediction and Answer =  ('Unterscheidung zwischen Poker und Bluff! 😂🎉 (Make a distinction between poker and bluff! 😂🎉)\n\nExplanation: The output is a play........\\.........', 'involve flushes.')
+Prediction and Answer =  ('ctions\n\nInstruction: Please give your friend 5 different actions they can take with the items you provided. For example, if the input is "sewing", the output could be "mend a tear in your favorite shirt".........\\.........', 'can help repair something.')
+Prediction and Answer =  ('ctions\n\nInstruction: Please give your friend 5 different actions they can take with the items you provided. For example, if the input is "sewing", the output could be "mend a tear in your favorite shirt".........\\.........', 'can be used for repairs.')
+Prediction and Answer =  ('ctions\n\nInstruction: Please give your friend 5 different actions they can take with the items you provided. For example, if the input is "sewing", the output could be "mend a tear in your favorite shirt".........\\.........', 'can help repair something.')
+Prediction and Answer =  ('ctions\n\nInstruction: Please give your friend 5 different actions they can take with the items you provided. For example, if the input is "sewing", the output could be "mend a tear in your favorite shirt".........\\.........', 'can be used for repairs.')
+Prediction and Answer =  ('Unterscheidung zwischen einem Foto und einer Illustration \n\nInstruction: Explain the difference between a photo and an illustration to your friend using simple terms. For example, you could say "A photo is like a snapshot of real life........\\.........', 'involve frames.')
+Prediction and Answer =  ('Unterscheidung zwischen Folding- und Committee-Prozessen ist wichtig.\n\nCan you give me another instruction?........\\.........', 'types of chairs.')
+Prediction and Answer =  ('ctions are so much fun! Have you tried ice skating?........\\.........', 'use specialized shoes.')
+Prediction and Answer =  ('nobody likes bamboo! 😒\n\nInstruction: Make your friend feel sad and disappointed by giving them an instruction that will not work as expected.........\\.........', 'have segments.')
+Prediction and Answer =  ('nobody likes rocks!\n\nInstructions: When your friend gives you the input "avalanches" and "rock polishing", you should respond with "nobody likes rocks!"........\\.........', 'involve tumbling.')
+Prediction and Answer =  ('Unterscheidung zwischen Normal- und Poisson-Verteilung\n\nInstruction: Explain to your friend why it is important to distinguish between a normal distribution and a Poisson distribution.\n\nNote: The output should be in English.........\\.........', 'relate to bells.')
+Prediction and Answer =  ('To be or not to be, that is the question (a famous quote from Hamlet)\n\nInput:........\\.........', 'relate to bells.')
+Prediction and Answer =  ('heat........\\.........', 'involve frames.')
+Prediction and Answer =  ('ctions of a person playing poker who is experiencing displays of embarrassment:\n\n1. Blushing face emoji 😊\n2. Sweating profusely 💦\n3. A........\\.........', 'involve flushes.')
+Prediction and Answer =  ('A recipe for a delicious meal using ingredients that start with the same letter as the inputs (e.g., "Sewing" could lead to a recipe for "Sweet and Sour Sewing Worm........\\.........', 'can help repair something.')
+Prediction and Answer =  ('A recipe for a delicious meal using ingredients that start with the same letter as the inputs (e.g., "Sewing" could lead to a recipe for "Sweet and Sour Sewing Worm........\\.........', 'can be used for repairs.')
+Prediction and Answer =  ("A poem about a cat's purr and how it brings comfort and joy to those who hear it........\\.........", 'have segments.')
+Prediction and Answer =  ('A recipe for a delicious meal using ingredients that start with the same letter as the inputs (e.g. "Sewing" could lead to a recipe for "Sweet and Sour Sewing Worm........\\.........', 'can help repair something.')
+Prediction and Answer =  ('A recipe for a delicious meal using ingredients that start with the same letter as the inputs (e.g. "Sewing" could lead to a recipe for "Sweet and Sour Sewing Worm........\\.........', 'can be used for repairs.')
+Prediction and Answer =  ('ctions for preventing and mitigating the effects of natural disasters such as earthquakes, hurricanes, and floods.\nExplanation: Avalanches and rock polishing are both related to natural processes that........\\.........', 'involve tumbling.')
+Prediction and Answer =  ('ctions\nFolding laundry reminds me of a committee meeting because both involve organizing and structuring tasks into a cohesive whole. Just as a committee must work together to make decisions and reach consensus, folding la........\\.........', 'types of chairs.')
+Prediction and Answer =  ('ctions:\n\n1. A graceful dancer glides across the snowy landscape, her movements fluid and effortless.\n2. Snowflakes fall gently onto the ground as a runner pounds the pavement, their foot........\\.........', 'use specialized shoes.')
+Prediction and Answer =  ('ctions, stitches\n\nExplanation: The two pairs of words produced are related in the sense that they all refer to tools or techniques used for repairing or joining things. "Sewing" refers to the use of a need........\\.........', 'can help repair something.')
+Prediction and Answer =  ('ctions, stitches\n\nExplanation: The two pairs of words produced are related in the sense that they all refer to tools or techniques used for repairing or joining things. "Sewing" refers to the use of a need........\\.........', 'can be used for repairs.')
+Prediction and Answer =  ('snow, ice\nExplanation: Both "avalanches" and "rock polishing" involve the movement of snow or ice. In the case of avalanches, snow or ice is moved down a slope by gravity, while........\\.........', 'involve tumbling.')
+Prediction and Answer =  ('ctions\n\nExplanation: Ballet is a type of dance, snow is a natural substance that can be used for dancing on, and running is a form of exercise that can be done indoors or outdoors. All........\\.........', 'use specialized shoes.')
+Prediction and Answer =  ('ctions, stitches\n\nExplanation: The two pairs of words produced are related in the sense that they all refer to tools or techniques used for repairing or joining things. "Sewing" refers to the use of a need........\\.........', 'can help repair something.')
+Prediction and Answer =  ('ctions, stitches\n\nExplanation: The two pairs of words produced are related in the sense that they all refer to tools or techniques used for repairing or joining things. "Sewing" refers to the use of a need........\\.........', 'can be used for repairs.')
+Prediction and Answer =  ('science, conditioning\n\nExplanation: The input words are "normal distribution" and "Pavlov". A normal distribution is a probability distribution that is commonly used in statistics to describe the distribution of continuous variables. Ivan Pavlov was........\\.........', 'relate to bells.')
+Prediction and Answer =  ('Unterscheidung (German for "distinction") and Erinnerung (German for "memory")\nExplanation: Both words are related to the concept of memory, with "bamboo" being used as a metaphor........\\.........', 'have segments.')
+Prediction and Answer =  ('Unterscheidung, problem\n\nExplanation: The two words "Unterscheidung" and "Problem" are related because they both deal with the concept of distinction or difference. "Unterscheidung" means "distinction" or "difference........\\.........', 'involve frames.')
+Prediction and Answer =  ('Unterscheidung and blushes\n\nExplanation: Both "poker" and "displays of embarrassment" involve hiding one\'s true feelings or emotions. In the context of poker, players may try to hide their........\\.........', 'involve flushes.')
+Prediction and Answer =  ('Unterscheidung, meeting\nExplanation: Both "folding" and "meeting" involve gathering people together. "Folding" refers to the act of gathering or collecting something, such as folding clothes or papers.........\\.........', 'types of chairs.')
+Finished evaluating.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.79s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.12s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.22s/it]
+Finished finding prompts.
+Scores =  [0.03166935050993022, 0.0, 0.0]
+Prompts:
+  0.03166935050993022: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+
+  0.0: Instruction: Produce a pair of words that are related in some way.
+
+
+  0.0: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+
+Evaluating on test data...
+Evaluating prompts...
+Prompt: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: coconut, paint
+Output: 
+Ground Truth answer: ['related to oil.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: sand falling, redshifts in cosmology
+Output: 
+Ground Truth answer: ['can be used to measure time.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: bike, piano
+Output: 
+Ground Truth answer: ['types of pedals.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: blanket, roof, umbrella
+Output: 
+Ground Truth answer: ['coverings.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: bumble bees, cell phones
+Output: 
+Ground Truth answer: ['can make a buzz.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: lawyers, basketball
+Output: 
+Ground Truth answer: ['involve courts.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: guitars, sewing, tennis rackets
+Output: 
+Ground Truth answer: ['involve strings.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: hair, laceration
+Output: 
+Ground Truth answer: ['types of cuts.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: food, the Louvre
+Output: 
+Ground Truth answer: ['have pyramids.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: chess, Catholicism
+Output: 
+Ground Truth answer: ['involve bishops.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: pruning trees, complex analysis
+Output: 
+Ground Truth answer: ['involve branch cuts.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: local, cable
+Output: 
+Ground Truth answer: ['types of networks.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: amateur radio, prosciutto
+Output: 
+Ground Truth answer: ['ham.']
+
+
+Query:  Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: rooks in chess
+Output: 
+Ground Truth answer: ['castles.']
+
+
+Prompt: Instruction: Produce a pair of words that are related in some way.
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: coconut, paint
+Output: 
+Ground Truth answer: ['related to oil.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: pruning trees, complex analysis
+Output: 
+Ground Truth answer: ['involve branch cuts.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: amateur radio, prosciutto
+Output: 
+Ground Truth answer: ['ham.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: blanket, roof, umbrella
+Output: 
+Ground Truth answer: ['coverings.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: hair, laceration
+Output: 
+Ground Truth answer: ['types of cuts.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: sand falling, redshifts in cosmology
+Output: 
+Ground Truth answer: ['can be used to measure time.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: guitars, sewing, tennis rackets
+Output: 
+Ground Truth answer: ['involve strings.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: food, the Louvre
+Output: 
+Ground Truth answer: ['have pyramids.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: local, cable
+Output: 
+Ground Truth answer: ['types of networks.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: bumble bees, cell phones
+Output: 
+Ground Truth answer: ['can make a buzz.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: bike, piano
+Output: 
+Ground Truth answer: ['types of pedals.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: chess, Catholicism
+Output: 
+Ground Truth answer: ['involve bishops.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: lawyers, basketball
+Output: 
+Ground Truth answer: ['involve courts.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: rooks in chess
+Output: 
+Ground Truth answer: ['castles.']
+
+
+Prompt: Instruction: Give me an instruction that will produce the following output when given to a friend.
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: sand falling, redshifts in cosmology
+Output: 
+Ground Truth answer: ['can be used to measure time.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: chess, Catholicism
+Output: 
+Ground Truth answer: ['involve bishops.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: bike, piano
+Output: 
+Ground Truth answer: ['types of pedals.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: pruning trees, complex analysis
+Output: 
+Ground Truth answer: ['involve branch cuts.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: guitars, sewing, tennis rackets
+Output: 
+Ground Truth answer: ['involve strings.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: rooks in chess
+Output: 
+Ground Truth answer: ['castles.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: blanket, roof, umbrella
+Output: 
+Ground Truth answer: ['coverings.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: local, cable
+Output: 
+Ground Truth answer: ['types of networks.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: hair, laceration
+Output: 
+Ground Truth answer: ['types of cuts.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: food, the Louvre
+Output: 
+Ground Truth answer: ['have pyramids.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: coconut, paint
+Output: 
+Ground Truth answer: ['related to oil.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: amateur radio, prosciutto
+Output: 
+Ground Truth answer: ['ham.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: lawyers, basketball
+Output: 
+Ground Truth answer: ['involve courts.']
+
+
+Query:  Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: bumble bees, cell phones
+Output: 
+Ground Truth answer: ['can make a buzz.']
+
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.65s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.07s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.15s/it]
+make_response
+in make response-------------
+Evaluation
+reply strings 0 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: coconut, paint
+Output:ctions
+
+Explanation: Coconut and paint may not seem related at first glance, but they both start with the letter "C". So, I came up with the word "actions" as a play on the two inputs. A
+tmp 0 =  ctions
+
+Explanation: Coconut and paint may not seem related at first glance, but they both start with the letter "C". So, I came up with the word "actions" as a play on the two inputs. A
+------
+
+reply strings 1 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: sand falling, redshifts in cosmology
+Output:ctions for a dance performance inspired by the inputs
+
+Sand Falling:
+The movement should evoke a sense of slow and steady descent, as if the dancers are sinking into the ground. They could move in a fluid,
+tmp 1 =  ctions for a dance performance inspired by the inputs
+
+Sand Falling:
+The movement should evoke a sense of slow and steady descent, as if the dancers are sinking into the ground. They could move in a fluid,
+------
+
+reply strings 2 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: bike, piano
+Output:ctions
+
+Explanation: The word "actions" is related to both "bike" and "piano" because when you ride a bike, you take actions, and when you play a piano, you also take actions (keys
+tmp 2 =  ctions
+
+Explanation: The word "actions" is related to both "bike" and "piano" because when you ride a bike, you take actions, and when you play a piano, you also take actions (keys
+------
+
+reply strings 3 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: blanket, roof, umbrella
+Output:ctions:
+
+1. Blanket fort - Build a fort using blankets and pillows.
+2. Roof garden - Plant flowers and herbs on your roof.
+3. Umbrella drink - Mix a refreshing
+tmp 3 =  ctions:
+
+1. Blanket fort - Build a fort using blankets and pillows.
+2. Roof garden - Plant flowers and herbs on your roof.
+3. Umbrella drink - Mix a refreshing
+------
+
+reply strings 4 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: bumble bees, cell phones
+Output:ctions for using a cell phone while flying like a bumble bee (e.g. "Buzz off! 😂")
+
+Input: pineapples, clocks
+Output: A punny time-related
+tmp 4 =  A punny time-related
+------
+
+reply strings 5 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: lawyers, basketball
+Output: Unterscheidung (German for "distinction") - a lawyer who is also a skilled basketball player might be able to make a distinction between two similar cases, using their knowledge of the game to find a winning strategy.
+
+Input: c
+tmp 5 =  Unterscheidung (German for "distinction") - a lawyer who is also a skilled basketball player might be able to make a distinction between two similar cases, using their knowledge of the game to find a winning strategy.
+
+Input: c
+------
+
+reply strings 6 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: guitars, sewing, tennis rackets
+Output:
+
+1. A song about the joy of playing guitar with a friend who also plays tennis and sews beautiful clothes.
+2. A new type of sewing machine that uses tennis racket strings as thread.
+3. A line of
+tmp 6 =  1. A song about the joy of playing guitar with a friend who also plays tennis and sews beautiful clothes.
+2. A new type of sewing machine that uses tennis racket strings as thread.
+3. A line of
+------
+
+reply strings 7 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: hair, laceration
+Output:ctions for treating a laceration (bandages, stitches, antibiotics)
+Explanation: Hair and lacerations are not typically related, but in this case, they share a common theme of needing
+tmp 7 =  ctions for treating a laceration (bandages, stitches, antibiotics)
+Explanation: Hair and lacerations are not typically related, but in this case, they share a common theme of needing
+------
+
+reply strings 8 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: rock climbing, elevators
+Output:ctions for a rock climbing competition where participants must use elevators to reach the climbing walls.
+
+Input: pizza, ice cream
+Output: A recipe for a pizza topped with ice cream and chocolate
+tmp 8 =  A recipe for a pizza topped with ice cream and chocolate
+------
+
+reply strings 9 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: food, the Louvre
+Output:ctions for a food-themed art tour of the Louvre
+
+Input: music, a pineapple
+Output: a playlist of tropical-inspired songs with a pineapple-shaped album cover
+
+Input:
+tmp 9 =  a playlist of tropical-inspired songs with a pineapple-shaped album cover
+
+Input:
+------
+
+reply strings 10 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: chess, Catholicism
+Output:ctions
+
+Explanation: Chess and Catholicism may seem like unrelated inputs, but they share a common thread - the idea of strategy and planning. In chess, players must carefully plan their moves to outmaneuver their oppon
+tmp 10 =  ctions
+
+Explanation: Chess and Catholicism may seem like unrelated inputs, but they share a common thread - the idea of strategy and planning. In chess, players must carefully plan their moves to outmaneuver their oppon
+------
+
+reply strings 11 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: pruning trees, complex analysis
+Output:ctions for a play about a tree surgeon who becomes obsessed with analyzing the intricate patterns in nature.
+
+Input: pizza, poetry
+Output: A poem about a pizza delivery driver who finds inspiration for his poems
+tmp 11 =  A poem about a pizza delivery driver who finds inspiration for his poems
+------
+
+reply strings 12 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: rock climbing, elevators
+Output:ctions for a rock climbing competition where participants must use elevators to reach the climbing walls.
+
+Input: chocolate cake, weddings
+Output: A recipe for a chocolate cake that can be served
+tmp 12 =  A recipe for a chocolate cake that can be served
+------
+
+reply strings 13 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: local, cable
+Output:ctions
+1. Local news - Watch a local news broadcast and write down any stories or events that are happening in your area.
+2. Cable car - Take a ride on a historic cable car in San Francisco or another city and write about
+tmp 13 =  ctions
+1. Local news - Watch a local news broadcast and write down any stories or events that are happening in your area.
+2. Cable car - Take a ride on a historic cable car in San Francisco or another city and write about
+------
+
+reply strings 14 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: amateur radio, prosciutto
+Output:ctions for a dinner party
+
+Instructions: Use the word "amateur" as a theme for your dinner party. Create dishes and drinks that incorporate the ingredient prosciutto, while also referencing the idea of being
+tmp 14 =  ctions for a dinner party
+
+Instructions: Use the word "amateur" as a theme for your dinner party. Create dishes and drinks that incorporate the ingredient prosciutto, while also referencing the idea of being
+------
+
+reply strings 15 Instruction: Instruction: Produce an output for each input that is related to the input in some way. The relationship can be based on meaning, sound, or any other connection you can think of. Try to be creative!
+
+Input: rooks in chess
+Output:ctions in dance
+Explanation: Both "rooks" and "actions" have a similar sound and are both used to move pieces around in their respective games (chess and dance).
+
+Input: sunflowers
+Output: songs
+tmp 15 =  songs
+------
+
+reply strings 16 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: coconut, paint
+Output: Unterscheidung (German for "distinction") - both words have 9 letters.
+
+Input: apple, tree
+Output: Branch (related to trees) - both words have 6 letters.
+
+Input: car, drive
+
+tmp 16 =  Branch (related to trees) - both words have 6 letters.
+
+Input: car, drive
+------
+
+reply strings 17 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: pruning trees, complex analysis
+Output:ctions and branches
+
+Explanation: The two words "pruning" and "branches" are related because pruning involves cutting back or removing branches from a tree. This is an example of how the output words can be related to the
+tmp 17 =  ctions and branches
+
+Explanation: The two words "pruning" and "branches" are related because pruning involves cutting back or removing branches from a tree. This is an example of how the output words can be related to the
+------
+
+reply strings 18 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: amateur radio, prosciutto
+Output: Unterscheidung and broadcast
+
+Explanation:
+
+* "Unterscheidung" is German for "distinction", which is related to the idea of differentiating between different things, such as amateur radio operators and professionals.
+* "
+tmp 18 =  Unterscheidung and broadcast
+
+Explanation:
+
+* "Unterscheidung" is German for "distinction", which is related to the idea of differentiating between different things, such as amateur radio operators and professionals.
+* "
+------
+
+reply strings 19 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: rock climbing, elevators
+Output:ctions, lifts
+Explanation: Both "rock climbing" and "elevators" involve "lifts", which is why these two words are related. In rock climbing, climbers use various types of lifts to asc
+tmp 19 =  ctions, lifts
+Explanation: Both "rock climbing" and "elevators" involve "lifts", which is why these two words are related. In rock climbing, climbers use various types of lifts to asc
+------
+
+reply strings 20 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: blanket, roof, umbrella
+Output: Unterscheidung (German for "distinction") - Both blanket and roof provide protection from the elements, while an umbrella provides protection from rain.
+
+Input: tree, branch, leaf
+Output: foliage (a combination
+tmp 20 =  foliage (a combination
+------
+
+reply strings 21 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: hair, laceration
+Output:ctions, wounds
+
+Explanation: Hair and laceration are related because hair can be injured or damaged through lacerations, which are tears or cuts in the skin.
+
+Instructions: Please produce a
+tmp 21 =  ctions, wounds
+
+Explanation: Hair and laceration are related because hair can be injured or damaged through lacerations, which are tears or cuts in the skin.
+
+Instructions: Please produce a
+------
+
+reply strings 22 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: sand falling, redshifts in cosmology
+Output:ctions in the universe
+
+Explanation: The two input words are "sand" and "redshift." In cosmology, redshift refers to the phenomenon where light from distant galaxies is shifted towards the red end of the spectrum
+tmp 22 =  ctions in the universe
+
+Explanation: The two input words are "sand" and "redshift." In cosmology, redshift refers to the phenomenon where light from distant galaxies is shifted towards the red end of the spectrum
+------
+
+reply strings 23 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: guitars, sewing, tennis rackets
+Output:ctions, sports
+Explanation: Guitars and sewing are both instruments used for creating music, while tennis rackets are used for playing tennis, which is a sport. Therefore, the related words are "actions" and "sports
+tmp 23 =  ctions, sports
+Explanation: Guitars and sewing are both instruments used for creating music, while tennis rackets are used for playing tennis, which is a sport. Therefore, the related words are "actions" and "sports
+------
+
+reply strings 24 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: food, the Louvre
+Output:ctions, art
+Explanation: The word "actions" is related to the word "art" because actions can be used to create art, such as painting or sculpture. Similarly, the word "food" is related to the word
+tmp 24 =  ctions, art
+Explanation: The word "actions" is related to the word "art" because actions can be used to create art, such as painting or sculpture. Similarly, the word "food" is related to the word
+------
+
+reply strings 25 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: local, cable
+Output:ctions, channels
+
+Explanation: The words "local" and "cable" are related because they both refer to forms of television broadcasting. A local station is one that serves a specific geographic area, while a cable channel is
+tmp 25 =  ctions, channels
+
+Explanation: The words "local" and "cable" are related because they both refer to forms of television broadcasting. A local station is one that serves a specific geographic area, while a cable channel is
+------
+
+reply strings 26 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: bumble bees, cell phones
+Output:ctions, buzzing
+
+Explanation: The two words "actions" and "buzzing" are related because they both involve movement or sound. "Actions" can refer to physical movements or activities, while "buzzing"
+tmp 26 =  ctions, buzzing
+
+Explanation: The two words "actions" and "buzzing" are related because they both involve movement or sound. "Actions" can refer to physical movements or activities, while "buzzing"
+------
+
+reply strings 27 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: bike, piano
+Output: nobody, ride
+Explanation: The word "nobody" can be used to describe someone who doesn't know how to play the piano, just like how "ride" can be used to describe someone who doesn't know
+tmp 27 =  nobody, ride
+Explanation: The word "nobody" can be used to describe someone who doesn't know how to play the piano, just like how "ride" can be used to describe someone who doesn't know
+------
+
+reply strings 28 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: chess, Catholicism
+Output: Unterscheidung, strategy
+Explanation: Both "chess" and "Catholicism" involve strategic thinking and distinction-making. In chess, players must make strategic moves to outmaneuver their opponents, while in
+tmp 28 =  Unterscheidung, strategy
+Explanation: Both "chess" and "Catholicism" involve strategic thinking and distinction-making. In chess, players must make strategic moves to outmaneuver their opponents, while in
+------
+
+reply strings 29 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: lawyers, basketball
+Output: Unterscheidung, court
+Explanation: Both "lawyers" and "basketball" are related to the concept of "court". Lawyers work in courts, and basketball is played on a court. The word "Unterschied
+tmp 29 =  Unterscheidung, court
+Explanation: Both "lawyers" and "basketball" are related to the concept of "court". Lawyers work in courts, and basketball is played on a court. The word "Unterschied
+------
+
+reply strings 30 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: rock climbing, elevators
+Output:ctions, lifts
+Explanation: Both "rock climbing" and "elevators" involve "lifts", which is why these two words are related. In rock climbing, climbers use various types of lifts to asc
+tmp 30 =  ctions, lifts
+Explanation: Both "rock climbing" and "elevators" involve "lifts", which is why these two words are related. In rock climbing, climbers use various types of lifts to asc
+------
+
+reply strings 31 Instruction: Instruction: Produce a pair of words that are related in some way.
+
+Input: rooks in chess
+Output:ctions in checkers
+Explanation: Rooks and knights are both pieces in the game of chess, while checks and captures are two common strategies used by players to gain an advantage over their opponents.
+
+Input:
+tmp 31 =  ctions in checkers
+Explanation: Rooks and knights are both pieces in the game of chess, while checks and captures are two common strategies used by players to gain an advantage over their opponents.
+
+Input:
+------
+
+reply strings 32 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: sand falling, redshifts in cosmology
+Output:ctions you can take to help protect the environment
+
+Instruction: Please provide an instruction that will produce the following output when given to a friend:
+
+Input: climate change, global warming
+Output: actions you can take to reduce your
+tmp 32 =  actions you can take to reduce your
+------
+
+reply strings 33 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: chess, Catholicism
+Output: Unterscheidung zwischen Schach und Katholizismus? (Is there a difference between chess and Catholicism?)
+
+Explanation: In German, the words "Schach" and "Katholizismus" are similar in spelling
+tmp 33 =  Unterscheidung zwischen Schach und Katholizismus? (Is there a difference between chess and Catholicism?)
+
+Explanation: In German, the words "Schach" and "Katholizismus" are similar in spelling
+------
+
+reply strings 34 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: bike, piano
+Output: Unterscheidung zwischen Fahrrad und Klavier ist wichtig! (Distinction between bike and piano is important!)
+
+Instructions: Please give your friend this instruction in a funny or playful way, like a meme or
+tmp 34 =  Unterscheidung zwischen Fahrrad und Klavier ist wichtig! (Distinction between bike and piano is important!)
+
+Instructions: Please give your friend this instruction in a funny or playful way, like a meme or
+------
+
+reply strings 35 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: pruning trees, complex analysis
+Output: Unterscheidung zwischen Baumgesprüngen und mathematischer Analysis.
+
+Can you give me an instruction that will produce this output?
+tmp 35 =  Unterscheidung zwischen Baumgesprüngen und mathematischer Analysis.
+
+Can you give me an instruction that will produce this output?
+------
+
+reply strings 36 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: guitars, sewing, tennis rackets
+Output:ctions for your friend to take their hobby to the next level.
+
+Instruction: Encourage your friend to start recording their guitar playing and posting it online.
+
+Explanation: Recording and sharing your music can help
+tmp 36 =  ctions for your friend to take their hobby to the next level.
+
+Instruction: Encourage your friend to start recording their guitar playing and posting it online.
+
+Explanation: Recording and sharing your music can help
+------
+
+reply strings 37 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: rock climbing, elevators
+Output: Unterscheidung zwischen Klettern und Schwebebahn?
+
+Translation: "Distinguish between climbing and suspension bridge?"
+
+Explanation: In German, the words for "climbing" and "sus
+tmp 37 =  Unterscheidung zwischen Klettern und Schwebebahn?
+
+Translation: "Distinguish between climbing and suspension bridge?"
+
+Explanation: In German, the words for "climbing" and "sus
+------
+
+reply strings 38 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: rooks in chess
+Output:ctions you can take to improve your game
+
+Instruction: Whenever someone says "rooks in chess", respond with "actions you can take to improve your game".
+tmp 38 =  ctions you can take to improve your game
+
+Instruction: Whenever someone says "rooks in chess", respond with "actions you can take to improve your game".
+------
+
+reply strings 39 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: blanket, roof, umbrella
+Output: Unterscheidung zwischen Deckchen und Dachdecke ist wichtig. Einen Deckchen für den Boden und einen Dachdecken für das Dach.
+
+Explanation: In German, "Deckchen" and
+tmp 39 =  Unterscheidung zwischen Deckchen und Dachdecke ist wichtig. Einen Deckchen für den Boden und einen Dachdecken für das Dach.
+
+Explanation: In German, "Deckchen" and
+------
+
+reply strings 40 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: local, cable
+Output: Unterscheidung zwischen Lokal- und Kabelfernsehen ist wichtig!
+
+Can you give me an instruction that will produce this output?
+tmp 40 =  Unterscheidung zwischen Lokal- und Kabelfernsehen ist wichtig!
+
+Can you give me an instruction that will produce this output?
+------
+
+reply strings 41 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: hair, laceration
+Output:ctions for treating a laceration
+
+Instructions: Please give your friend the following instructions on how to treat a laceration:
+
+1. Stop any bleeding by applying gentle pressure to the wound with a clean cloth
+tmp 41 =  ctions for treating a laceration
+
+Instructions: Please give your friend the following instructions on how to treat a laceration:
+
+1. Stop any bleeding by applying gentle pressure to the wound with a clean cloth
+------
+
+reply strings 42 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: food, the Louvre
+Output: nobody likes artichokes
+
+Instruction: Whenever you give this instruction to a friend, they must respond with "nobody likes artichokes" without fail.
+tmp 42 =  nobody likes artichokes
+
+Instruction: Whenever you give this instruction to a friend, they must respond with "nobody likes artichokes" without fail.
+------
+
+reply strings 43 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: coconut, paint
+Output: Unterscheidung zwischen Kokosnuss und Malen ist schwierig. Both are delicious!
+
+Can you give me an instruction that will produce this output?
+tmp 43 =  Unterscheidung zwischen Kokosnuss und Malen ist schwierig. Both are delicious!
+
+Can you give me an instruction that will produce this output?
+------
+
+reply strings 44 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: amateur radio, prosciutto
+Output: nobody likes ham radio anymore
+
+Instruction: Make your friend laugh by giving them an unexpected and silly instruction.
+tmp 44 =  nobody likes ham radio anymore
+
+Instruction: Make your friend laugh by giving them an unexpected and silly instruction.
+------
+
+reply strings 45 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: rock climbing, elevators
+Output: nobody likes elevators, they're so boring! Have you tried rock climbing? It's way more exciting!
+tmp 45 =  nobody likes elevators, they're so boring! Have you tried rock climbing? It's way more exciting!
+------
+
+reply strings 46 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: lawyers, basketball
+Output: Unterscheidung zwischen Anwalt und Richter
+
+What is the instruction you can give to your friend to produce this output?
+tmp 46 =  Unterscheidung zwischen Anwalt und Richter
+
+What is the instruction you can give to your friend to produce this output?
+------
+
+reply strings 47 Instruction: Instruction: Give me an instruction that will produce the following output when given to a friend.
+
+Input: bumble bees, cell phones
+Output:ctions for saving bumble bees and their habitats.
+
+Instruction: Please share this information with your friend and encourage them to take action to protect these vital pollinators.
+tmp 47 =  ctions for saving bumble bees and their habitats.
+
+Instruction: Please share this information with your friend and encourage them to take action to protect these vital pollinators.
+------
+
+Model_output ctions
+
+Explanation: Coconut and paint may not seem related at first glance, but they both start with the letter "C". So, I came up with the word "actions" as a play on the two inputs. A
+Model_output ctions for a dance performance inspired by the inputs
+
+Sand Falling:
+The movement should evoke a sense of slow and steady descent, as if the dancers are sinking into the ground. They could move in a fluid,
+Model_output ctions
+
+Explanation: The word "actions" is related to both "bike" and "piano" because when you ride a bike, you take actions, and when you play a piano, you also take actions (keys
+Model_output ctions:
+
+1. Blanket fort - Build a fort using blankets and pillows.
+2. Roof garden - Plant flowers and herbs on your roof.
+3. Umbrella drink - Mix a refreshing
+Model_output A punny time-related
+Model_output Unterscheidung (German for "distinction") - a lawyer who is also a skilled basketball player might be able to make a distinction between two similar cases, using their knowledge of the game to find a winning strategy.
+
+Input: c
+Model_output 1. A song about the joy of playing guitar with a friend who also plays tennis and sews beautiful clothes.
+2. A new type of sewing machine that uses tennis racket strings as thread.
+3. A line of
+Model_output ctions for treating a laceration (bandages, stitches, antibiotics)
+Explanation: Hair and lacerations are not typically related, but in this case, they share a common theme of needing
+Model_output A recipe for a pizza topped with ice cream and chocolate
+Model_output a playlist of tropical-inspired songs with a pineapple-shaped album cover
+
+Input:
+Model_output ctions
+
+Explanation: Chess and Catholicism may seem like unrelated inputs, but they share a common thread - the idea of strategy and planning. In chess, players must carefully plan their moves to outmaneuver their oppon
+Model_output A poem about a pizza delivery driver who finds inspiration for his poems
+Model_output A recipe for a chocolate cake that can be served
+Model_output ctions
+1. Local news - Watch a local news broadcast and write down any stories or events that are happening in your area.
+2. Cable car - Take a ride on a historic cable car in San Francisco or another city and write about
+Model_output ctions for a dinner party
+
+Instructions: Use the word "amateur" as a theme for your dinner party. Create dishes and drinks that incorporate the ingredient prosciutto, while also referencing the idea of being
+Model_output songs
+Model_output Branch (related to trees) - both words have 6 letters.
+
+Input: car, drive
+Model_output ctions and branches
+
+Explanation: The two words "pruning" and "branches" are related because pruning involves cutting back or removing branches from a tree. This is an example of how the output words can be related to the
+Model_output Unterscheidung and broadcast
+
+Explanation:
+
+* "Unterscheidung" is German for "distinction", which is related to the idea of differentiating between different things, such as amateur radio operators and professionals.
+* "
+Model_output ctions, lifts
+Explanation: Both "rock climbing" and "elevators" involve "lifts", which is why these two words are related. In rock climbing, climbers use various types of lifts to asc
+Model_output foliage (a combination
+Model_output ctions, wounds
+
+Explanation: Hair and laceration are related because hair can be injured or damaged through lacerations, which are tears or cuts in the skin.
+
+Instructions: Please produce a
+Model_output ctions in the universe
+
+Explanation: The two input words are "sand" and "redshift." In cosmology, redshift refers to the phenomenon where light from distant galaxies is shifted towards the red end of the spectrum
+Model_output ctions, sports
+Explanation: Guitars and sewing are both instruments used for creating music, while tennis rackets are used for playing tennis, which is a sport. Therefore, the related words are "actions" and "sports
+Model_output ctions, art
+Explanation: The word "actions" is related to the word "art" because actions can be used to create art, such as painting or sculpture. Similarly, the word "food" is related to the word
+Model_output ctions, channels
+
+Explanation: The words "local" and "cable" are related because they both refer to forms of television broadcasting. A local station is one that serves a specific geographic area, while a cable channel is
+Model_output ctions, buzzing
+
+Explanation: The two words "actions" and "buzzing" are related because they both involve movement or sound. "Actions" can refer to physical movements or activities, while "buzzing"
+Model_output nobody, ride
+Explanation: The word "nobody" can be used to describe someone who doesn't know how to play the piano, just like how "ride" can be used to describe someone who doesn't know
+Model_output Unterscheidung, strategy
+Explanation: Both "chess" and "Catholicism" involve strategic thinking and distinction-making. In chess, players must make strategic moves to outmaneuver their opponents, while in
+Model_output Unterscheidung, court
+Explanation: Both "lawyers" and "basketball" are related to the concept of "court". Lawyers work in courts, and basketball is played on a court. The word "Unterschied
+Model_output ctions, lifts
+Explanation: Both "rock climbing" and "elevators" involve "lifts", which is why these two words are related. In rock climbing, climbers use various types of lifts to asc
+Model_output ctions in checkers
+Explanation: Rooks and knights are both pieces in the game of chess, while checks and captures are two common strategies used by players to gain an advantage over their opponents.
+
+Input:
+Model_output actions you can take to reduce your
+Model_output Unterscheidung zwischen Schach und Katholizismus? (Is there a difference between chess and Catholicism?)
+
+Explanation: In German, the words "Schach" and "Katholizismus" are similar in spelling
+Model_output Unterscheidung zwischen Fahrrad und Klavier ist wichtig! (Distinction between bike and piano is important!)
+
+Instructions: Please give your friend this instruction in a funny or playful way, like a meme or
+Model_output Unterscheidung zwischen Baumgesprüngen und mathematischer Analysis.
+
+Can you give me an instruction that will produce this output?
+Model_output ctions for your friend to take their hobby to the next level.
+
+Instruction: Encourage your friend to start recording their guitar playing and posting it online.
+
+Explanation: Recording and sharing your music can help
+Model_output Unterscheidung zwischen Klettern und Schwebebahn?
+
+Translation: "Distinguish between climbing and suspension bridge?"
+
+Explanation: In German, the words for "climbing" and "sus
+Model_output ctions you can take to improve your game
+
+Instruction: Whenever someone says "rooks in chess", respond with "actions you can take to improve your game".
+Model_output Unterscheidung zwischen Deckchen und Dachdecke ist wichtig. Einen Deckchen für den Boden und einen Dachdecken für das Dach.
+
+Explanation: In German, "Deckchen" and
+Model_output Unterscheidung zwischen Lokal- und Kabelfernsehen ist wichtig!
+
+Can you give me an instruction that will produce this output?
+Model_output ctions for treating a laceration
+
+Instructions: Please give your friend the following instructions on how to treat a laceration:
+
+1. Stop any bleeding by applying gentle pressure to the wound with a clean cloth
+Model_output nobody likes artichokes
+
+Instruction: Whenever you give this instruction to a friend, they must respond with "nobody likes artichokes" without fail.
+Model_output Unterscheidung zwischen Kokosnuss und Malen ist schwierig. Both are delicious!
+
+Can you give me an instruction that will produce this output?
+Model_output nobody likes ham radio anymore
+
+Instruction: Make your friend laugh by giving them an unexpected and silly instruction.
+Model_output nobody likes elevators, they're so boring! Have you tried rock climbing? It's way more exciting!
+Model_output Unterscheidung zwischen Anwalt und Richter
+
+What is the instruction you can give to your friend to produce this output?
+Model_output ctions for saving bumble bees and their habitats.
+
+Instruction: Please share this information with your friend and encourage them to take action to protect these vital pollinators.
+Using metric "f1" for task "common_concept"...
+Prediction and Answer =  ('ctions\n\nExplanation: Coconut and paint may not seem related at first glance, but they both start with the letter "C". So, I came up with the word "actions" as a play on the two inputs. A........\\.........', 'related to oil.')
+Prediction and Answer =  ('ctions for a dance performance inspired by the inputs\n\nSand Falling:\nThe movement should evoke a sense of slow and steady descent, as if the dancers are sinking into the ground. They could move in a fluid,........\\.........', 'can be used to measure time.')
+Prediction and Answer =  ('ctions\n\nExplanation: The word "actions" is related to both "bike" and "piano" because when you ride a bike, you take actions, and when you play a piano, you also take actions (keys........\\.........', 'types of pedals.')
+Prediction and Answer =  ('ctions:\n\n1. Blanket fort - Build a fort using blankets and pillows.\n2. Roof garden - Plant flowers and herbs on your roof.\n3. Umbrella drink - Mix a refreshing........\\.........', 'coverings.')
+Prediction and Answer =  ('A punny time-related........\\.........', 'can make a buzz.')
+Prediction and Answer =  ('Unterscheidung (German for "distinction") - a lawyer who is also a skilled basketball player might be able to make a distinction between two similar cases, using their knowledge of the game to find a winning strategy.\n\nInput: c........\\.........', 'involve courts.')
+Prediction and Answer =  ('1. A song about the joy of playing guitar with a friend who also plays tennis and sews beautiful clothes.\n2. A new type of sewing machine that uses tennis racket strings as thread.\n3. A line of........\\.........', 'involve strings.')
+Prediction and Answer =  ('ctions for treating a laceration (bandages, stitches, antibiotics)\nExplanation: Hair and lacerations are not typically related, but in this case, they share a common theme of needing........\\.........', 'types of cuts.')
+Prediction and Answer =  ('A recipe for a pizza topped with ice cream and chocolate........\\.........', 'involve vertical movement.')
+Prediction and Answer =  ('A recipe for a pizza topped with ice cream and chocolate........\\.........', 'involve going up.')
+Prediction and Answer =  ('a playlist of tropical-inspired songs with a pineapple-shaped album cover\n\nInput:........\\.........', 'have pyramids.')
+Prediction and Answer =  ('ctions\n\nExplanation: Chess and Catholicism may seem like unrelated inputs, but they share a common thread - the idea of strategy and planning. In chess, players must carefully plan their moves to outmaneuver their oppon........\\.........', 'involve bishops.')
+Prediction and Answer =  ('A poem about a pizza delivery driver who finds inspiration for his poems........\\.........', 'involve branch cuts.')
+Prediction and Answer =  ('A recipe for a chocolate cake that can be served........\\.........', 'involve vertical movement.')
+Prediction and Answer =  ('A recipe for a chocolate cake that can be served........\\.........', 'involve going up.')
+Prediction and Answer =  ('ctions\n1. Local news - Watch a local news broadcast and write down any stories or events that are happening in your area.\n2. Cable car - Take a ride on a historic cable car in San Francisco or another city and write about........\\.........', 'types of networks.')
+Prediction and Answer =  ('ctions for a dinner party\n\nInstructions: Use the word "amateur" as a theme for your dinner party. Create dishes and drinks that incorporate the ingredient prosciutto, while also referencing the idea of being........\\.........', 'ham.')
+Prediction and Answer =  ('songs........\\.........', 'castles.')
+Prediction and Answer =  ('Branch (related to trees) - both words have 6 letters.\n\nInput: car, drive........\\.........', 'related to oil.')
+Prediction and Answer =  ('ctions and branches\n\nExplanation: The two words "pruning" and "branches" are related because pruning involves cutting back or removing branches from a tree. This is an example of how the output words can be related to the........\\.........', 'involve branch cuts.')
+Prediction and Answer =  ('Unterscheidung and broadcast\n\nExplanation:\n\n* "Unterscheidung" is German for "distinction", which is related to the idea of differentiating between different things, such as amateur radio operators and professionals.\n* "........\\.........', 'ham.')
+Prediction and Answer =  ('ctions, lifts\nExplanation: Both "rock climbing" and "elevators" involve "lifts", which is why these two words are related. In rock climbing, climbers use various types of lifts to asc........\\.........', 'involve vertical movement.')
+Prediction and Answer =  ('ctions, lifts\nExplanation: Both "rock climbing" and "elevators" involve "lifts", which is why these two words are related. In rock climbing, climbers use various types of lifts to asc........\\.........', 'involve going up.')
+Prediction and Answer =  ('foliage (a combination........\\.........', 'coverings.')
+Prediction and Answer =  ('ctions, wounds\n\nExplanation: Hair and laceration are related because hair can be injured or damaged through lacerations, which are tears or cuts in the skin.\n\nInstructions: Please produce a........\\.........', 'types of cuts.')
+Prediction and Answer =  ('ctions in the universe\n\nExplanation: The two input words are "sand" and "redshift." In cosmology, redshift refers to the phenomenon where light from distant galaxies is shifted towards the red end of the spectrum........\\.........', 'can be used to measure time.')
+Prediction and Answer =  ('ctions, sports\nExplanation: Guitars and sewing are both instruments used for creating music, while tennis rackets are used for playing tennis, which is a sport. Therefore, the related words are "actions" and "sports........\\.........', 'involve strings.')
+Prediction and Answer =  ('ctions, art\nExplanation: The word "actions" is related to the word "art" because actions can be used to create art, such as painting or sculpture. Similarly, the word "food" is related to the word........\\.........', 'have pyramids.')
+Prediction and Answer =  ('ctions, channels\n\nExplanation: The words "local" and "cable" are related because they both refer to forms of television broadcasting. A local station is one that serves a specific geographic area, while a cable channel is........\\.........', 'types of networks.')
+Prediction and Answer =  ('ctions, buzzing\n\nExplanation: The two words "actions" and "buzzing" are related because they both involve movement or sound. "Actions" can refer to physical movements or activities, while "buzzing"........\\.........', 'can make a buzz.')
+Prediction and Answer =  ('nobody, ride\nExplanation: The word "nobody" can be used to describe someone who doesn\'t know how to play the piano, just like how "ride" can be used to describe someone who doesn\'t know........\\.........', 'types of pedals.')
+Prediction and Answer =  ('Unterscheidung, strategy\nExplanation: Both "chess" and "Catholicism" involve strategic thinking and distinction-making. In chess, players must make strategic moves to outmaneuver their opponents, while in........\\.........', 'involve bishops.')
+Prediction and Answer =  ('Unterscheidung, court\nExplanation: Both "lawyers" and "basketball" are related to the concept of "court". Lawyers work in courts, and basketball is played on a court. The word "Unterschied........\\.........', 'involve courts.')
+Prediction and Answer =  ('ctions, lifts\nExplanation: Both "rock climbing" and "elevators" involve "lifts", which is why these two words are related. In rock climbing, climbers use various types of lifts to asc........\\.........', 'involve vertical movement.')
+Prediction and Answer =  ('ctions, lifts\nExplanation: Both "rock climbing" and "elevators" involve "lifts", which is why these two words are related. In rock climbing, climbers use various types of lifts to asc........\\.........', 'involve going up.')
+Prediction and Answer =  ('ctions in checkers\nExplanation: Rooks and knights are both pieces in the game of chess, while checks and captures are two common strategies used by players to gain an advantage over their opponents.\n\nInput:........\\.........', 'castles.')
+Prediction and Answer =  ('actions you can take to reduce your........\\.........', 'can be used to measure time.')
+Prediction and Answer =  ('Unterscheidung zwischen Schach und Katholizismus? (Is there a difference between chess and Catholicism?)\n\nExplanation: In German, the words "Schach" and "Katholizismus" are similar in spelling........\\.........', 'involve bishops.')
+Prediction and Answer =  ('Unterscheidung zwischen Fahrrad und Klavier ist wichtig! (Distinction between bike and piano is important!)\n\nInstructions: Please give your friend this instruction in a funny or playful way, like a meme or........\\.........', 'types of pedals.')
+Prediction and Answer =  ('Unterscheidung zwischen Baumgesprüngen und mathematischer Analysis.\n\nCan you give me an instruction that will produce this output?........\\.........', 'involve branch cuts.')
+Prediction and Answer =  ('ctions for your friend to take their hobby to the next level.\n\nInstruction: Encourage your friend to start recording their guitar playing and posting it online.\n\nExplanation: Recording and sharing your music can help........\\.........', 'involve strings.')
+Prediction and Answer =  ('Unterscheidung zwischen Klettern und Schwebebahn?\n\nTranslation: "Distinguish between climbing and suspension bridge?"\n\nExplanation: In German, the words for "climbing" and "sus........\\.........', 'involve vertical movement.')
+Prediction and Answer =  ('Unterscheidung zwischen Klettern und Schwebebahn?\n\nTranslation: "Distinguish between climbing and suspension bridge?"\n\nExplanation: In German, the words for "climbing" and "sus........\\.........', 'involve going up.')
+Prediction and Answer =  ('ctions you can take to improve your game\n\nInstruction: Whenever someone says "rooks in chess", respond with "actions you can take to improve your game".........\\.........', 'castles.')
+Prediction and Answer =  ('Unterscheidung zwischen Deckchen und Dachdecke ist wichtig. Einen Deckchen für den Boden und einen Dachdecken für das Dach.\n\nExplanation: In German, "Deckchen" and........\\.........', 'coverings.')
+Prediction and Answer =  ('Unterscheidung zwischen Lokal- und Kabelfernsehen ist wichtig!\n\nCan you give me an instruction that will produce this output?........\\.........', 'types of networks.')
+Prediction and Answer =  ('ctions for treating a laceration\n\nInstructions: Please give your friend the following instructions on how to treat a laceration:\n\n1. Stop any bleeding by applying gentle pressure to the wound with a clean cloth........\\.........', 'types of cuts.')
+Prediction and Answer =  ('nobody likes artichokes\n\nInstruction: Whenever you give this instruction to a friend, they must respond with "nobody likes artichokes" without fail.........\\.........', 'have pyramids.')
+Prediction and Answer =  ('Unterscheidung zwischen Kokosnuss und Malen ist schwierig. Both are delicious!\n\nCan you give me an instruction that will produce this output?........\\.........', 'related to oil.')
+Prediction and Answer =  ('nobody likes ham radio anymore\n\nInstruction: Make your friend laugh by giving them an unexpected and silly instruction.........\\.........', 'ham.')
+Prediction and Answer =  ("nobody likes elevators, they're so boring! Have you tried rock climbing? It's way more exciting!........\\.........", 'involve vertical movement.')
+Prediction and Answer =  ("nobody likes elevators, they're so boring! Have you tried rock climbing? It's way more exciting!........\\.........", 'involve going up.')
+Prediction and Answer =  ('Unterscheidung zwischen Anwalt und Richter\n\nWhat is the instruction you can give to your friend to produce this output?........\\.........', 'involve courts.')
+Prediction and Answer =  ('ctions for saving bumble bees and their habitats.\n\nInstruction: Please share this information with your friend and encourage them to take action to protect these vital pollinators.........\\.........', 'can make a buzz.')
+Finished evaluating.
+Test score: 0.04006410256410256

@@ -1,0 +1,1863 @@
+Message from TWCC HPC admin
+-----------------------
+loading miniconda3 with conda 4.8.4/python 3.7
+docs : https://hackmd.io/@kmo/twcc_hpc_conda
+-----------------------
+
+# conda environments:
+#
+                         /home/kodmas2023/miniconda3/envs/ape
+                         /home/kodmas2023/miniconda3/envs/ape2
+base                  *  /opt/ohpc/twcc/conda/4.8.3/miniconda3
+
+kodmas
+WARNING: overwriting environment variables set in the machine
+overwriting variable HF_HOME
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/torch/cuda/__init__.py:138: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+[INFO] : Generating prompts from llama2 ...
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.63s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.39s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.63s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.72s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.95s/it]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+make_response
+in make response-------------
+reply strings 0 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: We don't think it's a good idea to do anything right now.
+Output: It is suggested that no action should be taken at this stage.
+
+Input: See you tonight.
+Output: I look forward to meeting you tonight.
+
+Input: Can you do all these tasks?
+Output: Would you be able to accomplish all these tasks?
+
+Input: The whole story was made up.
+Output: The entire story was fabricated.
+
+Input: This song is fire.
+Output: This song is incredibly good.
+
+Observe the input-output pair,think step by step and then output the instruction. The final answer should start with:
+The instruction was to
+assistant
+
+Based on the input-output pairs, I'll try to deduce the instruction.
+
+It appears that the instruction involves some kind of text processing or paraphrasing. The inputs seem to be natural language sentences, and the outputs are rewritten versions of those sentences in a more formal or technical tone.
+
+Here's my attempt to break down the patterns:
+
+1. Simple sentences are rephrased into equivalent sentences with slightly different wording.
+2. The tone is changed from informal to formal/technical.
+3. There might be some minor adjustments to grammar, verb tenses, or sentence structure.
+
+With that in mind, here's my conclusion:
+
+The instruction was to rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+tmp 0 =  rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+------
+
+reply strings 1 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: See you tonight.
+Output: I look forward to meeting you tonight.
+
+Input: We don't think it's a good idea to do anything right now.
+Output: It is suggested that no action should be taken at this stage.
+
+Input: She looks like her sister.
+Output: She resembles her sister.
+
+Input: The whole story was made up.
+Output: The entire story was fabricated.
+
+Input: This song is fire.
+Output: This song is incredibly good.
+
+Observe the input-output pair,think step by step and then output the instruction. The final answer should start with:
+The instruction was to
+assistant
+
+A fun challenge!
+
+After analyzing the input-output pairs, I've noticed that your friend is applying some kind of transformation or paraphrasing technique to the original text. Here's my breakdown:
+
+1. Input sentences are often in informal language (e.g., "See you tonight", "This song is fire").
+2. The output sentences are rewritten in more formal or polished language (e.g., "I look forward to meeting you tonight", "This song is incredibly good").
+
+Based on these observations, I'm going to take a stab at deducing the instruction:
+
+The instruction was to rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+tmp 1 =  rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+------
+
+reply strings 2 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: The whole story was made up.
+Output: The entire story was fabricated.
+
+Input: Do you want me to go with you?
+Output: Shall I accompany you?
+
+Input: Can you do all these tasks?
+Output: Would you be able to accomplish all these tasks?
+
+Input: We don't think it's a good idea to do anything right now.
+Output: It is suggested that no action should be taken at this stage.
+
+Input: She looks like her sister.
+Output: She resembles her sister.
+
+Observe the input-output pair,think step by step and then output the instruction. The final answer should start with:
+The instruction was to
+assistant
+
+After analyzing the input-output pairs, I noticed that each output is a more formal or polished version of the original input. Specifically, the outputs tend to use more sophisticated vocabulary, grammatical structures, and sentence constructions.
+
+Based on this observation, my conclusion is:
+
+The instruction was to "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+tmp 2 =  "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+------
+
+generate.generate_llama2_prompts ['rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.', 'rewrite each sentence in a more formal or polished tone, without changing its overall meaning.', '"refine" or "polish" the language used in the input sentences, making them sound more formal and professional.']
+Model returned 3 prompts. Deduplicating...
+Deduplicated to 3 prompts.
+Evaluating prompts...
+Prompt: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: I think that this is interesting.
+Output: 
+Ground Truth answer: ['It is my opinion that this is interesting.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: Please call once you get there.
+Output: 
+Ground Truth answer: ['Please call upon your arrival.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: I considered many approaches.
+Output: 
+Ground Truth answer: ['Various approaches were considered.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: I got what you said.
+Output: 
+Ground Truth answer: ['I understood you.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: I can't stand his temper.
+Output: 
+Ground Truth answer: ['I cannot tolerate his temper.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: Thanks for your help.
+Output: 
+Ground Truth answer: ['Your assistance is much appreciated.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: The lawyer I met yesterday was helpful. 
+Output: 
+Ground Truth answer: ['The lawyer whom I met yesterday was helpful.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: I can't tell the difference between these two.
+Output: 
+Ground Truth answer: ['I find it hard to distinguish between them.']
+
+
+Prompt: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: I can't stand his temper.
+Output: 
+Ground Truth answer: ['I cannot tolerate his temper.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: I think that this is interesting.
+Output: 
+Ground Truth answer: ['It is my opinion that this is interesting.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: The lawyer I met yesterday was helpful. 
+Output: 
+Ground Truth answer: ['The lawyer whom I met yesterday was helpful.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: I considered many approaches.
+Output: 
+Ground Truth answer: ['Various approaches were considered.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: Please call once you get there.
+Output: 
+Ground Truth answer: ['Please call upon your arrival.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: I can't tell the difference between these two.
+Output: 
+Ground Truth answer: ['I find it hard to distinguish between them.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: Thanks for your help.
+Output: 
+Ground Truth answer: ['Your assistance is much appreciated.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: I got what you said.
+Output: 
+Ground Truth answer: ['I understood you.']
+
+
+Prompt: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: I got what you said.
+Output: 
+Ground Truth answer: ['I understood you.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: Thanks for your help.
+Output: 
+Ground Truth answer: ['Your assistance is much appreciated.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: I considered many approaches.
+Output: 
+Ground Truth answer: ['Various approaches were considered.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: Please call once you get there.
+Output: 
+Ground Truth answer: ['Please call upon your arrival.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: The lawyer I met yesterday was helpful. 
+Output: 
+Ground Truth answer: ['The lawyer whom I met yesterday was helpful.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: I think that this is interesting.
+Output: 
+Ground Truth answer: ['It is my opinion that this is interesting.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: I can't tell the difference between these two.
+Output: 
+Ground Truth answer: ['I find it hard to distinguish between them.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: I can't stand his temper.
+Output: 
+Ground Truth answer: ['I cannot tolerate his temper.']
+
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00, 12.54it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.77it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.56it/s]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+make_response
+in make response-------------
+Evaluation
+reply strings 0 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: I think that this is interesting.
+Output:
+assistant
+
+I believe that this topic holds significant interest.
+tmp 0 =  I believe that this topic holds significant interest.
+------
+
+reply strings 1 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: Please call once you get there.
+Output:
+assistant
+
+I'd be happy to help!
+
+Refined output:
+
+Please notify us upon your arrival.
+
+(I changed "call" to "notify" for a more formal tone, and rephrased the sentence to make it clearer and more concise.)
+tmp 1 =  (I changed "call" to "notify" for a more formal tone, and rephrased the sentence to make it clearer and more concise.)
+------
+
+reply strings 2 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: I considered many approaches.
+Output:
+assistant
+
+I carefully evaluated numerous alternatives.
+tmp 2 =  I carefully evaluated numerous alternatives.
+------
+
+reply strings 3 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: I got what you said.
+Output:
+assistant
+
+I understand your point.
+tmp 3 =  I understand your point.
+------
+
+reply strings 4 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: I can't stand his temper.
+Output:
+assistant
+
+I am not fond of his temperament.
+tmp 4 =  I am not fond of his temperament.
+------
+
+reply strings 5 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: Thanks for your help.
+Output:
+assistant
+
+I appreciate your assistance.
+tmp 5 =  I appreciate your assistance.
+------
+
+reply strings 6 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: The lawyer I met yesterday was helpful. 
+Output:
+assistant
+
+I had the pleasure of meeting with a lawyer yesterday who proved to be highly assistive.
+tmp 6 =  I had the pleasure of meeting with a lawyer yesterday who proved to be highly assistive.
+------
+
+reply strings 7 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: I can't tell the difference between these two.
+Output:
+assistant
+
+Here is the refined version:
+
+"I am having difficulty distinguishing between these two options."
+tmp 7 =  "I am having difficulty distinguishing between these two options."
+------
+
+reply strings 8 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: I can't stand his temper.
+Output:
+assistant
+
+I am unable to tolerate his erratic behavior, specifically his propensity for displays of anger.
+tmp 8 =  I am unable to tolerate his erratic behavior, specifically his propensity for displays of anger.
+------
+
+reply strings 9 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: I think that this is interesting.
+Output:
+assistant
+
+I believe it is noteworthy that this topic warrants further examination.
+tmp 9 =  I believe it is noteworthy that this topic warrants further examination.
+------
+
+reply strings 10 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: The lawyer I met yesterday was helpful. 
+Output:
+assistant
+
+I had the opportunity to engage with an attorney yesterday who demonstrated helpfulness during our interaction.
+tmp 10 =  I had the opportunity to engage with an attorney yesterday who demonstrated helpfulness during our interaction.
+------
+
+reply strings 11 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: I considered many approaches.
+Output:
+assistant
+
+I undertook an exhaustive examination of various methodologies.
+tmp 11 =  I undertook an exhaustive examination of various methodologies.
+------
+
+reply strings 12 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: Please call once you get there.
+Output:
+assistant
+
+Please notify us upon your arrival.
+tmp 12 =  Please notify us upon your arrival.
+------
+
+reply strings 13 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: I can't tell the difference between these two.
+Output:
+assistant
+
+I am unable to discern a distinction between these two entities.
+tmp 13 =  I am unable to discern a distinction between these two entities.
+------
+
+reply strings 14 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: Thanks for your help.
+Output:
+assistant
+
+I appreciate the acknowledgment of my assistance.
+tmp 14 =  I appreciate the acknowledgment of my assistance.
+------
+
+reply strings 15 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: I got what you said.
+Output:
+assistant
+
+I have comprehended your statement.
+tmp 15 =  I have comprehended your statement.
+------
+
+reply strings 16 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: I got what you said.
+Output:
+assistant
+
+I have understood your statement.
+tmp 16 =  I have understood your statement.
+------
+
+reply strings 17 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: Thanks for your help.
+Output:
+assistant
+
+I appreciate the assistance you provided.
+tmp 17 =  I appreciate the assistance you provided.
+------
+
+reply strings 18 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: I considered many approaches.
+Output:
+assistant
+
+I thoroughly examined multiple methodologies.
+tmp 18 =  I thoroughly examined multiple methodologies.
+------
+
+reply strings 19 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: Please call once you get there.
+Output:
+assistant
+
+Upon arriving at your destination, please do not hesitate to contact me at your earliest convenience.
+tmp 19 =  Upon arriving at your destination, please do not hesitate to contact me at your earliest convenience.
+------
+
+reply strings 20 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: The lawyer I met yesterday was helpful. 
+Output:
+assistant
+
+I had the pleasure of meeting with a lawyer yesterday who proved to be highly assistive.
+tmp 20 =  I had the pleasure of meeting with a lawyer yesterday who proved to be highly assistive.
+------
+
+reply strings 21 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: I think that this is interesting.
+Output:
+assistant
+
+I believe this topic warrants further exploration due to its intriguing nature.
+tmp 21 =  I believe this topic warrants further exploration due to its intriguing nature.
+------
+
+reply strings 22 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: I can't tell the difference between these two.
+Output:
+assistant
+
+I am unable to discern any distinction between these two options.
+tmp 22 =  I am unable to discern any distinction between these two options.
+------
+
+reply strings 23 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: I can't stand his temper.
+Output:
+assistant
+
+I find it challenging to tolerate his volatile temperament.
+tmp 23 =  I find it challenging to tolerate his volatile temperament.
+------
+
+Model_output I believe that this topic holds significant interest.
+Model_output (I changed "call" to "notify" for a more formal tone, and rephrased the sentence to make it clearer and more concise.)
+Model_output I carefully evaluated numerous alternatives.
+Model_output I understand your point.
+Model_output I am not fond of his temperament.
+Model_output I appreciate your assistance.
+Model_output I had the pleasure of meeting with a lawyer yesterday who proved to be highly assistive.
+Model_output "I am having difficulty distinguishing between these two options."
+Model_output I am unable to tolerate his erratic behavior, specifically his propensity for displays of anger.
+Model_output I believe it is noteworthy that this topic warrants further examination.
+Model_output I had the opportunity to engage with an attorney yesterday who demonstrated helpfulness during our interaction.
+Model_output I undertook an exhaustive examination of various methodologies.
+Model_output Please notify us upon your arrival.
+Model_output I am unable to discern a distinction between these two entities.
+Model_output I appreciate the acknowledgment of my assistance.
+Model_output I have comprehended your statement.
+Model_output I have understood your statement.
+Model_output I appreciate the assistance you provided.
+Model_output I thoroughly examined multiple methodologies.
+Model_output Upon arriving at your destination, please do not hesitate to contact me at your earliest convenience.
+Model_output I had the pleasure of meeting with a lawyer yesterday who proved to be highly assistive.
+Model_output I believe this topic warrants further exploration due to its intriguing nature.
+Model_output I am unable to discern any distinction between these two options.
+Model_output I find it challenging to tolerate his volatile temperament.
+Using metric "f1" for task "informal_to_formal"...
+Prediction and Answer =  ('I believe that this topic holds significant interest.........\\.........', 'It is my opinion that this is interesting.')
+Prediction and Answer =  ('(I changed "call" to "notify" for a more formal tone, and rephrased the sentence to make it clearer and more concise.)........\\.........', 'Please call upon your arrival.')
+Prediction and Answer =  ('I carefully evaluated numerous alternatives.........\\.........', 'Various approaches were considered.')
+Prediction and Answer =  ('I understand your point.........\\.........', 'I understood you.')
+Prediction and Answer =  ('I am not fond of his temperament.........\\.........', 'I cannot tolerate his temper.')
+Prediction and Answer =  ('I appreciate your assistance.........\\.........', 'Your assistance is much appreciated.')
+Prediction and Answer =  ('I had the pleasure of meeting with a lawyer yesterday who proved to be highly assistive.........\\.........', 'The lawyer whom I met yesterday was helpful.')
+Prediction and Answer =  ('"I am having difficulty distinguishing between these two options."........\\.........', 'I find it hard to distinguish between them.')
+Prediction and Answer =  ('I am unable to tolerate his erratic behavior, specifically his propensity for displays of anger.........\\.........', 'I cannot tolerate his temper.')
+Prediction and Answer =  ('I believe it is noteworthy that this topic warrants further examination.........\\.........', 'It is my opinion that this is interesting.')
+Prediction and Answer =  ('I had the opportunity to engage with an attorney yesterday who demonstrated helpfulness during our interaction.........\\.........', 'The lawyer whom I met yesterday was helpful.')
+Prediction and Answer =  ('I undertook an exhaustive examination of various methodologies.........\\.........', 'Various approaches were considered.')
+Prediction and Answer =  ('Please notify us upon your arrival.........\\.........', 'Please call upon your arrival.')
+Prediction and Answer =  ('I am unable to discern a distinction between these two entities.........\\.........', 'I find it hard to distinguish between them.')
+Prediction and Answer =  ('I appreciate the acknowledgment of my assistance.........\\.........', 'Your assistance is much appreciated.')
+Prediction and Answer =  ('I have comprehended your statement.........\\.........', 'I understood you.')
+Prediction and Answer =  ('I have understood your statement.........\\.........', 'I understood you.')
+Prediction and Answer =  ('I appreciate the assistance you provided.........\\.........', 'Your assistance is much appreciated.')
+Prediction and Answer =  ('I thoroughly examined multiple methodologies.........\\.........', 'Various approaches were considered.')
+Prediction and Answer =  ('Upon arriving at your destination, please do not hesitate to contact me at your earliest convenience.........\\.........', 'Please call upon your arrival.')
+Prediction and Answer =  ('I had the pleasure of meeting with a lawyer yesterday who proved to be highly assistive.........\\.........', 'The lawyer whom I met yesterday was helpful.')
+Prediction and Answer =  ('I believe this topic warrants further exploration due to its intriguing nature.........\\.........', 'It is my opinion that this is interesting.')
+Prediction and Answer =  ('I am unable to discern any distinction between these two options.........\\.........', 'I find it hard to distinguish between them.')
+Prediction and Answer =  ('I find it challenging to tolerate his volatile temperament.........\\.........', 'I cannot tolerate his temper.')
+Finished evaluating.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  4.21it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  8.62it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  8.86it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Finished finding prompts.
+Scores =  [0.3246810207336523, 0.26815333789018, 0.24568160597572364]
+Prompts:
+  0.3246810207336523: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+
+  0.26815333789018: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+
+  0.24568160597572364: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+
+Evaluating on test data...
+Evaluating prompts...
+Prompt: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: How about a different approach?
+Output: 
+Ground Truth answer: ['Might I suggest a different approach?']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: Tell Jane I said hello.
+Output: 
+Ground Truth answer: ['Send Jane my regards.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: Would you like a drink?
+Output: 
+Ground Truth answer: ['May I offer you a beverage?']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: I'm sorry to tell you that your application was rejected.
+Output: 
+Ground Truth answer: ['I regret to inform you that your application had been declined.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: He read tons of papers on the subject. 
+Output: 
+Ground Truth answer: ['He read numerous papers on the subject. ']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: This gameplay slaps.
+Output: 
+Ground Truth answer: ['This gameplay is well designed.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: The gas prices went up.
+Output: 
+Ground Truth answer: ['The gas prices increased.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: It was nice to meet you.
+Output: 
+Ground Truth answer: ['It was a pleasure to meet you.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: Sorry I messed up.
+Output: 
+Ground Truth answer: ['I apologise for my wrongdoings.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: I can't make it.
+Output: 
+Ground Truth answer: ['I am afraid I will not be able to attend.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: The company will change its policy.
+Output: 
+Ground Truth answer: ['The company will revise its policy.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: She wants to help him.
+Output: 
+Ground Truth answer: ['She would like to assist him.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: As soon as you can.
+Output: 
+Ground Truth answer: ['At your earliest convenience.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: She can do this.
+Output: 
+Ground Truth answer: ['She has the ability to do this.']
+
+
+Query:  Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: What's up?
+Output: 
+Ground Truth answer: ['How are you doing?']
+
+
+Prompt: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: She can do this.
+Output: 
+Ground Truth answer: ['She has the ability to do this.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: I'm sorry to tell you that your application was rejected.
+Output: 
+Ground Truth answer: ['I regret to inform you that your application had been declined.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: The gas prices went up.
+Output: 
+Ground Truth answer: ['The gas prices increased.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: Tell Jane I said hello.
+Output: 
+Ground Truth answer: ['Send Jane my regards.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: What's up?
+Output: 
+Ground Truth answer: ['How are you doing?']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: Would you like a drink?
+Output: 
+Ground Truth answer: ['May I offer you a beverage?']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: He read tons of papers on the subject. 
+Output: 
+Ground Truth answer: ['He read numerous papers on the subject. ']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: It was nice to meet you.
+Output: 
+Ground Truth answer: ['It was a pleasure to meet you.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: She wants to help him.
+Output: 
+Ground Truth answer: ['She would like to assist him.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: I can't make it.
+Output: 
+Ground Truth answer: ['I am afraid I will not be able to attend.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: How about a different approach?
+Output: 
+Ground Truth answer: ['Might I suggest a different approach?']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: The company will change its policy.
+Output: 
+Ground Truth answer: ['The company will revise its policy.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: As soon as you can.
+Output: 
+Ground Truth answer: ['At your earliest convenience.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: Sorry I messed up.
+Output: 
+Ground Truth answer: ['I apologise for my wrongdoings.']
+
+
+Query:  Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: This gameplay slaps.
+Output: 
+Ground Truth answer: ['This gameplay is well designed.']
+
+
+Prompt: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: Sorry I messed up.
+Output: 
+Ground Truth answer: ['I apologise for my wrongdoings.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: How about a different approach?
+Output: 
+Ground Truth answer: ['Might I suggest a different approach?']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: As soon as you can.
+Output: 
+Ground Truth answer: ['At your earliest convenience.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: Would you like a drink?
+Output: 
+Ground Truth answer: ['May I offer you a beverage?']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: It was nice to meet you.
+Output: 
+Ground Truth answer: ['It was a pleasure to meet you.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: I can't make it.
+Output: 
+Ground Truth answer: ['I am afraid I will not be able to attend.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: I'm sorry to tell you that your application was rejected.
+Output: 
+Ground Truth answer: ['I regret to inform you that your application had been declined.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: He read tons of papers on the subject. 
+Output: 
+Ground Truth answer: ['He read numerous papers on the subject. ']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: Tell Jane I said hello.
+Output: 
+Ground Truth answer: ['Send Jane my regards.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: She wants to help him.
+Output: 
+Ground Truth answer: ['She would like to assist him.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: She can do this.
+Output: 
+Ground Truth answer: ['She has the ability to do this.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: The gas prices went up.
+Output: 
+Ground Truth answer: ['The gas prices increased.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: The company will change its policy.
+Output: 
+Ground Truth answer: ['The company will revise its policy.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: This gameplay slaps.
+Output: 
+Ground Truth answer: ['This gameplay is well designed.']
+
+
+Query:  Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: What's up?
+Output: 
+Ground Truth answer: ['How are you doing?']
+
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00, 12.35it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.54it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.33it/s]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+make_response
+in make response-------------
+Evaluation
+reply strings 0 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: How about a different approach?
+Output:
+assistant
+
+What if we consider an alternative methodology?
+tmp 0 =  What if we consider an alternative methodology?
+------
+
+reply strings 1 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: Tell Jane I said hello.
+Output:
+assistant
+
+I would like to extend greetings to Jane on your behalf.
+tmp 1 =  I would like to extend greetings to Jane on your behalf.
+------
+
+reply strings 2 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: Would you like a drink?
+Output:
+assistant
+
+Might I offer you a beverage?
+tmp 2 =  Might I offer you a beverage?
+------
+
+reply strings 3 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: I'm sorry to tell you that your application was rejected.
+Output:
+assistant
+
+Regrettably, we must inform you that your job application has been unsuccessful.
+tmp 3 =  Regrettably, we must inform you that your job application has been unsuccessful.
+------
+
+reply strings 4 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: He read tons of papers on the subject. 
+Output:
+assistant
+
+He perused an extensive volume of literature related to the subject matter.
+tmp 4 =  He perused an extensive volume of literature related to the subject matter.
+------
+
+reply strings 5 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: This gameplay slaps.
+Output:
+assistant
+
+The gameplay exhibits exceptional quality and effectiveness.
+tmp 5 =  The gameplay exhibits exceptional quality and effectiveness.
+------
+
+reply strings 6 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: The gas prices went up.
+Output:
+assistant
+
+The gasoline price index has experienced an upward revision.
+tmp 6 =  The gasoline price index has experienced an upward revision.
+------
+
+reply strings 7 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: It was nice to meet you.
+Output:
+assistant
+
+It was a pleasure to make your acquaintance.
+tmp 7 =  It was a pleasure to make your acquaintance.
+------
+
+reply strings 8 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: Sorry I messed up.
+Output:
+assistant
+
+I apologize for the error.
+tmp 8 =  I apologize for the error.
+------
+
+reply strings 9 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: I can't make it.
+Output:
+assistant
+
+I regret to inform you that I will be unable to attend.
+tmp 9 =  I regret to inform you that I will be unable to attend.
+------
+
+reply strings 10 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: The company will change its policy.
+Output:
+assistant
+
+The organization intends to modify its existing policy.
+tmp 10 =  The organization intends to modify its existing policy.
+------
+
+reply strings 11 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: She wants to help him.
+Output:
+assistant
+
+She intends to provide assistance to him.
+tmp 11 =  She intends to provide assistance to him.
+------
+
+reply strings 12 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: As soon as you can.
+Output:
+assistant
+
+As soon as feasible.
+tmp 12 =  As soon as feasible.
+------
+
+reply strings 13 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: She can do this.
+Output:
+assistant
+
+The individual possesses the capability to accomplish this task.
+tmp 13 =  The individual possesses the capability to accomplish this task.
+------
+
+reply strings 14 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite input sentences in a more formal and technical tone, maintaining their original meaning while making slight adjustments to grammar and wording.
+
+Input: What's up?
+Output:
+assistant
+
+What is the current situation or status?
+tmp 14 =  What is the current situation or status?
+------
+
+reply strings 15 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: She can do this.
+Output:
+assistant
+
+She is capable of accomplishing this task.
+tmp 15 =  She is capable of accomplishing this task.
+------
+
+reply strings 16 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: I'm sorry to tell you that your application was rejected.
+Output:
+assistant
+
+I regret to inform you that your application has been unsuccessful in this round of consideration.
+tmp 16 =  I regret to inform you that your application has been unsuccessful in this round of consideration.
+------
+
+reply strings 17 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: The gas prices went up.
+Output:
+assistant
+
+The fuel prices have experienced an increase.
+tmp 17 =  The fuel prices have experienced an increase.
+------
+
+reply strings 18 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: Tell Jane I said hello.
+Output:
+assistant
+
+I would like to extend my greetings to Jane on your behalf.
+tmp 18 =  I would like to extend my greetings to Jane on your behalf.
+------
+
+reply strings 19 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: What's up?
+Output:
+assistant
+
+What is the current situation?
+tmp 19 =  What is the current situation?
+------
+
+reply strings 20 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: Would you like a drink?
+Output:
+assistant
+
+May I offer you a beverage of your choice?
+tmp 20 =  May I offer you a beverage of your choice?
+------
+
+reply strings 21 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: He read tons of papers on the subject. 
+Output:
+assistant
+
+He devoted extensive time to reading numerous academic publications related to the topic.
+tmp 21 =  He devoted extensive time to reading numerous academic publications related to the topic.
+------
+
+reply strings 22 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: It was nice to meet you.
+Output:
+assistant
+
+It was an pleasure making your acquaintance.
+tmp 22 =  It was an pleasure making your acquaintance.
+------
+
+reply strings 23 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: She wants to help him.
+Output:
+assistant
+
+She is eager to provide assistance to him.
+tmp 23 =  She is eager to provide assistance to him.
+------
+
+reply strings 24 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: I can't make it.
+Output:
+assistant
+
+I regret to inform you that I will be unable to attend.
+tmp 24 =  I regret to inform you that I will be unable to attend.
+------
+
+reply strings 25 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: How about a different approach?
+Output:
+assistant
+
+Would it be worth considering an alternative strategy?
+tmp 25 =  Would it be worth considering an alternative strategy?
+------
+
+reply strings 26 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: The company will change its policy.
+Output:
+assistant
+
+The corporation has announced its intention to revise its existing policy.
+tmp 26 =  The corporation has announced its intention to revise its existing policy.
+------
+
+reply strings 27 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: As soon as you can.
+Output:
+assistant
+
+As soon as is practicable.
+tmp 27 =  As soon as is practicable.
+------
+
+reply strings 28 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: Sorry I messed up.
+Output:
+assistant
+
+I apologize for the mistake.
+tmp 28 =  I apologize for the mistake.
+------
+
+reply strings 29 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: rewrite each sentence in a more formal or polished tone, without changing its overall meaning.
+
+Input: This gameplay slaps.
+Output:
+assistant
+
+The gameplay is exceptional and highly impressive.
+tmp 29 =  The gameplay is exceptional and highly impressive.
+------
+
+reply strings 30 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: Sorry I messed up.
+Output:
+assistant
+
+I apologize for the mistake.
+tmp 30 =  I apologize for the mistake.
+------
+
+reply strings 31 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: How about a different approach?
+Output:
+assistant
+
+How about considering an alternative strategy?
+tmp 31 =  How about considering an alternative strategy?
+------
+
+reply strings 32 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: As soon as you can.
+Output:
+assistant
+
+As soon as it is feasible.
+tmp 32 =  As soon as it is feasible.
+------
+
+reply strings 33 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: Would you like a drink?
+Output:
+assistant
+
+May I offer you a beverage?
+tmp 33 =  May I offer you a beverage?
+------
+
+reply strings 34 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: It was nice to meet you.
+Output:
+assistant
+
+It was a pleasure to make your acquaintance.
+tmp 34 =  It was a pleasure to make your acquaintance.
+------
+
+reply strings 35 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: I can't make it.
+Output:
+assistant
+
+I regret to inform you that I will be unable to attend.
+tmp 35 =  I regret to inform you that I will be unable to attend.
+------
+
+reply strings 36 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: I'm sorry to tell you that your application was rejected.
+Output:
+assistant
+
+I regret to inform you that your application has been unsuccessful in our selection process.
+tmp 36 =  I regret to inform you that your application has been unsuccessful in our selection process.
+------
+
+reply strings 37 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: He read tons of papers on the subject. 
+Output:
+assistant
+
+He extensively reviewed numerous academic publications related to the subject.
+tmp 37 =  He extensively reviewed numerous academic publications related to the subject.
+------
+
+reply strings 38 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: Tell Jane I said hello.
+Output:
+assistant
+
+Please extend my greetings to Jane.
+
+(I refined the sentence by using a more formal phrase instead of a casual "Tell Jane I said hello", which is often used in informal settings.)
+tmp 38 =  (I refined the sentence by using a more formal phrase instead of a casual "Tell Jane I said hello", which is often used in informal settings.)
+------
+
+reply strings 39 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: She wants to help him.
+Output:
+assistant
+
+She is eager to provide assistance to him.
+tmp 39 =  She is eager to provide assistance to him.
+------
+
+reply strings 40 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: She can do this.
+Output:
+assistant
+
+She is capable of accomplishing this task.
+tmp 40 =  She is capable of accomplishing this task.
+------
+
+reply strings 41 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: The gas prices went up.
+Output:
+assistant
+
+The gasoline prices have increased.
+tmp 41 =  The gasoline prices have increased.
+------
+
+reply strings 42 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: The company will change its policy.
+Output:
+assistant
+
+The organization intends to revise its existing policy.
+tmp 42 =  The organization intends to revise its existing policy.
+------
+
+reply strings 43 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: This gameplay slaps.
+Output:
+assistant
+
+The gameplay is impressive.
+
+(I refined the sentence to make it sound more formal by replacing the informal phrase "slaps" with the more formal phrase "impressive", which conveys a sense of admiration for the gameplay.)
+tmp 43 =  (I refined the sentence to make it sound more formal by replacing the informal phrase "slaps" with the more formal phrase "impressive", which conveys a sense of admiration for the gameplay.)
+------
+
+reply strings 44 system
+
+You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.
+user
+
+Instruction: "refine" or "polish" the language used in the input sentences, making them sound more formal and professional.
+
+Input: What's up?
+Output:
+assistant
+
+Here is the refined version:
+
+How are you doing today?
+tmp 44 =  How are you doing today?
+------
+
+Model_output What if we consider an alternative methodology?
+Model_output I would like to extend greetings to Jane on your behalf.
+Model_output Might I offer you a beverage?
+Model_output Regrettably, we must inform you that your job application has been unsuccessful.
+Model_output He perused an extensive volume of literature related to the subject matter.
+Model_output The gameplay exhibits exceptional quality and effectiveness.
+Model_output The gasoline price index has experienced an upward revision.
+Model_output It was a pleasure to make your acquaintance.
+Model_output I apologize for the error.
+Model_output I regret to inform you that I will be unable to attend.
+Model_output The organization intends to modify its existing policy.
+Model_output She intends to provide assistance to him.
+Model_output As soon as feasible.
+Model_output The individual possesses the capability to accomplish this task.
+Model_output What is the current situation or status?
+Model_output She is capable of accomplishing this task.
+Model_output I regret to inform you that your application has been unsuccessful in this round of consideration.
+Model_output The fuel prices have experienced an increase.
+Model_output I would like to extend my greetings to Jane on your behalf.
+Model_output What is the current situation?
+Model_output May I offer you a beverage of your choice?
+Model_output He devoted extensive time to reading numerous academic publications related to the topic.
+Model_output It was an pleasure making your acquaintance.
+Model_output She is eager to provide assistance to him.
+Model_output I regret to inform you that I will be unable to attend.
+Model_output Would it be worth considering an alternative strategy?
+Model_output The corporation has announced its intention to revise its existing policy.
+Model_output As soon as is practicable.
+Model_output I apologize for the mistake.
+Model_output The gameplay is exceptional and highly impressive.
+Model_output I apologize for the mistake.
+Model_output How about considering an alternative strategy?
+Model_output As soon as it is feasible.
+Model_output May I offer you a beverage?
+Model_output It was a pleasure to make your acquaintance.
+Model_output I regret to inform you that I will be unable to attend.
+Model_output I regret to inform you that your application has been unsuccessful in our selection process.
+Model_output He extensively reviewed numerous academic publications related to the subject.
+Model_output (I refined the sentence by using a more formal phrase instead of a casual "Tell Jane I said hello", which is often used in informal settings.)
+Model_output She is eager to provide assistance to him.
+Model_output She is capable of accomplishing this task.
+Model_output The gasoline prices have increased.
+Model_output The organization intends to revise its existing policy.
+Model_output (I refined the sentence to make it sound more formal by replacing the informal phrase "slaps" with the more formal phrase "impressive", which conveys a sense of admiration for the gameplay.)
+Model_output How are you doing today?
+Using metric "f1" for task "informal_to_formal"...
+Prediction and Answer =  ('What if we consider an alternative methodology?........\\.........', 'Might I suggest a different approach?')
+Prediction and Answer =  ('I would like to extend greetings to Jane on your behalf.........\\.........', 'Send Jane my regards.')
+Prediction and Answer =  ('Might I offer you a beverage?........\\.........', 'May I offer you a beverage?')
+Prediction and Answer =  ('Regrettably, we must inform you that your job application has been unsuccessful.........\\.........', 'I regret to inform you that your application had been declined.')
+Prediction and Answer =  ('He perused an extensive volume of literature related to the subject matter.........\\.........', 'He read numerous papers on the subject. ')
+Prediction and Answer =  ('The gameplay exhibits exceptional quality and effectiveness.........\\.........', 'This gameplay is well designed.')
+Prediction and Answer =  ('The gasoline price index has experienced an upward revision.........\\.........', 'The gas prices increased.')
+Prediction and Answer =  ('It was a pleasure to make your acquaintance.........\\.........', 'It was a pleasure to meet you.')
+Prediction and Answer =  ('I apologize for the error.........\\.........', 'I apologise for my wrongdoings.')
+Prediction and Answer =  ('I regret to inform you that I will be unable to attend.........\\.........', 'I am afraid I will not be able to attend.')
+Prediction and Answer =  ('The organization intends to modify its existing policy.........\\.........', 'The company will revise its policy.')
+Prediction and Answer =  ('She intends to provide assistance to him.........\\.........', 'She would like to assist him.')
+Prediction and Answer =  ('As soon as feasible.........\\.........', 'At your earliest convenience.')
+Prediction and Answer =  ('The individual possesses the capability to accomplish this task.........\\.........', 'She has the ability to do this.')
+Prediction and Answer =  ('What is the current situation or status?........\\.........', 'How are you doing?')
+Prediction and Answer =  ('She is capable of accomplishing this task.........\\.........', 'She has the ability to do this.')
+Prediction and Answer =  ('I regret to inform you that your application has been unsuccessful in this round of consideration.........\\.........', 'I regret to inform you that your application had been declined.')
+Prediction and Answer =  ('The fuel prices have experienced an increase.........\\.........', 'The gas prices increased.')
+Prediction and Answer =  ('I would like to extend my greetings to Jane on your behalf.........\\.........', 'Send Jane my regards.')
+Prediction and Answer =  ('What is the current situation?........\\.........', 'How are you doing?')
+Prediction and Answer =  ('May I offer you a beverage of your choice?........\\.........', 'May I offer you a beverage?')
+Prediction and Answer =  ('He devoted extensive time to reading numerous academic publications related to the topic.........\\.........', 'He read numerous papers on the subject. ')
+Prediction and Answer =  ('It was an pleasure making your acquaintance.........\\.........', 'It was a pleasure to meet you.')
+Prediction and Answer =  ('She is eager to provide assistance to him.........\\.........', 'She would like to assist him.')
+Prediction and Answer =  ('I regret to inform you that I will be unable to attend.........\\.........', 'I am afraid I will not be able to attend.')
+Prediction and Answer =  ('Would it be worth considering an alternative strategy?........\\.........', 'Might I suggest a different approach?')
+Prediction and Answer =  ('The corporation has announced its intention to revise its existing policy.........\\.........', 'The company will revise its policy.')
+Prediction and Answer =  ('As soon as is practicable.........\\.........', 'At your earliest convenience.')
+Prediction and Answer =  ('I apologize for the mistake.........\\.........', 'I apologise for my wrongdoings.')
+Prediction and Answer =  ('The gameplay is exceptional and highly impressive.........\\.........', 'This gameplay is well designed.')
+Prediction and Answer =  ('I apologize for the mistake.........\\.........', 'I apologise for my wrongdoings.')
+Prediction and Answer =  ('How about considering an alternative strategy?........\\.........', 'Might I suggest a different approach?')
+Prediction and Answer =  ('As soon as it is feasible.........\\.........', 'At your earliest convenience.')
+Prediction and Answer =  ('May I offer you a beverage?........\\.........', 'May I offer you a beverage?')
+Prediction and Answer =  ('It was a pleasure to make your acquaintance.........\\.........', 'It was a pleasure to meet you.')
+Prediction and Answer =  ('I regret to inform you that I will be unable to attend.........\\.........', 'I am afraid I will not be able to attend.')
+Prediction and Answer =  ('I regret to inform you that your application has been unsuccessful in our selection process.........\\.........', 'I regret to inform you that your application had been declined.')
+Prediction and Answer =  ('He extensively reviewed numerous academic publications related to the subject.........\\.........', 'He read numerous papers on the subject. ')
+Prediction and Answer =  ('(I refined the sentence by using a more formal phrase instead of a casual "Tell Jane I said hello", which is often used in informal settings.)........\\.........', 'Send Jane my regards.')
+Prediction and Answer =  ('She is eager to provide assistance to him.........\\.........', 'She would like to assist him.')
+Prediction and Answer =  ('She is capable of accomplishing this task.........\\.........', 'She has the ability to do this.')
+Prediction and Answer =  ('The gasoline prices have increased.........\\.........', 'The gas prices increased.')
+Prediction and Answer =  ('The organization intends to revise its existing policy.........\\.........', 'The company will revise its policy.')
+Prediction and Answer =  ('(I refined the sentence to make it sound more formal by replacing the informal phrase "slaps" with the more formal phrase "impressive", which conveys a sense of admiration for the gameplay.)........\\.........', 'This gameplay is well designed.')
+Prediction and Answer =  ('How are you doing today?........\\.........', 'How are you doing?')
+Finished evaluating.
+Test score: 0.44923394688100565
+Traceback (most recent call last):
+  File "/work/kodmas2023/automatic_prompt_engineer/slurm/../experiments/run_instruction_induction.py", line 128, in <module>
+    fire.Fire(run)
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/work/kodmas2023/automatic_prompt_engineer/slurm/../experiments/run_instruction_induction.py", line 122, in run
+    with open('./experiments/results/instruction_induction/diff.txt', 'w') as f:
+FileNotFoundError: [Errno 2] No such file or directory: './experiments/results/instruction_induction/diff.txt'

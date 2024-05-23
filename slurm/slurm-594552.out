@@ -1,0 +1,6095 @@
+Message from TWCC HPC admin
+-----------------------
+loading miniconda3 with conda 4.8.4/python 3.7
+docs : https://hackmd.io/@kmo/twcc_hpc_conda
+-----------------------
+
+# conda environments:
+#
+                         /home/kodmas2023/miniconda3/envs/ape
+                         /home/kodmas2023/miniconda3/envs/ape2
+base                  *  /opt/ohpc/twcc/conda/4.8.3/miniconda3
+
+kodmas
+WARNING: overwriting environment variables set in the machine
+overwriting variable HF_HOME
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/torch/cuda/__init__.py:138: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+[INFO] : Generating prompts from llama2 ...
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00, 12.07it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.42it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.19it/s]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+make_response
+in make response-------------
+reply strings 0 user {{ user_message }}I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: meditation
+Output: m
+
+Input: depiction
+Output: d
+
+Input: synthesizer
+Output: s
+
+Input: manufacturing
+Output: m
+
+Input: bridge
+Output: b
+
+Observe the input-output pair and output the instruction without any further explanation or words.
+The instruction was toassistant
+
+Take the first letter of each word.
+tmp 0 =  Take the first letter of each word.
+------
+
+reply strings 1 user {{ user_message }}I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: architecture
+Output: a
+
+Input: support
+Output: s
+
+Input: detect
+Output: d
+
+Input: deficiency
+Output: d
+
+Input: association
+Output: a
+
+Observe the input-output pair and output the instruction without any further explanation or words.
+The instruction was toassistant
+
+Extract first letters
+tmp 1 =  Extract first letters
+------
+
+reply strings 2 user {{ user_message }}I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: interest
+Output: i
+
+Input: lifetime
+Output: l
+
+Input: association
+Output: a
+
+Input: meditation
+Output: m
+
+Input: property
+Output: p
+
+Observe the input-output pair and output the instruction without any further explanation or words.
+The instruction was toassistant
+
+take the first letter of each word.
+tmp 2 =  take the first letter of each word.
+------
+
+generate.generate_llama2_prompts ['Take the first letter of each word.', 'Extract first letters', 'take the first letter of each word.']
+Model returned 3 prompts. Deduplicating...
+Deduplicated to 3 prompts.
+Evaluating prompts...
+Prompt: take the first letter of each word.
+Query:  Instruction: take the first letter of each word.
+
+Input: mouse
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: venue
+Output: 
+Ground Truth answer: ['v']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: motorway
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: confusion
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: transport
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: intercept
+Output: 
+Ground Truth answer: ['i']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: offspring
+Output: 
+Ground Truth answer: ['o']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: probe
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: contention
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: perception
+Output: 
+Ground Truth answer: ['p']
+
+
+Prompt: Take the first letter of each word.
+Query:  Instruction: Take the first letter of each word.
+
+Input: catalog
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: anything
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: gesture
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: chemical
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: pardon
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: milestone
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: morning
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: hierarchy
+Output: 
+Ground Truth answer: ['h']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: gunpowder
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: decade
+Output: 
+Ground Truth answer: ['d']
+
+
+Prompt: Extract first letters
+Query:  Instruction: Extract first letters
+
+Input: economy
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: Extract first letters
+
+Input: platform
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Extract first letters
+
+Input: nature
+Output: 
+Ground Truth answer: ['n']
+
+
+Query:  Instruction: Extract first letters
+
+Input: narrator
+Output: 
+Ground Truth answer: ['n']
+
+
+Query:  Instruction: Extract first letters
+
+Input: reproduction
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: Extract first letters
+
+Input: earth
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: Extract first letters
+
+Input: defence
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: Extract first letters
+
+Input: block
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: Extract first letters
+
+Input: quartet
+Output: 
+Ground Truth answer: ['q']
+
+
+Query:  Instruction: Extract first letters
+
+Input: net
+Output: 
+Ground Truth answer: ['n']
+
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00, 12.66it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.85it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.65it/s]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+make_response
+in make response-------------
+Evaluation
+reply strings 0 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: mouse
+Output:assistant
+
+m
+tmp 0 =  m
+------
+
+reply strings 1 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: venue
+Output:assistant
+
+V
+tmp 1 =  V
+------
+
+reply strings 2 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: motorway
+Output:assistant
+
+M (motorway)
+tmp 2 =  M (motorway)
+------
+
+reply strings 3 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: confusion
+Output:assistant
+
+C
+tmp 3 =  C
+------
+
+reply strings 4 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: transport
+Output:assistant
+
+T
+tmp 4 =  T
+------
+
+reply strings 5 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: intercept
+Output:assistant
+
+I
+
+(Taking the first letter of each word: I - n - t - e - r - c - e - p)
+tmp 5 =  (Taking the first letter of each word: I - n - t - e - r - c - e - p)
+------
+
+reply strings 6 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: offspring
+Output:assistant
+
+O (offspring)
+tmp 6 =  O (offspring)
+------
+
+reply strings 7 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: probe
+Output:assistant
+
+P
+tmp 7 =  P
+------
+
+reply strings 8 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: contention
+Output:assistant
+
+C (from Contention)
+tmp 8 =  C (from Contention)
+------
+
+reply strings 9 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: perception
+Output:assistant
+
+P
+tmp 9 =  P
+------
+
+reply strings 10 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: catalog
+Output:assistant
+
+C
+tmp 10 =  C
+------
+
+reply strings 11 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: anything
+Output:assistant
+
+{{ user_message | map(words, (x) => x[0]) | join("") }}
+tmp 11 =  {{ user_message | map(words, (x) => x[0]) | join("") }}
+------
+
+reply strings 12 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: gesture
+Output:assistant
+
+G
+tmp 12 =  G
+------
+
+reply strings 13 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: chemical
+Output:assistant
+
+C
+tmp 13 =  C
+------
+
+reply strings 14 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: pardon
+Output:assistant
+
+P
+tmp 14 =  P
+------
+
+reply strings 15 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: milestone
+Output:assistant
+
+M
+tmp 15 =  M
+------
+
+reply strings 16 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: morning
+Output:assistant
+
+M
+tmp 16 =  M
+------
+
+reply strings 17 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: hierarchy
+Output:assistant
+
+H
+tmp 17 =  H
+------
+
+reply strings 18 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: gunpowder
+Output:assistant
+
+G-P (gunpowder)
+tmp 18 =  G-P (gunpowder)
+------
+
+reply strings 19 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: decade
+Output:assistant
+
+D
+tmp 19 =  D
+------
+
+reply strings 20 user {{ user_message }}Instruction: Extract first letters
+
+Input: economy
+Output:assistant
+
+E
+tmp 20 =  E
+------
+
+reply strings 21 user {{ user_message }}Instruction: Extract first letters
+
+Input: platform
+Output:assistant
+
+P
+tmp 21 =  P
+------
+
+reply strings 22 user {{ user_message }}Instruction: Extract first letters
+
+Input: nature
+Output:assistant
+
+N
+tmp 22 =  N
+------
+
+reply strings 23 user {{ user_message }}Instruction: Extract first letters
+
+Input: narrator
+Output:assistant
+
+N
+tmp 23 =  N
+------
+
+reply strings 24 user {{ user_message }}Instruction: Extract first letters
+
+Input: reproduction
+Output:assistant
+
+R
+tmp 24 =  R
+------
+
+reply strings 25 user {{ user_message }}Instruction: Extract first letters
+
+Input: earth
+Output:assistant
+
+E
+tmp 25 =  E
+------
+
+reply strings 26 user {{ user_message }}Instruction: Extract first letters
+
+Input: defence
+Output:assistant
+
+D
+tmp 26 =  D
+------
+
+reply strings 27 user {{ user_message }}Instruction: Extract first letters
+
+Input: block
+Output:assistant
+
+B
+tmp 27 =  B
+------
+
+reply strings 28 user {{ user_message }}Instruction: Extract first letters
+
+Input: quartet
+Output:assistant
+
+Q
+tmp 28 =  Q
+------
+
+reply strings 29 user {{ user_message }}Instruction: Extract first letters
+
+Input: net
+Output:assistant
+
+N
+tmp 29 =  N
+------
+
+Model_output m
+Model_output V
+Model_output M (motorway)
+Model_output C
+Model_output T
+Model_output (Taking the first letter of each word: I - n - t - e - r - c - e - p)
+Model_output O (offspring)
+Model_output P
+Model_output C (from Contention)
+Model_output P
+Model_output C
+Model_output {{ user_message | map(words, (x) => x[0]) | join("") }}
+Model_output G
+Model_output C
+Model_output P
+Model_output M
+Model_output M
+Model_output H
+Model_output G-P (gunpowder)
+Model_output D
+Model_output E
+Model_output P
+Model_output N
+Model_output N
+Model_output R
+Model_output E
+Model_output D
+Model_output B
+Model_output Q
+Model_output N
+Using metric "em" for task "first_word_letter"...
+Prediction and Answer =  ('manswer : ', 'm')
+Prediction and Answer =  ('vanswer : ', 'v')
+Prediction and Answer =  ('m motorwayanswer : ', 'm')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('tanswer : ', 't')
+Prediction and Answer =  ('taking the first letter of each word i   n   t   e   r   c   e   panswer : ', 'i')
+Prediction and Answer =  ('o offspringanswer : ', 'o')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('c from contentionanswer : ', 'c')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  (' usermessage  mapwords x  x0  join answer : ', 'a')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('manswer : ', 'm')
+Prediction and Answer =  ('manswer : ', 'm')
+Prediction and Answer =  ('hanswer : ', 'h')
+Prediction and Answer =  ('g p gunpowderanswer : ', 'g')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('eanswer : ', 'e')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('nanswer : ', 'n')
+Prediction and Answer =  ('nanswer : ', 'n')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('eanswer : ', 'e')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('qanswer : ', 'q')
+Prediction and Answer =  ('nanswer : ', 'n')
+Finished evaluating.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00, 12.79it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.95it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.75it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Finished finding prompts.
+Scores =  [1.0, 0.8, 0.6]
+Prompts:
+  1.0: Extract first letters
+
+
+  0.8: Take the first letter of each word.
+
+
+  0.6: take the first letter of each word.
+
+
+Evaluating on test data...
+Evaluating prompts...
+Prompt: Extract first letters
+Query:  Instruction: Extract first letters
+
+Input: mountain
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: Extract first letters
+
+Input: moon
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: Extract first letters
+
+Input: accordance
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: Extract first letters
+
+Input: flu
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: Extract first letters
+
+Input: strand
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Extract first letters
+
+Input: simplicity
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Extract first letters
+
+Input: run
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: Extract first letters
+
+Input: corner
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: trap
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: Extract first letters
+
+Input: judgement
+Output: 
+Ground Truth answer: ['j']
+
+
+Query:  Instruction: Extract first letters
+
+Input: place
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Extract first letters
+
+Input: signal
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Extract first letters
+
+Input: rendition
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: Extract first letters
+
+Input: document
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: Extract first letters
+
+Input: description
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: Extract first letters
+
+Input: suit
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Extract first letters
+
+Input: morale
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: Extract first letters
+
+Input: calm
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: hurricane
+Output: 
+Ground Truth answer: ['h']
+
+
+Query:  Instruction: Extract first letters
+
+Input: inning
+Output: 
+Ground Truth answer: ['i']
+
+
+Query:  Instruction: Extract first letters
+
+Input: phosphate
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Extract first letters
+
+Input: simpler
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Extract first letters
+
+Input: boom
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: Extract first letters
+
+Input: press
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Extract first letters
+
+Input: league
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: Extract first letters
+
+Input: rejection
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: Extract first letters
+
+Input: fumble
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: Extract first letters
+
+Input: ball
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: Extract first letters
+
+Input: characterization
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: northwest
+Output: 
+Ground Truth answer: ['n']
+
+
+Query:  Instruction: Extract first letters
+
+Input: distributor
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: Extract first letters
+
+Input: gateway
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: Extract first letters
+
+Input: credit
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: culture
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: cricket
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: point
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Extract first letters
+
+Input: breach
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: Extract first letters
+
+Input: fantasy
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: Extract first letters
+
+Input: camera
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: surface
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Extract first letters
+
+Input: custom
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: diamond
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: Extract first letters
+
+Input: vector
+Output: 
+Ground Truth answer: ['v']
+
+
+Query:  Instruction: Extract first letters
+
+Input: counterpart
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: editor
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: Extract first letters
+
+Input: diversion
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: Extract first letters
+
+Input: invasion
+Output: 
+Ground Truth answer: ['i']
+
+
+Query:  Instruction: Extract first letters
+
+Input: quarter
+Output: 
+Ground Truth answer: ['q']
+
+
+Query:  Instruction: Extract first letters
+
+Input: reduction
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: Extract first letters
+
+Input: fare
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: Extract first letters
+
+Input: family
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: Extract first letters
+
+Input: guitar
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: Extract first letters
+
+Input: regiment
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: Extract first letters
+
+Input: choreography
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: voting
+Output: 
+Ground Truth answer: ['v']
+
+
+Query:  Instruction: Extract first letters
+
+Input: section
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Extract first letters
+
+Input: performer
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Extract first letters
+
+Input: site
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Extract first letters
+
+Input: conquer
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: precision
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Extract first letters
+
+Input: personnel
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Extract first letters
+
+Input: explanation
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: Extract first letters
+
+Input: admission
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: Extract first letters
+
+Input: drag
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: Extract first letters
+
+Input: principal
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Extract first letters
+
+Input: east
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: Extract first letters
+
+Input: photograph
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Extract first letters
+
+Input: clearance
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: glory
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: Extract first letters
+
+Input: rhetoric
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: Extract first letters
+
+Input: cheating
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: baby
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: Extract first letters
+
+Input: symbolism
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Extract first letters
+
+Input: wife
+Output: 
+Ground Truth answer: ['w']
+
+
+Query:  Instruction: Extract first letters
+
+Input: afford
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: Extract first letters
+
+Input: agreement
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: Extract first letters
+
+Input: model
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: Extract first letters
+
+Input: collection
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: cantata
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: contract
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: servant
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Extract first letters
+
+Input: prequel
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Extract first letters
+
+Input: lap
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: Extract first letters
+
+Input: service
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Extract first letters
+
+Input: affect
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: Extract first letters
+
+Input: theory
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: Extract first letters
+
+Input: lighter
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: Extract first letters
+
+Input: groove
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: Extract first letters
+
+Input: geography
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: Extract first letters
+
+Input: promoter
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Extract first letters
+
+Input: bite
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: Extract first letters
+
+Input: leisure
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: Extract first letters
+
+Input: shed
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Extract first letters
+
+Input: closing
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Extract first letters
+
+Input: foot
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: Extract first letters
+
+Input: armament
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: Extract first letters
+
+Input: baseman
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: Extract first letters
+
+Input: boundary
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: Extract first letters
+
+Input: fight
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: Extract first letters
+
+Input: timing
+Output: 
+Ground Truth answer: ['t']
+
+
+Prompt: Take the first letter of each word.
+Query:  Instruction: Take the first letter of each word.
+
+Input: quarter
+Output: 
+Ground Truth answer: ['q']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: groove
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: description
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: glory
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: fight
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: shed
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: flu
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: press
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: place
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: admission
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: choreography
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: northwest
+Output: 
+Ground Truth answer: ['n']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: rendition
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: vector
+Output: 
+Ground Truth answer: ['v']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: baseman
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: prequel
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: guitar
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: fantasy
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: diamond
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: voting
+Output: 
+Ground Truth answer: ['v']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: rhetoric
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: invasion
+Output: 
+Ground Truth answer: ['i']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: explanation
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: gateway
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: geography
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: site
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: editor
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: signal
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: accordance
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: surface
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: clearance
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: photograph
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: timing
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: ball
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: foot
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: boom
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: symbolism
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: run
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: east
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: family
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: agreement
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: trap
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: lap
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: bite
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: corner
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: service
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: contract
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: calm
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: morale
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: wife
+Output: 
+Ground Truth answer: ['w']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: point
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: custom
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: precision
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: simpler
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: conquer
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: culture
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: reduction
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: principal
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: boundary
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: servant
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: performer
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: strand
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: afford
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: hurricane
+Output: 
+Ground Truth answer: ['h']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: personnel
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: judgement
+Output: 
+Ground Truth answer: ['j']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: camera
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: fare
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: cheating
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: suit
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: theory
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: section
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: diversion
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: fumble
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: baby
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: inning
+Output: 
+Ground Truth answer: ['i']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: closing
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: simplicity
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: armament
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: document
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: regiment
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: counterpart
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: credit
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: cricket
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: model
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: collection
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: phosphate
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: lighter
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: mountain
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: league
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: leisure
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: rejection
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: characterization
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: moon
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: cantata
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: promoter
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: drag
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: breach
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: distributor
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: Take the first letter of each word.
+
+Input: affect
+Output: 
+Ground Truth answer: ['a']
+
+
+Prompt: take the first letter of each word.
+Query:  Instruction: take the first letter of each word.
+
+Input: simpler
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: service
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: boundary
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: armament
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: gateway
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: geography
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: explanation
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: east
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: shed
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: prequel
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: fantasy
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: vector
+Output: 
+Ground Truth answer: ['v']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: baby
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: theory
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: timing
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: cantata
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: symbolism
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: flu
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: place
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: fumble
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: inning
+Output: 
+Ground Truth answer: ['i']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: description
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: bite
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: signal
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: culture
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: baseman
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: cricket
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: diversion
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: editor
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: precision
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: morale
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: reduction
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: moon
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: hurricane
+Output: 
+Ground Truth answer: ['h']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: suit
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: conquer
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: trap
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: fight
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: press
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: drag
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: distributor
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: run
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: guitar
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: counterpart
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: groove
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: corner
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: lap
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: clearance
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: collection
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: regiment
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: breach
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: simplicity
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: camera
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: judgement
+Output: 
+Ground Truth answer: ['j']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: agreement
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: northwest
+Output: 
+Ground Truth answer: ['n']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: document
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: closing
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: invasion
+Output: 
+Ground Truth answer: ['i']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: strand
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: diamond
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: section
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: contract
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: custom
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: choreography
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: rendition
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: wife
+Output: 
+Ground Truth answer: ['w']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: lighter
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: voting
+Output: 
+Ground Truth answer: ['v']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: rejection
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: afford
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: performer
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: leisure
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: cheating
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: photograph
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: calm
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: personnel
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: surface
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: model
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: credit
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: fare
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: phosphate
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: servant
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: characterization
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: admission
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: family
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: glory
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: affect
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: promoter
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: mountain
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: boom
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: rhetoric
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: league
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: point
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: principal
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: quarter
+Output: 
+Ground Truth answer: ['q']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: accordance
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: site
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: foot
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: take the first letter of each word.
+
+Input: ball
+Output: 
+Ground Truth answer: ['b']
+
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00, 12.30it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.40it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.22it/s]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+make_response
+in make response-------------
+Evaluation
+reply strings 0 user {{ user_message }}Instruction: Extract first letters
+
+Input: mountain
+Output:assistant
+
+M
+tmp 0 =  M
+------
+
+reply strings 1 user {{ user_message }}Instruction: Extract first letters
+
+Input: moon
+Output:assistant
+
+M
+tmp 1 =  M
+------
+
+reply strings 2 user {{ user_message }}Instruction: Extract first letters
+
+Input: accordance
+Output:assistant
+
+A
+
+(The first letter of the word "according" is "A")
+tmp 2 =  (The first letter of the word "according" is "A")
+------
+
+reply strings 3 user {{ user_message }}Instruction: Extract first letters
+
+Input: flu
+Output:assistant
+
+F
+tmp 3 =  F
+------
+
+reply strings 4 user {{ user_message }}Instruction: Extract first letters
+
+Input: strand
+Output:assistant
+
+S
+tmp 4 =  S
+------
+
+reply strings 5 user {{ user_message }}Instruction: Extract first letters
+
+Input: simplicity
+Output:assistant
+
+S
+tmp 5 =  S
+------
+
+reply strings 6 user {{ user_message }}Instruction: Extract first letters
+
+Input: run
+Output:assistant
+
+R
+tmp 6 =  R
+------
+
+reply strings 7 user {{ user_message }}Instruction: Extract first letters
+
+Input: corner
+Output:assistant
+
+C
+tmp 7 =  C
+------
+
+reply strings 8 user {{ user_message }}Instruction: Extract first letters
+
+Input: trap
+Output:assistant
+
+T
+tmp 8 =  T
+------
+
+reply strings 9 user {{ user_message }}Instruction: Extract first letters
+
+Input: judgement
+Output:assistant
+
+J
+tmp 9 =  J
+------
+
+reply strings 10 user {{ user_message }}Instruction: Extract first letters
+
+Input: place
+Output:assistant
+
+P
+tmp 10 =  P
+------
+
+reply strings 11 user {{ user_message }}Instruction: Extract first letters
+
+Input: signal
+Output:assistant
+
+S
+tmp 11 =  S
+------
+
+reply strings 12 user {{ user_message }}Instruction: Extract first letters
+
+Input: rendition
+Output:assistant
+
+R
+tmp 12 =  R
+------
+
+reply strings 13 user {{ user_message }}Instruction: Extract first letters
+
+Input: document
+Output:assistant
+
+D
+tmp 13 =  D
+------
+
+reply strings 14 user {{ user_message }}Instruction: Extract first letters
+
+Input: description
+Output:assistant
+
+The output would be "D".
+tmp 14 =  The output would be "D".
+------
+
+reply strings 15 user {{ user_message }}Instruction: Extract first letters
+
+Input: suit
+Output:assistant
+
+S
+tmp 15 =  S
+------
+
+reply strings 16 user {{ user_message }}Instruction: Extract first letters
+
+Input: morale
+Output:assistant
+
+M
+tmp 16 =  M
+------
+
+reply strings 17 user {{ user_message }}Instruction: Extract first letters
+
+Input: calm
+Output:assistant
+
+C
+tmp 17 =  C
+------
+
+reply strings 18 user {{ user_message }}Instruction: Extract first letters
+
+Input: hurricane
+Output:assistant
+
+H
+tmp 18 =  H
+------
+
+reply strings 19 user {{ user_message }}Instruction: Extract first letters
+
+Input: inning
+Output:assistant
+
+I! (First letter of "inning" is "I")
+tmp 19 =  I! (First letter of "inning" is "I")
+------
+
+reply strings 20 user {{ user_message }}Instruction: Extract first letters
+
+Input: phosphate
+Output:assistant
+
+P
+tmp 20 =  P
+------
+
+reply strings 21 user {{ user_message }}Instruction: Extract first letters
+
+Input: simpler
+Output:assistant
+
+S
+tmp 21 =  S
+------
+
+reply strings 22 user {{ user_message }}Instruction: Extract first letters
+
+Input: boom
+Output:assistant
+
+B
+tmp 22 =  B
+------
+
+reply strings 23 user {{ user_message }}Instruction: Extract first letters
+
+Input: press
+Output:assistant
+
+P
+tmp 23 =  P
+------
+
+reply strings 24 user {{ user_message }}Instruction: Extract first letters
+
+Input: league
+Output:assistant
+
+L
+tmp 24 =  L
+------
+
+reply strings 25 user {{ user_message }}Instruction: Extract first letters
+
+Input: rejection
+Output:assistant
+
+R
+tmp 25 =  R
+------
+
+reply strings 26 user {{ user_message }}Instruction: Extract first letters
+
+Input: fumble
+Output:assistant
+
+F
+tmp 26 =  F
+------
+
+reply strings 27 user {{ user_message }}Instruction: Extract first letters
+
+Input: ball
+Output:assistant
+
+B
+tmp 27 =  B
+------
+
+reply strings 28 user {{ user_message }}Instruction: Extract first letters
+
+Input: characterization
+Output:assistant
+
+C
+tmp 28 =  C
+------
+
+reply strings 29 user {{ user_message }}Instruction: Extract first letters
+
+Input: northwest
+Output:assistant
+
+N
+tmp 29 =  N
+------
+
+reply strings 30 user {{ user_message }}Instruction: Extract first letters
+
+Input: distributor
+Output:assistant
+
+D
+tmp 30 =  D
+------
+
+reply strings 31 user {{ user_message }}Instruction: Extract first letters
+
+Input: gateway
+Output:assistant
+
+G
+tmp 31 =  G
+------
+
+reply strings 32 user {{ user_message }}Instruction: Extract first letters
+
+Input: credit
+Output:assistant
+
+C
+tmp 32 =  C
+------
+
+reply strings 33 user {{ user_message }}Instruction: Extract first letters
+
+Input: culture
+Output:assistant
+
+C
+tmp 33 =  C
+------
+
+reply strings 34 user {{ user_message }}Instruction: Extract first letters
+
+Input: cricket
+Output:assistant
+
+C
+tmp 34 =  C
+------
+
+reply strings 35 user {{ user_message }}Instruction: Extract first letters
+
+Input: point
+Output:assistant
+
+P
+tmp 35 =  P
+------
+
+reply strings 36 user {{ user_message }}Instruction: Extract first letters
+
+Input: breach
+Output:assistant
+
+B
+tmp 36 =  B
+------
+
+reply strings 37 user {{ user_message }}Instruction: Extract first letters
+
+Input: fantasy
+Output:assistant
+
+F
+tmp 37 =  F
+------
+
+reply strings 38 user {{ user_message }}Instruction: Extract first letters
+
+Input: camera
+Output:assistant
+
+C
+tmp 38 =  C
+------
+
+reply strings 39 user {{ user_message }}Instruction: Extract first letters
+
+Input: surface
+Output:assistant
+
+S
+tmp 39 =  S
+------
+
+reply strings 40 user {{ user_message }}Instruction: Extract first letters
+
+Input: custom
+Output:assistant
+
+C
+tmp 40 =  C
+------
+
+reply strings 41 user {{ user_message }}Instruction: Extract first letters
+
+Input: diamond
+Output:assistant
+
+D
+tmp 41 =  D
+------
+
+reply strings 42 user {{ user_message }}Instruction: Extract first letters
+
+Input: vector
+Output:assistant
+
+V
+tmp 42 =  V
+------
+
+reply strings 43 user {{ user_message }}Instruction: Extract first letters
+
+Input: counterpart
+Output:assistant
+
+C
+tmp 43 =  C
+------
+
+reply strings 44 user {{ user_message }}Instruction: Extract first letters
+
+Input: editor
+Output:assistant
+
+E
+tmp 44 =  E
+------
+
+reply strings 45 user {{ user_message }}Instruction: Extract first letters
+
+Input: diversion
+Output:assistant
+
+D
+tmp 45 =  D
+------
+
+reply strings 46 user {{ user_message }}Instruction: Extract first letters
+
+Input: invasion
+Output:assistant
+
+I
+tmp 46 =  I
+------
+
+reply strings 47 user {{ user_message }}Instruction: Extract first letters
+
+Input: quarter
+Output:assistant
+
+Q
+tmp 47 =  Q
+------
+
+reply strings 48 user {{ user_message }}Instruction: Extract first letters
+
+Input: reduction
+Output:assistant
+
+R
+tmp 48 =  R
+------
+
+reply strings 49 user {{ user_message }}Instruction: Extract first letters
+
+Input: fare
+Output:assistant
+
+F
+tmp 49 =  F
+------
+
+reply strings 50 user {{ user_message }}Instruction: Extract first letters
+
+Input: family
+Output:assistant
+
+F
+tmp 50 =  F
+------
+
+reply strings 51 user {{ user_message }}Instruction: Extract first letters
+
+Input: guitar
+Output:assistant
+
+G
+tmp 51 =  G
+------
+
+reply strings 52 user {{ user_message }}Instruction: Extract first letters
+
+Input: regiment
+Output:assistant
+
+R
+tmp 52 =  R
+------
+
+reply strings 53 user {{ user_message }}Instruction: Extract first letters
+
+Input: choreography
+Output:assistant
+
+C
+tmp 53 =  C
+------
+
+reply strings 54 user {{ user_message }}Instruction: Extract first letters
+
+Input: voting
+Output:assistant
+
+V
+tmp 54 =  V
+------
+
+reply strings 55 user {{ user_message }}Instruction: Extract first letters
+
+Input: section
+Output:assistant
+
+S
+tmp 55 =  S
+------
+
+reply strings 56 user {{ user_message }}Instruction: Extract first letters
+
+Input: performer
+Output:assistant
+
+P
+tmp 56 =  P
+------
+
+reply strings 57 user {{ user_message }}Instruction: Extract first letters
+
+Input: site
+Output:assistant
+
+S
+tmp 57 =  S
+------
+
+reply strings 58 user {{ user_message }}Instruction: Extract first letters
+
+Input: conquer
+Output:assistant
+
+C
+tmp 58 =  C
+------
+
+reply strings 59 user {{ user_message }}Instruction: Extract first letters
+
+Input: precision
+Output:assistant
+
+P
+tmp 59 =  P
+------
+
+reply strings 60 user {{ user_message }}Instruction: Extract first letters
+
+Input: personnel
+Output:assistant
+
+P
+tmp 60 =  P
+------
+
+reply strings 61 user {{ user_message }}Instruction: Extract first letters
+
+Input: explanation
+Output:assistant
+
+E
+tmp 61 =  E
+------
+
+reply strings 62 user {{ user_message }}Instruction: Extract first letters
+
+Input: admission
+Output:assistant
+
+A =
+tmp 62 =  A =
+------
+
+reply strings 63 user {{ user_message }}Instruction: Extract first letters
+
+Input: drag
+Output:assistant
+
+D
+tmp 63 =  D
+------
+
+reply strings 64 user {{ user_message }}Instruction: Extract first letters
+
+Input: principal
+Output:assistant
+
+P
+tmp 64 =  P
+------
+
+reply strings 65 user {{ user_message }}Instruction: Extract first letters
+
+Input: east
+Output:assistant
+
+E
+tmp 65 =  E
+------
+
+reply strings 66 user {{ user_message }}Instruction: Extract first letters
+
+Input: photograph
+Output:assistant
+
+P
+tmp 66 =  P
+------
+
+reply strings 67 user {{ user_message }}Instruction: Extract first letters
+
+Input: clearance
+Output:assistant
+
+C
+tmp 67 =  C
+------
+
+reply strings 68 user {{ user_message }}Instruction: Extract first letters
+
+Input: glory
+Output:assistant
+
+G
+tmp 68 =  G
+------
+
+reply strings 69 user {{ user_message }}Instruction: Extract first letters
+
+Input: rhetoric
+Output:assistant
+
+R
+tmp 69 =  R
+------
+
+reply strings 70 user {{ user_message }}Instruction: Extract first letters
+
+Input: cheating
+Output:assistant
+
+C
+tmp 70 =  C
+------
+
+reply strings 71 user {{ user_message }}Instruction: Extract first letters
+
+Input: baby
+Output:assistant
+
+B
+tmp 71 =  B
+------
+
+reply strings 72 user {{ user_message }}Instruction: Extract first letters
+
+Input: symbolism
+Output:assistant
+
+S
+tmp 72 =  S
+------
+
+reply strings 73 user {{ user_message }}Instruction: Extract first letters
+
+Input: wife
+Output:assistant
+
+W
+tmp 73 =  W
+------
+
+reply strings 74 user {{ user_message }}Instruction: Extract first letters
+
+Input: afford
+Output:assistant
+
+A!
+
+The output is: A
+tmp 74 =  The output is: A
+------
+
+reply strings 75 user {{ user_message }}Instruction: Extract first letters
+
+Input: agreement
+Output:assistant
+
+A
+tmp 75 =  A
+------
+
+reply strings 76 user {{ user_message }}Instruction: Extract first letters
+
+Input: model
+Output:assistant
+
+M
+tmp 76 =  M
+------
+
+reply strings 77 user {{ user_message }}Instruction: Extract first letters
+
+Input: collection
+Output:assistant
+
+C
+tmp 77 =  C
+------
+
+reply strings 78 user {{ user_message }}Instruction: Extract first letters
+
+Input: cantata
+Output:assistant
+
+C
+tmp 78 =  C
+------
+
+reply strings 79 user {{ user_message }}Instruction: Extract first letters
+
+Input: contract
+Output:assistant
+
+C
+tmp 79 =  C
+------
+
+reply strings 80 user {{ user_message }}Instruction: Extract first letters
+
+Input: servant
+Output:assistant
+
+S
+tmp 80 =  S
+------
+
+reply strings 81 user {{ user_message }}Instruction: Extract first letters
+
+Input: prequel
+Output:assistant
+
+P
+tmp 81 =  P
+------
+
+reply strings 82 user {{ user_message }}Instruction: Extract first letters
+
+Input: lap
+Output:assistant
+
+L
+tmp 82 =  L
+------
+
+reply strings 83 user {{ user_message }}Instruction: Extract first letters
+
+Input: service
+Output:assistant
+
+S
+tmp 83 =  S
+------
+
+reply strings 84 user {{ user_message }}Instruction: Extract first letters
+
+Input: affect
+Output:assistant
+
+A
+tmp 84 =  A
+------
+
+reply strings 85 user {{ user_message }}Instruction: Extract first letters
+
+Input: theory
+Output:assistant
+
+T
+tmp 85 =  T
+------
+
+reply strings 86 user {{ user_message }}Instruction: Extract first letters
+
+Input: lighter
+Output:assistant
+
+L
+tmp 86 =  L
+------
+
+reply strings 87 user {{ user_message }}Instruction: Extract first letters
+
+Input: groove
+Output:assistant
+
+G
+tmp 87 =  G
+------
+
+reply strings 88 user {{ user_message }}Instruction: Extract first letters
+
+Input: geography
+Output:assistant
+
+G
+tmp 88 =  G
+------
+
+reply strings 89 user {{ user_message }}Instruction: Extract first letters
+
+Input: promoter
+Output:assistant
+
+P
+tmp 89 =  P
+------
+
+reply strings 90 user {{ user_message }}Instruction: Extract first letters
+
+Input: bite
+Output:assistant
+
+B
+tmp 90 =  B
+------
+
+reply strings 91 user {{ user_message }}Instruction: Extract first letters
+
+Input: leisure
+Output:assistant
+
+L
+tmp 91 =  L
+------
+
+reply strings 92 user {{ user_message }}Instruction: Extract first letters
+
+Input: shed
+Output:assistant
+
+S
+tmp 92 =  S
+------
+
+reply strings 93 user {{ user_message }}Instruction: Extract first letters
+
+Input: closing
+Output:assistant
+
+C
+tmp 93 =  C
+------
+
+reply strings 94 user {{ user_message }}Instruction: Extract first letters
+
+Input: foot
+Output:assistant
+
+F
+tmp 94 =  F
+------
+
+reply strings 95 user {{ user_message }}Instruction: Extract first letters
+
+Input: armament
+Output:assistant
+
+A
+
+(The first letter of the word "armament" is "A")
+tmp 95 =  (The first letter of the word "armament" is "A")
+------
+
+reply strings 96 user {{ user_message }}Instruction: Extract first letters
+
+Input: baseman
+Output:assistant
+
+B
+tmp 96 =  B
+------
+
+reply strings 97 user {{ user_message }}Instruction: Extract first letters
+
+Input: boundary
+Output:assistant
+
+The output is "B".
+tmp 97 =  The output is "B".
+------
+
+reply strings 98 user {{ user_message }}Instruction: Extract first letters
+
+Input: fight
+Output:assistant
+
+F
+tmp 98 =  F
+------
+
+reply strings 99 user {{ user_message }}Instruction: Extract first letters
+
+Input: timing
+Output:assistant
+
+T
+tmp 99 =  T
+------
+
+reply strings 100 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: quarter
+Output:assistant
+
+Q
+tmp 100 =  Q
+------
+
+reply strings 101 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: groove
+Output:assistant
+
+G
+tmp 101 =  G
+------
+
+reply strings 102 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: description
+Output:assistant
+
+D
+tmp 102 =  D
+------
+
+reply strings 103 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: glory
+Output:assistant
+
+G
+tmp 103 =  G
+------
+
+reply strings 104 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: fight
+Output:assistant
+
+F
+tmp 104 =  F
+------
+
+reply strings 105 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: shed
+Output:assistant
+
+S
+tmp 105 =  S
+------
+
+reply strings 106 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: flu
+Output:assistant
+
+F
+tmp 106 =  F
+------
+
+reply strings 107 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: press
+Output:assistant
+
+P
+tmp 107 =  P
+------
+
+reply strings 108 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: place
+Output:assistant
+
+P
+tmp 108 =  P
+------
+
+reply strings 109 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: admission
+Output:assistant
+
+A
+tmp 109 =  A
+------
+
+reply strings 110 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: choreography
+Output:assistant
+
+C (from Choreography)
+tmp 110 =  C (from Choreography)
+------
+
+reply strings 111 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: northwest
+Output:assistant
+
+NW
+tmp 111 =  NW
+------
+
+reply strings 112 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: rendition
+Output:assistant
+
+R
+tmp 112 =  R
+------
+
+reply strings 113 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: vector
+Output:assistant
+
+V
+tmp 113 =  V
+------
+
+reply strings 114 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: baseman
+Output:assistant
+
+B
+tmp 114 =  B
+------
+
+reply strings 115 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: prequel
+Output:assistant
+
+P-R-Q = PRQ
+tmp 115 =  P-R-Q = PRQ
+------
+
+reply strings 116 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: guitar
+Output:assistant
+
+G
+tmp 116 =  G
+------
+
+reply strings 117 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: fantasy
+Output:assistant
+
+F
+tmp 117 =  F
+------
+
+reply strings 118 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: diamond
+Output:assistant
+
+D
+tmp 118 =  D
+------
+
+reply strings 119 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: voting
+Output:assistant
+
+V
+tmp 119 =  V
+------
+
+reply strings 120 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: rhetoric
+Output:assistant
+
+R
+tmp 120 =  R
+------
+
+reply strings 121 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: invasion
+Output:assistant
+
+I
+tmp 121 =  I
+------
+
+reply strings 122 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: explanation
+Output:assistant
+
+E
+tmp 122 =  E
+------
+
+reply strings 123 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: gateway
+Output:assistant
+
+G
+tmp 123 =  G
+------
+
+reply strings 124 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: geography
+Output:assistant
+
+G
+tmp 124 =  G
+------
+
+reply strings 125 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: site
+Output:assistant
+
+S
+tmp 125 =  S
+------
+
+reply strings 126 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: editor
+Output:assistant
+
+E
+tmp 126 =  E
+------
+
+reply strings 127 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: signal
+Output:assistant
+
+S
+tmp 127 =  S
+------
+
+reply strings 128 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: accordance
+Output:assistant
+
+A
+tmp 128 =  A
+------
+
+reply strings 129 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: surface
+Output:assistant
+
+S
+tmp 129 =  S
+------
+
+reply strings 130 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: clearance
+Output:assistant
+
+C
+tmp 130 =  C
+------
+
+reply strings 131 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: photograph
+Output:assistant
+
+P
+tmp 131 =  P
+------
+
+reply strings 132 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: timing
+Output:assistant
+
+T
+tmp 132 =  T
+------
+
+reply strings 133 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: ball
+Output:assistant
+
+B
+tmp 133 =  B
+------
+
+reply strings 134 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: foot
+Output:assistant
+
+F
+tmp 134 =  F
+------
+
+reply strings 135 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: boom
+Output:assistant
+
+B
+tmp 135 =  B
+------
+
+reply strings 136 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: symbolism
+Output:assistant
+
+S
+tmp 136 =  S
+------
+
+reply strings 137 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: run
+Output:assistant
+
+R
+tmp 137 =  R
+------
+
+reply strings 138 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: east
+Output:assistant
+
+E
+tmp 138 =  E
+------
+
+reply strings 139 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: family
+Output:assistant
+
+F
+tmp 139 =  F
+------
+
+reply strings 140 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: agreement
+Output:assistant
+
+A
+tmp 140 =  A
+------
+
+reply strings 141 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: trap
+Output:assistant
+
+T-R (First letter of each word)
+tmp 141 =  T-R (First letter of each word)
+------
+
+reply strings 142 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: lap
+Output:assistant
+
+L-A = LA
+tmp 142 =  L-A = LA
+------
+
+reply strings 143 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: bite
+Output:assistant
+
+B
+tmp 143 =  B
+------
+
+reply strings 144 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: corner
+Output:assistant
+
+C
+tmp 144 =  C
+------
+
+reply strings 145 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: service
+Output:assistant
+
+S
+tmp 145 =  S
+------
+
+reply strings 146 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: contract
+Output:assistant
+
+C
+tmp 146 =  C
+------
+
+reply strings 147 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: calm
+Output:assistant
+
+C
+tmp 147 =  C
+------
+
+reply strings 148 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: morale
+Output:assistant
+
+M
+tmp 148 =  M
+------
+
+reply strings 149 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: wife
+Output:assistant
+
+W
+tmp 149 =  W
+------
+
+reply strings 150 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: point
+Output:assistant
+
+P
+tmp 150 =  P
+------
+
+reply strings 151 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: custom
+Output:assistant
+
+C
+tmp 151 =  C
+------
+
+reply strings 152 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: precision
+Output:assistant
+
+P
+tmp 152 =  P
+------
+
+reply strings 153 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: simpler
+Output:assistant
+
+S
+tmp 153 =  S
+------
+
+reply strings 154 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: conquer
+Output:assistant
+
+C
+tmp 154 =  C
+------
+
+reply strings 155 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: culture
+Output:assistant
+
+C
+tmp 155 =  C
+------
+
+reply strings 156 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: reduction
+Output:assistant
+
+R
+tmp 156 =  R
+------
+
+reply strings 157 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: principal
+Output:assistant
+
+P
+tmp 157 =  P
+------
+
+reply strings 158 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: boundary
+Output:assistant
+
+B
+tmp 158 =  B
+------
+
+reply strings 159 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: servant
+Output:assistant
+
+S
+tmp 159 =  S
+------
+
+reply strings 160 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: performer
+Output:assistant
+
+P
+tmp 160 =  P
+------
+
+reply strings 161 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: strand
+Output:assistant
+
+S
+tmp 161 =  S
+------
+
+reply strings 162 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: afford
+Output:assistant
+
+A
+tmp 162 =  A
+------
+
+reply strings 163 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: hurricane
+Output:assistant
+
+H
+tmp 163 =  H
+------
+
+reply strings 164 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: personnel
+Output:assistant
+
+P
+tmp 164 =  P
+------
+
+reply strings 165 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: judgement
+Output:assistant
+
+J
+tmp 165 =  J
+------
+
+reply strings 166 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: camera
+Output:assistant
+
+C
+tmp 166 =  C
+------
+
+reply strings 167 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: fare
+Output:assistant
+
+F
+tmp 167 =  F
+------
+
+reply strings 168 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: cheating
+Output:assistant
+
+C
+tmp 168 =  C
+------
+
+reply strings 169 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: suit
+Output:assistant
+
+S
+tmp 169 =  S
+------
+
+reply strings 170 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: theory
+Output:assistant
+
+T
+tmp 170 =  T
+------
+
+reply strings 171 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: section
+Output:assistant
+
+S
+tmp 171 =  S
+------
+
+reply strings 172 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: diversion
+Output:assistant
+
+D
+tmp 172 =  D
+------
+
+reply strings 173 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: fumble
+Output:assistant
+
+F (from "fumble")
+tmp 173 =  F (from "fumble")
+------
+
+reply strings 174 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: baby
+Output:assistant
+
+B
+tmp 174 =  B
+------
+
+reply strings 175 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: inning
+Output:assistant
+
+I - N
+tmp 175 =  I - N
+------
+
+reply strings 176 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: closing
+Output:assistant
+
+C
+tmp 176 =  C
+------
+
+reply strings 177 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: simplicity
+Output:assistant
+
+S
+tmp 177 =  S
+------
+
+reply strings 178 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: armament
+Output:assistant
+
+A (from Armament)
+tmp 178 =  A (from Armament)
+------
+
+reply strings 179 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: document
+Output:assistant
+
+D
+tmp 179 =  D
+------
+
+reply strings 180 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: regiment
+Output:assistant
+
+R
+tmp 180 =  R
+------
+
+reply strings 181 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: counterpart
+Output:assistant
+
+C
+tmp 181 =  C
+------
+
+reply strings 182 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: credit
+Output:assistant
+
+C
+tmp 182 =  C
+------
+
+reply strings 183 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: cricket
+Output:assistant
+
+C
+tmp 183 =  C
+------
+
+reply strings 184 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: model
+Output:assistant
+
+M
+tmp 184 =  M
+------
+
+reply strings 185 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: collection
+Output:assistant
+
+C
+tmp 185 =  C
+------
+
+reply strings 186 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: phosphate
+Output:assistant
+
+P
+tmp 186 =  P
+------
+
+reply strings 187 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: lighter
+Output:assistant
+
+L
+tmp 187 =  L
+------
+
+reply strings 188 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: mountain
+Output:assistant
+
+M
+tmp 188 =  M
+------
+
+reply strings 189 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: league
+Output:assistant
+
+L
+tmp 189 =  L
+------
+
+reply strings 190 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: leisure
+Output:assistant
+
+L
+tmp 190 =  L
+------
+
+reply strings 191 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: rejection
+Output:assistant
+
+RJ
+tmp 191 =  RJ
+------
+
+reply strings 192 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: characterization
+Output:assistant
+
+C
+tmp 192 =  C
+------
+
+reply strings 193 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: moon
+Output:assistant
+
+M
+tmp 193 =  M
+------
+
+reply strings 194 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: cantata
+Output:assistant
+
+C
+tmp 194 =  C
+------
+
+reply strings 195 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: promoter
+Output:assistant
+
+P
+tmp 195 =  P
+------
+
+reply strings 196 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: drag
+Output:assistant
+
+D
+tmp 196 =  D
+------
+
+reply strings 197 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: breach
+Output:assistant
+
+B
+tmp 197 =  B
+------
+
+reply strings 198 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: distributor
+Output:assistant
+
+D
+tmp 198 =  D
+------
+
+reply strings 199 user {{ user_message }}Instruction: Take the first letter of each word.
+
+Input: affect
+Output:assistant
+
+A
+tmp 199 =  A
+------
+
+reply strings 200 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: simpler
+Output:assistant
+
+S (from "simpler")
+tmp 200 =  S (from "simpler")
+------
+
+reply strings 201 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: service
+Output:assistant
+
+S
+tmp 201 =  S
+------
+
+reply strings 202 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: boundary
+Output:assistant
+
+B
+tmp 202 =  B
+------
+
+reply strings 203 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: armament
+Output:assistant
+
+A
+tmp 203 =  A
+------
+
+reply strings 204 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: gateway
+Output:assistant
+
+G
+tmp 204 =  G
+------
+
+reply strings 205 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: geography
+Output:assistant
+
+G
+tmp 205 =  G
+------
+
+reply strings 206 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: explanation
+Output:assistant
+
+E
+tmp 206 =  E
+------
+
+reply strings 207 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: east
+Output:assistant
+
+E
+tmp 207 =  E
+------
+
+reply strings 208 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: shed
+Output:assistant
+
+S
+tmp 208 =  S
+------
+
+reply strings 209 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: prequel
+Output:assistant
+
+P-R-Q (first letter of each word)
+tmp 209 =  P-R-Q (first letter of each word)
+------
+
+reply strings 210 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: fantasy
+Output:assistant
+
+F
+tmp 210 =  F
+------
+
+reply strings 211 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: vector
+Output:assistant
+
+V
+tmp 211 =  V
+------
+
+reply strings 212 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: baby
+Output:assistant
+
+B
+tmp 212 =  B
+------
+
+reply strings 213 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: theory
+Output:assistant
+
+T
+tmp 213 =  T
+------
+
+reply strings 214 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: timing
+Output:assistant
+
+T
+tmp 214 =  T
+------
+
+reply strings 215 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: cantata
+Output:assistant
+
+C (from "can")
+A (from "anta")
+T (from "tata")
+Result: CAT
+tmp 215 =  C (from "can")
+A (from "anta")
+T (from "tata")
+Result: CAT
+------
+
+reply strings 216 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: symbolism
+Output:assistant
+
+S
+tmp 216 =  S
+------
+
+reply strings 217 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: flu
+Output:assistant
+
+F-L (FL)
+tmp 217 =  F-L (FL)
+------
+
+reply strings 218 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: place
+Output:assistant
+
+P
+tmp 218 =  P
+------
+
+reply strings 219 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: fumble
+Output:assistant
+
+F
+tmp 219 =  F
+------
+
+reply strings 220 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: inning
+Output:assistant
+
+I
+tmp 220 =  I
+------
+
+reply strings 221 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: description
+Output:assistant
+
+D
+tmp 221 =  D
+------
+
+reply strings 222 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: bite
+Output:assistant
+
+B
+tmp 222 =  B
+------
+
+reply strings 223 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: signal
+Output:assistant
+
+S
+tmp 223 =  S
+------
+
+reply strings 224 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: culture
+Output:assistant
+
+C
+tmp 224 =  C
+------
+
+reply strings 225 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: baseman
+Output:assistant
+
+B
+tmp 225 =  B
+------
+
+reply strings 226 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: cricket
+Output:assistant
+
+C
+tmp 226 =  C
+------
+
+reply strings 227 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: diversion
+Output:assistant
+
+D
+tmp 227 =  D
+------
+
+reply strings 228 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: editor
+Output:assistant
+
+E
+tmp 228 =  E
+------
+
+reply strings 229 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: precision
+Output:assistant
+
+P
+tmp 229 =  P
+------
+
+reply strings 230 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: morale
+Output:assistant
+
+M
+tmp 230 =  M
+------
+
+reply strings 231 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: reduction
+Output:assistant
+
+R
+tmp 231 =  R
+------
+
+reply strings 232 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: moon
+Output:assistant
+
+m
+tmp 232 =  m
+------
+
+reply strings 233 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: hurricane
+Output:assistant
+
+H
+tmp 233 =  H
+------
+
+reply strings 234 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: suit
+Output:assistant
+
+S
+tmp 234 =  S
+------
+
+reply strings 235 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: conquer
+Output:assistant
+
+C
+tmp 235 =  C
+------
+
+reply strings 236 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: trap
+Output:assistant
+
+T-R (taking the first letter of each word)
+tmp 236 =  T-R (taking the first letter of each word)
+------
+
+reply strings 237 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: fight
+Output:assistant
+
+F
+tmp 237 =  F
+------
+
+reply strings 238 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: press
+Output:assistant
+
+P
+tmp 238 =  P
+------
+
+reply strings 239 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: drag
+Output:assistant
+
+D
+tmp 239 =  D
+------
+
+reply strings 240 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: distributor
+Output:assistant
+
+D
+tmp 240 =  D
+------
+
+reply strings 241 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: run
+Output:assistant
+
+R
+tmp 241 =  R
+------
+
+reply strings 242 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: guitar
+Output:assistant
+
+G
+tmp 242 =  G
+------
+
+reply strings 243 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: counterpart
+Output:assistant
+
+C
+tmp 243 =  C
+------
+
+reply strings 244 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: groove
+Output:assistant
+
+G
+tmp 244 =  G
+------
+
+reply strings 245 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: corner
+Output:assistant
+
+C
+tmp 245 =  C
+------
+
+reply strings 246 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: lap
+Output:assistant
+
+L
+tmp 246 =  L
+------
+
+reply strings 247 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: clearance
+Output:assistant
+
+C
+tmp 247 =  C
+------
+
+reply strings 248 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: collection
+Output:assistant
+
+C
+tmp 248 =  C
+------
+
+reply strings 249 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: regiment
+Output:assistant
+
+R
+tmp 249 =  R
+------
+
+reply strings 250 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: breach
+Output:assistant
+
+B
+tmp 250 =  B
+------
+
+reply strings 251 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: simplicity
+Output:assistant
+
+S
+tmp 251 =  S
+------
+
+reply strings 252 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: camera
+Output:assistant
+
+C
+tmp 252 =  C
+------
+
+reply strings 253 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: judgement
+Output:assistant
+
+J
+tmp 253 =  J
+------
+
+reply strings 254 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: agreement
+Output:assistant
+
+A
+tmp 254 =  A
+------
+
+reply strings 255 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: northwest
+Output:assistant
+
+N
+tmp 255 =  N
+------
+
+reply strings 256 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: document
+Output:assistant
+
+D
+tmp 256 =  D
+------
+
+reply strings 257 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: closing
+Output:assistant
+
+C
+tmp 257 =  C
+------
+
+reply strings 258 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: invasion
+Output:assistant
+
+I
+tmp 258 =  I
+------
+
+reply strings 259 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: strand
+Output:assistant
+
+S
+tmp 259 =  S
+------
+
+reply strings 260 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: diamond
+Output:assistant
+
+D
+tmp 260 =  D
+------
+
+reply strings 261 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: section
+Output:assistant
+
+S
+tmp 261 =  S
+------
+
+reply strings 262 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: contract
+Output:assistant
+
+C
+tmp 262 =  C
+------
+
+reply strings 263 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: custom
+Output:assistant
+
+C
+tmp 263 =  C
+------
+
+reply strings 264 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: choreography
+Output:assistant
+
+C (from Choreography)
+tmp 264 =  C (from Choreography)
+------
+
+reply strings 265 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: rendition
+Output:assistant
+
+R
+tmp 265 =  R
+------
+
+reply strings 266 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: wife
+Output:assistant
+
+W
+tmp 266 =  W
+------
+
+reply strings 267 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: lighter
+Output:assistant
+
+L (from "Lighter")
+tmp 267 =  L (from "Lighter")
+------
+
+reply strings 268 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: voting
+Output:assistant
+
+V
+tmp 268 =  V
+------
+
+reply strings 269 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: rejection
+Output:assistant
+
+R
+tmp 269 =  R
+------
+
+reply strings 270 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: afford
+Output:assistant
+
+A
+tmp 270 =  A
+------
+
+reply strings 271 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: performer
+Output:assistant
+
+P
+tmp 271 =  P
+------
+
+reply strings 272 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: leisure
+Output:assistant
+
+L
+tmp 272 =  L
+------
+
+reply strings 273 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: cheating
+Output:assistant
+
+C
+tmp 273 =  C
+------
+
+reply strings 274 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: photograph
+Output:assistant
+
+P
+tmp 274 =  P
+------
+
+reply strings 275 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: calm
+Output:assistant
+
+C
+tmp 275 =  C
+------
+
+reply strings 276 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: personnel
+Output:assistant
+
+P
+tmp 276 =  P
+------
+
+reply strings 277 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: surface
+Output:assistant
+
+S
+tmp 277 =  S
+------
+
+reply strings 278 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: model
+Output:assistant
+
+M
+tmp 278 =  M
+------
+
+reply strings 279 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: credit
+Output:assistant
+
+C
+tmp 279 =  C
+------
+
+reply strings 280 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: fare
+Output:assistant
+
+F
+tmp 280 =  F
+------
+
+reply strings 281 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: phosphate
+Output:assistant
+
+P
+tmp 281 =  P
+------
+
+reply strings 282 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: servant
+Output:assistant
+
+S
+tmp 282 =  S
+------
+
+reply strings 283 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: characterization
+Output:assistant
+
+C
+tmp 283 =  C
+------
+
+reply strings 284 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: admission
+Output:assistant
+
+A
+tmp 284 =  A
+------
+
+reply strings 285 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: family
+Output:assistant
+
+F
+tmp 285 =  F
+------
+
+reply strings 286 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: glory
+Output:assistant
+
+G
+tmp 286 =  G
+------
+
+reply strings 287 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: affect
+Output:assistant
+
+A
+tmp 287 =  A
+------
+
+reply strings 288 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: promoter
+Output:assistant
+
+P
+tmp 288 =  P
+------
+
+reply strings 289 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: mountain
+Output:assistant
+
+M
+tmp 289 =  M
+------
+
+reply strings 290 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: boom
+Output:assistant
+
+B
+tmp 290 =  B
+------
+
+reply strings 291 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: rhetoric
+Output:assistant
+
+R
+tmp 291 =  R
+------
+
+reply strings 292 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: league
+Output:assistant
+
+L
+tmp 292 =  L
+------
+
+reply strings 293 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: point
+Output:assistant
+
+P
+tmp 293 =  P
+------
+
+reply strings 294 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: principal
+Output:assistant
+
+P
+tmp 294 =  P
+------
+
+reply strings 295 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: quarter
+Output:assistant
+
+Q
+tmp 295 =  Q
+------
+
+reply strings 296 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: accordance
+Output:assistant
+
+A
+tmp 296 =  A
+------
+
+reply strings 297 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: site
+Output:assistant
+
+S
+tmp 297 =  S
+------
+
+reply strings 298 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: foot
+Output:assistant
+
+F
+tmp 298 =  F
+------
+
+reply strings 299 user {{ user_message }}Instruction: take the first letter of each word.
+
+Input: ball
+Output:assistant
+
+B
+tmp 299 =  B
+------
+
+Model_output M
+Model_output M
+Model_output (The first letter of the word "according" is "A")
+Model_output F
+Model_output S
+Model_output S
+Model_output R
+Model_output C
+Model_output T
+Model_output J
+Model_output P
+Model_output S
+Model_output R
+Model_output D
+Model_output The output would be "D".
+Model_output S
+Model_output M
+Model_output C
+Model_output H
+Model_output I! (First letter of "inning" is "I")
+Model_output P
+Model_output S
+Model_output B
+Model_output P
+Model_output L
+Model_output R
+Model_output F
+Model_output B
+Model_output C
+Model_output N
+Model_output D
+Model_output G
+Model_output C
+Model_output C
+Model_output C
+Model_output P
+Model_output B
+Model_output F
+Model_output C
+Model_output S
+Model_output C
+Model_output D
+Model_output V
+Model_output C
+Model_output E
+Model_output D
+Model_output I
+Model_output Q
+Model_output R
+Model_output F
+Model_output F
+Model_output G
+Model_output R
+Model_output C
+Model_output V
+Model_output S
+Model_output P
+Model_output S
+Model_output C
+Model_output P
+Model_output P
+Model_output E
+Model_output A =
+Model_output D
+Model_output P
+Model_output E
+Model_output P
+Model_output C
+Model_output G
+Model_output R
+Model_output C
+Model_output B
+Model_output S
+Model_output W
+Model_output The output is: A
+Model_output A
+Model_output M
+Model_output C
+Model_output C
+Model_output C
+Model_output S
+Model_output P
+Model_output L
+Model_output S
+Model_output A
+Model_output T
+Model_output L
+Model_output G
+Model_output G
+Model_output P
+Model_output B
+Model_output L
+Model_output S
+Model_output C
+Model_output F
+Model_output (The first letter of the word "armament" is "A")
+Model_output B
+Model_output The output is "B".
+Model_output F
+Model_output T
+Model_output Q
+Model_output G
+Model_output D
+Model_output G
+Model_output F
+Model_output S
+Model_output F
+Model_output P
+Model_output P
+Model_output A
+Model_output C (from Choreography)
+Model_output NW
+Model_output R
+Model_output V
+Model_output B
+Model_output P-R-Q = PRQ
+Model_output G
+Model_output F
+Model_output D
+Model_output V
+Model_output R
+Model_output I
+Model_output E
+Model_output G
+Model_output G
+Model_output S
+Model_output E
+Model_output S
+Model_output A
+Model_output S
+Model_output C
+Model_output P
+Model_output T
+Model_output B
+Model_output F
+Model_output B
+Model_output S
+Model_output R
+Model_output E
+Model_output F
+Model_output A
+Model_output T-R (First letter of each word)
+Model_output L-A = LA
+Model_output B
+Model_output C
+Model_output S
+Model_output C
+Model_output C
+Model_output M
+Model_output W
+Model_output P
+Model_output C
+Model_output P
+Model_output S
+Model_output C
+Model_output C
+Model_output R
+Model_output P
+Model_output B
+Model_output S
+Model_output P
+Model_output S
+Model_output A
+Model_output H
+Model_output P
+Model_output J
+Model_output C
+Model_output F
+Model_output C
+Model_output S
+Model_output T
+Model_output S
+Model_output D
+Model_output F (from "fumble")
+Model_output B
+Model_output I - N
+Model_output C
+Model_output S
+Model_output A (from Armament)
+Model_output D
+Model_output R
+Model_output C
+Model_output C
+Model_output C
+Model_output M
+Model_output C
+Model_output P
+Model_output L
+Model_output M
+Model_output L
+Model_output L
+Model_output RJ
+Model_output C
+Model_output M
+Model_output C
+Model_output P
+Model_output D
+Model_output B
+Model_output D
+Model_output A
+Model_output S (from "simpler")
+Model_output S
+Model_output B
+Model_output A
+Model_output G
+Model_output G
+Model_output E
+Model_output E
+Model_output S
+Model_output P-R-Q (first letter of each word)
+Model_output F
+Model_output V
+Model_output B
+Model_output T
+Model_output T
+Model_output C (from "can")
+A (from "anta")
+T (from "tata")
+Result: CAT
+Model_output S
+Model_output F-L (FL)
+Model_output P
+Model_output F
+Model_output I
+Model_output D
+Model_output B
+Model_output S
+Model_output C
+Model_output B
+Model_output C
+Model_output D
+Model_output E
+Model_output P
+Model_output M
+Model_output R
+Model_output m
+Model_output H
+Model_output S
+Model_output C
+Model_output T-R (taking the first letter of each word)
+Model_output F
+Model_output P
+Model_output D
+Model_output D
+Model_output R
+Model_output G
+Model_output C
+Model_output G
+Model_output C
+Model_output L
+Model_output C
+Model_output C
+Model_output R
+Model_output B
+Model_output S
+Model_output C
+Model_output J
+Model_output A
+Model_output N
+Model_output D
+Model_output C
+Model_output I
+Model_output S
+Model_output D
+Model_output S
+Model_output C
+Model_output C
+Model_output C (from Choreography)
+Model_output R
+Model_output W
+Model_output L (from "Lighter")
+Model_output V
+Model_output R
+Model_output A
+Model_output P
+Model_output L
+Model_output C
+Model_output P
+Model_output C
+Model_output P
+Model_output S
+Model_output M
+Model_output C
+Model_output F
+Model_output P
+Model_output S
+Model_output C
+Model_output A
+Model_output F
+Model_output G
+Model_output A
+Model_output P
+Model_output M
+Model_output B
+Model_output R
+Model_output L
+Model_output P
+Model_output P
+Model_output Q
+Model_output A
+Model_output S
+Model_output F
+Model_output B
+Using metric "em" for task "first_word_letter"...
+Prediction and Answer =  ('manswer : ', 'm')
+Prediction and Answer =  ('manswer : ', 'm')
+Prediction and Answer =  ('the first letter of the word according is aanswer : ', 'a')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('tanswer : ', 't')
+Prediction and Answer =  ('janswer : ', 'j')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('the output would be danswer : ', 'd')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('manswer : ', 'm')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('hanswer : ', 'h')
+Prediction and Answer =  ('i first letter of inning is ianswer : ', 'i')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('lanswer : ', 'l')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('nanswer : ', 'n')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('vanswer : ', 'v')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('eanswer : ', 'e')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('ianswer : ', 'i')
+Prediction and Answer =  ('qanswer : ', 'q')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('vanswer : ', 'v')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('eanswer : ', 'e')
+Prediction and Answer =  ('a answer : ', 'a')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('eanswer : ', 'e')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('wanswer : ', 'w')
+Prediction and Answer =  ('the output is aanswer : ', 'a')
+Prediction and Answer =  ('aanswer : ', 'a')
+Prediction and Answer =  ('manswer : ', 'm')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('lanswer : ', 'l')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('aanswer : ', 'a')
+Prediction and Answer =  ('tanswer : ', 't')
+Prediction and Answer =  ('lanswer : ', 'l')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('lanswer : ', 'l')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('the first letter of the word armament is aanswer : ', 'a')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('the output is banswer : ', 'b')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('tanswer : ', 't')
+Prediction and Answer =  ('qanswer : ', 'q')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('aanswer : ', 'a')
+Prediction and Answer =  ('c from choreographyanswer : ', 'c')
+Prediction and Answer =  ('nwanswer : ', 'n')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('vanswer : ', 'v')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('p r q  prqanswer : ', 'p')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('vanswer : ', 'v')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('ianswer : ', 'i')
+Prediction and Answer =  ('eanswer : ', 'e')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('eanswer : ', 'e')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('aanswer : ', 'a')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('tanswer : ', 't')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('eanswer : ', 'e')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('aanswer : ', 'a')
+Prediction and Answer =  ('t r first letter of each wordanswer : ', 't')
+Prediction and Answer =  ('l a  laanswer : ', 'l')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('manswer : ', 'm')
+Prediction and Answer =  ('wanswer : ', 'w')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('aanswer : ', 'a')
+Prediction and Answer =  ('hanswer : ', 'h')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('janswer : ', 'j')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('tanswer : ', 't')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('f from fumbleanswer : ', 'f')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('i   nanswer : ', 'i')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('a from armamentanswer : ', 'a')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('manswer : ', 'm')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('lanswer : ', 'l')
+Prediction and Answer =  ('manswer : ', 'm')
+Prediction and Answer =  ('lanswer : ', 'l')
+Prediction and Answer =  ('lanswer : ', 'l')
+Prediction and Answer =  ('rjanswer : ', 'r')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('manswer : ', 'm')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('aanswer : ', 'a')
+Prediction and Answer =  ('s from simpleranswer : ', 's')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('aanswer : ', 'a')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('eanswer : ', 'e')
+Prediction and Answer =  ('eanswer : ', 'e')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('p r q first letter of each wordanswer : ', 'p')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('vanswer : ', 'v')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('tanswer : ', 't')
+Prediction and Answer =  ('tanswer : ', 't')
+Prediction and Answer =  ('c from cananswer : ', 'c')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('f l flanswer : ', 'f')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('ianswer : ', 'i')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('eanswer : ', 'e')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('manswer : ', 'm')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('manswer : ', 'm')
+Prediction and Answer =  ('hanswer : ', 'h')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('t r taking the first letter of each wordanswer : ', 't')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('lanswer : ', 'l')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('janswer : ', 'j')
+Prediction and Answer =  ('aanswer : ', 'a')
+Prediction and Answer =  ('nanswer : ', 'n')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('ianswer : ', 'i')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('danswer : ', 'd')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('c from choreographyanswer : ', 'c')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('wanswer : ', 'w')
+Prediction and Answer =  ('l from lighteranswer : ', 'l')
+Prediction and Answer =  ('vanswer : ', 'v')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('aanswer : ', 'a')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('lanswer : ', 'l')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('manswer : ', 'm')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('canswer : ', 'c')
+Prediction and Answer =  ('aanswer : ', 'a')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('ganswer : ', 'g')
+Prediction and Answer =  ('aanswer : ', 'a')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('manswer : ', 'm')
+Prediction and Answer =  ('banswer : ', 'b')
+Prediction and Answer =  ('ranswer : ', 'r')
+Prediction and Answer =  ('lanswer : ', 'l')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('panswer : ', 'p')
+Prediction and Answer =  ('qanswer : ', 'q')
+Prediction and Answer =  ('aanswer : ', 'a')
+Prediction and Answer =  ('sanswer : ', 's')
+Prediction and Answer =  ('fanswer : ', 'f')
+Prediction and Answer =  ('banswer : ', 'b')
+Finished evaluating.
+Test score: 0.93

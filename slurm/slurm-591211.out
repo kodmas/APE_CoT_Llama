@@ -1,0 +1,158 @@
+Message from TWCC HPC admin
+-----------------------
+loading miniconda3 with conda 4.8.4/python 3.7
+docs : https://hackmd.io/@kmo/twcc_hpc_conda
+-----------------------
+
+# conda environments:
+#
+                         /home/kodmas2023/miniconda3/envs/ape
+                         /home/kodmas2023/miniconda3/envs/ape2
+base                  *  /opt/ohpc/twcc/conda/4.8.3/miniconda3
+
+[INFO] : Generating prompts from llama2 ...
+tokenizer_config.json:   0%|          | 0.00/51.0k [00:00<?, ?B/s]tokenizer_config.json: 100%|██████████| 51.0k/51.0k [00:00<00:00, 262kB/s]tokenizer_config.json: 100%|██████████| 51.0k/51.0k [00:00<00:00, 262kB/s]
+tokenizer.json:   0%|          | 0.00/9.08M [00:00<?, ?B/s]tokenizer.json: 100%|██████████| 9.08M/9.08M [00:01<00:00, 6.51MB/s]tokenizer.json: 100%|██████████| 9.08M/9.08M [00:01<00:00, 6.49MB/s]
+special_tokens_map.json:   0%|          | 0.00/73.0 [00:00<?, ?B/s]special_tokens_map.json: 100%|██████████| 73.0/73.0 [00:00<00:00, 18.9kB/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+config.json:   0%|          | 0.00/654 [00:00<?, ?B/s]config.json: 100%|██████████| 654/654 [00:00<00:00, 461kB/s]
+/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/torch/cuda/__init__.py:138: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+model.safetensors.index.json:   0%|          | 0.00/23.9k [00:00<?, ?B/s]model.safetensors.index.json: 100%|██████████| 23.9k/23.9k [00:00<00:00, 5.94MB/s]
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]
+model-00001-of-00004.safetensors:   0%|          | 0.00/4.98G [00:00<?, ?B/s][A
+model-00001-of-00004.safetensors:   1%|          | 31.5M/4.98G [00:00<00:16, 303MB/s][A
+model-00001-of-00004.safetensors:   1%|▏         | 73.4M/4.98G [00:00<00:13, 369MB/s][A
+model-00001-of-00004.safetensors:   2%|▏         | 115M/4.98G [00:00<00:12, 388MB/s] [A
+model-00001-of-00004.safetensors:   3%|▎         | 157M/4.98G [00:00<00:12, 398MB/s][A
+model-00001-of-00004.safetensors:   4%|▍         | 199M/4.98G [00:00<00:11, 404MB/s][A
+model-00001-of-00004.safetensors:   5%|▍         | 241M/4.98G [00:00<00:11, 406MB/s][A
+model-00001-of-00004.safetensors:   6%|▌         | 283M/4.98G [00:00<00:11, 404MB/s][A
+model-00001-of-00004.safetensors:   7%|▋         | 325M/4.98G [00:00<00:11, 405MB/s][A
+model-00001-of-00004.safetensors:   7%|▋         | 367M/4.98G [00:00<00:11, 405MB/s][A
+model-00001-of-00004.safetensors:   8%|▊         | 409M/4.98G [00:01<00:11, 402MB/s][A
+model-00001-of-00004.safetensors:   9%|▉         | 451M/4.98G [00:01<00:11, 402MB/s][A
+model-00001-of-00004.safetensors:  10%|▉         | 493M/4.98G [00:01<00:11, 402MB/s][A
+model-00001-of-00004.safetensors:  11%|█         | 535M/4.98G [00:01<00:10, 405MB/s][A
+model-00001-of-00004.safetensors:  12%|█▏        | 577M/4.98G [00:01<00:10, 406MB/s][A
+model-00001-of-00004.safetensors:  12%|█▏        | 619M/4.98G [00:01<00:10, 408MB/s][A
+model-00001-of-00004.safetensors:  13%|█▎        | 661M/4.98G [00:01<00:10, 405MB/s][A
+model-00001-of-00004.safetensors:  14%|█▍        | 703M/4.98G [00:01<00:10, 406MB/s][A
+model-00001-of-00004.safetensors:  15%|█▍        | 744M/4.98G [00:01<00:10, 406MB/s][A
+model-00001-of-00004.safetensors:  16%|█▌        | 786M/4.98G [00:01<00:10, 405MB/s][A
+model-00001-of-00004.safetensors:  17%|█▋        | 828M/4.98G [00:02<00:10, 409MB/s][A
+model-00001-of-00004.safetensors:  17%|█▋        | 870M/4.98G [00:02<00:10, 407MB/s][A
+model-00001-of-00004.safetensors:  18%|█▊        | 912M/4.98G [00:02<00:09, 410MB/s][A
+model-00001-of-00004.safetensors:  19%|█▉        | 954M/4.98G [00:02<00:09, 412MB/s][A
+model-00001-of-00004.safetensors:  20%|██        | 996M/4.98G [00:02<00:09, 412MB/s][A
+model-00001-of-00004.safetensors:  21%|██        | 1.04G/4.98G [00:02<00:09, 400MB/s][A
+model-00001-of-00004.safetensors:  22%|██▏       | 1.08G/4.98G [00:02<00:10, 389MB/s][A
+model-00001-of-00004.safetensors:  23%|██▎       | 1.12G/4.98G [00:02<00:10, 376MB/s][A
+model-00001-of-00004.safetensors:  23%|██▎       | 1.16G/4.98G [00:02<00:09, 384MB/s][A
+model-00001-of-00004.safetensors:  24%|██▍       | 1.21G/4.98G [00:03<00:09, 392MB/s][A
+model-00001-of-00004.safetensors:  25%|██▌       | 1.25G/4.98G [00:03<00:09, 398MB/s][A
+model-00001-of-00004.safetensors:  26%|██▌       | 1.29G/4.98G [00:03<00:09, 395MB/s][A
+model-00001-of-00004.safetensors:  27%|██▋       | 1.33G/4.98G [00:03<00:09, 395MB/s][A
+model-00001-of-00004.safetensors:  28%|██▊       | 1.37G/4.98G [00:03<00:09, 396MB/s][A
+model-00001-of-00004.safetensors:  28%|██▊       | 1.42G/4.98G [00:03<00:09, 383MB/s][A
+model-00001-of-00004.safetensors:  29%|██▉       | 1.46G/4.98G [00:03<00:09, 386MB/s][A
+model-00001-of-00004.safetensors:  30%|███       | 1.50G/4.98G [00:03<00:08, 389MB/s][A
+model-00001-of-00004.safetensors:  31%|███       | 1.54G/4.98G [00:03<00:09, 367MB/s][A
+model-00001-of-00004.safetensors:  32%|███▏      | 1.58G/4.98G [00:04<00:09, 348MB/s][A
+model-00001-of-00004.safetensors:  33%|███▎      | 1.63G/4.98G [00:04<00:09, 362MB/s][A
+model-00001-of-00004.safetensors:  34%|███▎      | 1.67G/4.98G [00:04<00:08, 373MB/s][A
+model-00001-of-00004.safetensors:  34%|███▍      | 1.71G/4.98G [00:04<00:08, 382MB/s][A
+model-00001-of-00004.safetensors:  35%|███▌      | 1.75G/4.98G [00:04<00:08, 390MB/s][A
+model-00001-of-00004.safetensors:  36%|███▌      | 1.79G/4.98G [00:04<00:08, 395MB/s][A
+model-00001-of-00004.safetensors:  37%|███▋      | 1.84G/4.98G [00:04<00:09, 331MB/s][A
+model-00001-of-00004.safetensors:  38%|███▊      | 1.88G/4.98G [00:04<00:08, 347MB/s][A
+model-00001-of-00004.safetensors:  39%|███▊      | 1.92G/4.98G [00:04<00:08, 361MB/s][A
+model-00001-of-00004.safetensors:  39%|███▉      | 1.96G/4.98G [00:05<00:08, 374MB/s][A
+model-00001-of-00004.safetensors:  40%|████      | 2.00G/4.98G [00:05<00:07, 382MB/s][A
+model-00001-of-00004.safetensors:  41%|████      | 2.04G/4.98G [00:05<00:07, 389MB/s][A
+model-00001-of-00004.safetensors:  42%|████▏     | 2.09G/4.98G [00:05<00:07, 373MB/s][A
+model-00001-of-00004.safetensors:  43%|████▎     | 2.13G/4.98G [00:05<00:07, 370MB/s][A
+model-00001-of-00004.safetensors:  44%|████▎     | 2.17G/4.98G [00:05<00:07, 362MB/s][A
+model-00001-of-00004.safetensors:  44%|████▍     | 2.21G/4.98G [00:05<00:07, 348MB/s][A
+model-00001-of-00004.safetensors:  45%|████▌     | 2.25G/4.98G [00:05<00:08, 331MB/s][A
+model-00001-of-00004.safetensors:  46%|████▌     | 2.30G/4.98G [00:06<00:07, 338MB/s][A
+model-00001-of-00004.safetensors:  47%|████▋     | 2.34G/4.98G [00:06<00:07, 347MB/s][A
+model-00001-of-00004.safetensors:  48%|████▊     | 2.38G/4.98G [00:06<00:07, 337MB/s][A
+model-00001-of-00004.safetensors:  49%|████▊     | 2.42G/4.98G [00:06<00:07, 332MB/s][A
+model-00001-of-00004.safetensors:  50%|████▉     | 2.46G/4.98G [00:06<00:07, 338MB/s][A
+model-00001-of-00004.safetensors:  50%|█████     | 2.51G/4.98G [00:06<00:07, 345MB/s][A
+model-00001-of-00004.safetensors:  51%|█████     | 2.55G/4.98G [00:06<00:06, 354MB/s][A
+model-00001-of-00004.safetensors:  52%|█████▏    | 2.59G/4.98G [00:06<00:06, 358MB/s][A
+model-00001-of-00004.safetensors:  53%|█████▎    | 2.63G/4.98G [00:06<00:06, 358MB/s][A
+model-00001-of-00004.safetensors:  54%|█████▎    | 2.67G/4.98G [00:07<00:06, 361MB/s][A
+model-00001-of-00004.safetensors:  55%|█████▍    | 2.72G/4.98G [00:07<00:06, 358MB/s][A
+model-00001-of-00004.safetensors:  55%|█████▌    | 2.76G/4.98G [00:07<00:06, 366MB/s][A
+model-00001-of-00004.safetensors:  56%|█████▋    | 2.80G/4.98G [00:07<00:06, 360MB/s][A
+model-00001-of-00004.safetensors:  57%|█████▋    | 2.84G/4.98G [00:07<00:05, 362MB/s][A
+model-00001-of-00004.safetensors:  58%|█████▊    | 2.88G/4.98G [00:07<00:05, 374MB/s][A
+model-00001-of-00004.safetensors:  59%|█████▉    | 2.93G/4.98G [00:07<00:05, 367MB/s][A
+model-00001-of-00004.safetensors:  60%|█████▉    | 2.97G/4.98G [00:07<00:05, 375MB/s][A
+model-00001-of-00004.safetensors:  60%|██████    | 3.01G/4.98G [00:07<00:05, 358MB/s][A
+model-00001-of-00004.safetensors:  61%|██████▏   | 3.05G/4.98G [00:08<00:05, 334MB/s][A
+model-00001-of-00004.safetensors:  62%|██████▏   | 3.09G/4.98G [00:08<00:05, 335MB/s][A
+model-00001-of-00004.safetensors:  63%|██████▎   | 3.14G/4.98G [00:08<00:05, 336MB/s][A
+model-00001-of-00004.safetensors:  64%|██████▍   | 3.18G/4.98G [00:08<00:05, 354MB/s][A
+model-00001-of-00004.safetensors:  65%|██████▍   | 3.23G/4.98G [00:08<00:04, 374MB/s][A
+model-00001-of-00004.safetensors:  66%|██████▌   | 3.28G/4.98G [00:08<00:04, 391MB/s][A
+model-00001-of-00004.safetensors:  67%|██████▋   | 3.32G/4.98G [00:08<00:04, 390MB/s][A
+model-00001-of-00004.safetensors:  68%|██████▊   | 3.37G/4.98G [00:08<00:04, 379MB/s][A
+model-00001-of-00004.safetensors:  68%|██████▊   | 3.41G/4.98G [00:09<00:04, 385MB/s][A
+model-00001-of-00004.safetensors:  69%|██████▉   | 3.45G/4.98G [00:09<00:03, 392MB/s][A
+model-00001-of-00004.safetensors:  70%|███████   | 3.49G/4.98G [00:09<00:03, 389MB/s][A
+model-00001-of-00004.safetensors:  71%|███████   | 3.53G/4.98G [00:09<00:03, 395MB/s][A
+model-00001-of-00004.safetensors:  72%|███████▏  | 3.58G/4.98G [00:09<00:03, 399MB/s][A
+model-00001-of-00004.safetensors:  73%|███████▎  | 3.62G/4.98G [00:09<00:03, 404MB/s][A
+model-00001-of-00004.safetensors:  74%|███████▎  | 3.66G/4.98G [00:10<00:06, 206MB/s][A
+model-00001-of-00004.safetensors:  74%|███████▍  | 3.69G/4.98G [00:10<00:08, 146MB/s][A
+model-00001-of-00004.safetensors:  75%|███████▍  | 3.72G/4.98G [00:10<00:10, 120MB/s][A
+model-00001-of-00004.safetensors:  75%|███████▌  | 3.74G/4.98G [00:11<00:11, 110MB/s][A
+model-00001-of-00004.safetensors:  76%|███████▌  | 3.76G/4.98G [00:11<00:12, 101MB/s][Amodel-00001-of-00004.safetensors:  76%|███████▌  | 3.77G/4.98G [00:11<00:03, 328MB/s]
+Downloading shards:   0%|          | 0/4 [00:12<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1461, in hf_hub_download
+    http_get(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 544, in http_get
+    temp_file.write(chunk)
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/tempfile.py", line 478, in func_wrapper
+    return func(*args, **kwargs)
+OSError: [Errno 122] Disk quota exceeded
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/work/kodmas2023/automatic_prompt_engineer/slurm/../experiments/run_instruction_induction.py", line 127, in <module>
+    fire.Fire(run)
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/work/kodmas2023/automatic_prompt_engineer/slurm/../experiments/run_instruction_induction.py", line 63, in run
+    res, demo_fn = ape.find_prompts(eval_template=eval_template,
+  File "/work/kodmas2023/automatic_prompt_engineer/automatic_prompt_engineer/ape.py", line 165, in find_prompts
+    prompts = generate.generate_llama2_prompts(
+  File "/work/kodmas2023/automatic_prompt_engineer/automatic_prompt_engineer/generate.py", line 67, in generate_llama2_prompts
+    llama2_model = llm.Llama2Model(config)
+  File "/work/kodmas2023/automatic_prompt_engineer/automatic_prompt_engineer/llm.py", line 56, in __init__
+    model = AutoModelForCausalLM.from_pretrained(model_name,device_map="auto")
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 566, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/transformers/modeling_utils.py", line 3128, in from_pretrained
+    resolved_archive_file, sharded_metadata = get_checkpoint_shard_files(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/transformers/utils/hub.py", line 1052, in get_checkpoint_shard_files
+    cached_filename = cached_file(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/transformers/utils/hub.py", line 430, in cached_file
+    resolved_file = hf_hub_download(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1461, in hf_hub_download
+    http_get(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/tempfile.py", line 496, in __exit__
+    result = self.file.__exit__(exc, value, tb)
+OSError: [Errno 122] Disk quota exceeded

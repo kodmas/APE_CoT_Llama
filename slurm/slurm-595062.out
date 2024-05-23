@@ -1,0 +1,298 @@
+Message from TWCC HPC admin
+-----------------------
+loading miniconda3 with conda 4.8.4/python 3.7
+docs : https://hackmd.io/@kmo/twcc_hpc_conda
+-----------------------
+
+# conda environments:
+#
+                         /home/kodmas2023/miniconda3/envs/ape
+                         /home/kodmas2023/miniconda3/envs/ape2
+base                  *  /opt/ohpc/twcc/conda/4.8.3/miniconda3
+
+kodmas
+WARNING: overwriting environment variables set in the machine
+overwriting variable HF_HOME
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/torch/cuda/__init__.py:138: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+[INFO] : Generating prompts from llama2 ...
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.83s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:05,  2.59s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.78s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.79s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.06s/it]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+make_response
+in make response-------------
+reply strings 0 user{{I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: folding, committee
+Output: types of chairs.
+
+Input: bamboo, memory
+Output: have segments.
+
+Observe the input-output pair and output the instruction without any further explanation or words.
+The instruction was to}}assistant
+
+
+"Find a common characteristic between the first two inputs."
+tmp 0 =  "Find a common characteristic between the first two inputs."
+------
+
+reply strings 1 user{{I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: dentistry, construction
+Output: involve drilling.
+
+Input: poker, displays of embarrassment
+Output: involve flushes.
+
+Input: folding, committee
+Output: types of chairs.
+
+Input: bamboo, memory
+Output: have segments.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Observe the input-output pair and output the instruction without any further explanation or words.
+The instruction was to}}assistant
+
+
+associate activities with shared characteristics.
+tmp 1 =  associate activities with shared characteristics.
+------
+
+reply strings 2 user{{I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: boats, tablecloths
+Output: go on top of something.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: folding, committee
+Output: types of chairs.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Observe the input-output pair and output the instruction without any further explanation or words.
+The instruction was to}}assistant
+
+
+"Find commonalities between the inputs."
+tmp 2 =  "Find commonalities between the inputs."
+------
+
+generate.generate_llama2_prompts ['"Find a common characteristic between the first two inputs."', 'associate activities with shared characteristics.', '"Find commonalities between the inputs."']
+Model returned 3 prompts. Deduplicating...
+Deduplicated to 3 prompts.
+Evaluating prompts...
+Prompt: "Find commonalities between the inputs."
+Query:  Instruction: "Find commonalities between the inputs."
+
+Input: avalanches, rock polishing
+Output: 
+Ground Truth answer: ['involve tumbling.']
+
+
+Query:  Instruction: "Find commonalities between the inputs."
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: "Find commonalities between the inputs."
+
+Input: picture, issue
+Output: 
+Ground Truth answer: ['involve frames.']
+
+
+Query:  Instruction: "Find commonalities between the inputs."
+
+Input: snowman, marzipan fruit
+Output: 
+Ground Truth answer: ['inanimate, but made to imitate something animate.']
+
+
+Query:  Instruction: "Find commonalities between the inputs."
+
+Input: blue whales, Jupiter, top quarks
+Output: 
+Ground Truth answer: ['the largest of their kind.']
+
+
+Query:  Instruction: "Find commonalities between the inputs."
+
+Input: squirrel foraging, memoization
+Output: 
+Ground Truth answer: ['involve caching.']
+
+
+Query:  Instruction: "Find commonalities between the inputs."
+
+Input: magnetic resonance imaging, propaganda
+Output: 
+Ground Truth answer: ['involve spins.']
+
+
+Query:  Instruction: "Find commonalities between the inputs."
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: "Find commonalities between the inputs."
+
+Input: green, light, dog
+Output: 
+Ground Truth answer: ['types of house.']
+
+
+Prompt: "Find a common characteristic between the first two inputs."
+Query:  Instruction: "Find a common characteristic between the first two inputs."
+
+Input: blue whales, Jupiter, top quarks
+Output: 
+Ground Truth answer: ['the largest of their kind.']
+
+
+Query:  Instruction: "Find a common characteristic between the first two inputs."
+
+Input: green, light, dog
+Output: 
+Ground Truth answer: ['types of house.']
+
+
+Query:  Instruction: "Find a common characteristic between the first two inputs."
+
+Input: avalanches, rock polishing
+Output: 
+Ground Truth answer: ['involve tumbling.']
+
+
+Query:  Instruction: "Find a common characteristic between the first two inputs."
+
+Input: picture, issue
+Output: 
+Ground Truth answer: ['involve frames.']
+
+
+Query:  Instruction: "Find a common characteristic between the first two inputs."
+
+Input: squirrel foraging, memoization
+Output: 
+Ground Truth answer: ['involve caching.']
+
+
+Query:  Instruction: "Find a common characteristic between the first two inputs."
+
+Input: magnetic resonance imaging, propaganda
+Output: 
+Ground Truth answer: ['involve spins.']
+
+
+Query:  Instruction: "Find a common characteristic between the first two inputs."
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: "Find a common characteristic between the first two inputs."
+
+Input: snowman, marzipan fruit
+Output: 
+Ground Truth answer: ['inanimate, but made to imitate something animate.']
+
+
+Query:  Instruction: "Find a common characteristic between the first two inputs."
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Prompt: associate activities with shared characteristics.
+Query:  Instruction: associate activities with shared characteristics.
+
+Input: snowman, marzipan fruit
+Output: 
+Ground Truth answer: ['inanimate, but made to imitate something animate.']
+
+
+Query:  Instruction: associate activities with shared characteristics.
+
+Input: green, light, dog
+Output: 
+Ground Truth answer: ['types of house.']
+
+
+Query:  Instruction: associate activities with shared characteristics.
+
+Input: squirrel foraging, memoization
+Output: 
+Ground Truth answer: ['involve caching.']
+
+
+Query:  Instruction: associate activities with shared characteristics.
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: associate activities with shared characteristics.
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: associate activities with shared characteristics.
+
+Input: blue whales, Jupiter, top quarks
+Output: 
+Ground Truth answer: ['the largest of their kind.']
+
+
+Query:  Instruction: associate activities with shared characteristics.
+
+Input: picture, issue
+Output: 
+Ground Truth answer: ['involve frames.']
+
+
+Query:  Instruction: associate activities with shared characteristics.
+
+Input: avalanches, rock polishing
+Output: 
+Ground Truth answer: ['involve tumbling.']
+
+
+Query:  Instruction: associate activities with shared characteristics.
+
+Input: magnetic resonance imaging, propaganda
+Output: 
+Ground Truth answer: ['involve spins.']
+
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00, 11.65it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.14it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 12.88it/s]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+slurmstepd: error: *** JOB 595062 ON gn0507 CANCELLED AT 2024-05-01T02:00:19 ***

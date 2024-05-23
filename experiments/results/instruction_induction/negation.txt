@@ -1,0 +1,2 @@
+Test score: 0.67
+Best prompt: Negate each statement.

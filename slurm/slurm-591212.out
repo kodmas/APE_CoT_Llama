@@ -1,0 +1,63 @@
+Message from TWCC HPC admin
+-----------------------
+loading miniconda3 with conda 4.8.4/python 3.7
+docs : https://hackmd.io/@kmo/twcc_hpc_conda
+-----------------------
+
+# conda environments:
+#
+                         /home/kodmas2023/miniconda3/envs/ape
+                         /home/kodmas2023/miniconda3/envs/ape2
+base                  *  /opt/ohpc/twcc/conda/4.8.3/miniconda3
+
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/torch/cuda/__init__.py:138: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+[INFO] : Generating prompts from llama2 ...
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]
+model-00001-of-00004.safetensors:   0%|          | 0.00/4.98G [00:00<?, ?B/s][A
+model-00001-of-00004.safetensors:   0%|          | 21.0M/4.98G [00:00<00:43, 115MB/s][Amodel-00001-of-00004.safetensors:   0%|          | 21.0M/4.98G [00:00<00:43, 114MB/s]
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1461, in hf_hub_download
+    http_get(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 544, in http_get
+    temp_file.write(chunk)
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/tempfile.py", line 478, in func_wrapper
+    return func(*args, **kwargs)
+OSError: [Errno 122] Disk quota exceeded
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/work/kodmas2023/automatic_prompt_engineer/slurm/../experiments/run_instruction_induction.py", line 127, in <module>
+    fire.Fire(run)
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/work/kodmas2023/automatic_prompt_engineer/slurm/../experiments/run_instruction_induction.py", line 63, in run
+    res, demo_fn = ape.find_prompts(eval_template=eval_template,
+  File "/work/kodmas2023/automatic_prompt_engineer/automatic_prompt_engineer/ape.py", line 165, in find_prompts
+    prompts = generate.generate_llama2_prompts(
+  File "/work/kodmas2023/automatic_prompt_engineer/automatic_prompt_engineer/generate.py", line 67, in generate_llama2_prompts
+    llama2_model = llm.Llama2Model(config)
+  File "/work/kodmas2023/automatic_prompt_engineer/automatic_prompt_engineer/llm.py", line 56, in __init__
+    model = AutoModelForCausalLM.from_pretrained(model_name,device_map="auto")
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/transformers/models/auto/auto_factory.py", line 566, in from_pretrained
+    return model_class.from_pretrained(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/transformers/modeling_utils.py", line 3128, in from_pretrained
+    resolved_archive_file, sharded_metadata = get_checkpoint_shard_files(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/transformers/utils/hub.py", line 1052, in get_checkpoint_shard_files
+    cached_filename = cached_file(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/transformers/utils/hub.py", line 430, in cached_file
+    resolved_file = hf_hub_download(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/huggingface_hub/file_download.py", line 1461, in hf_hub_download
+    http_get(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/tempfile.py", line 496, in __exit__
+    result = self.file.__exit__(exc, value, tb)
+OSError: [Errno 122] Disk quota exceeded

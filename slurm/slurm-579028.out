@@ -1,0 +1,4125 @@
+Message from TWCC HPC admin
+-----------------------
+loading miniconda3 with conda 4.8.4/python 3.7
+docs : https://hackmd.io/@kmo/twcc_hpc_conda
+-----------------------
+
+# conda environments:
+#
+                         /home/kodmas2023/miniconda3/envs/ape
+                         /home/kodmas2023/miniconda3/envs/ape2
+base                  *  /opt/ohpc/twcc/conda/4.8.3/miniconda3
+
+/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/torch/cuda/__init__.py:138: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+[INFO] : Generating prompts from llama2 ...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.67s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.08s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.17s/it]
+make_response
+in make response-------------
+reply strings 0 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+tmp 0 =  [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+------
+
+reply strings 1 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+tmp 1 =  [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+------
+
+reply strings 2 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+
+tmp 2 =  [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+------
+
+generate.generate_llama2_prompts ['[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>\n\nI gave a friend a instruction. Based on the instruction they produced the following input-output pairs:\n\nInput: guitars, pendulums\nOutput: involve oscillations.\n\nInput: normal distribution, Pavlov\nOutput: relate to bells.\n\nInput: squirrel foraging, memoization\nOutput: involve caching.\n\nInput: sewing, wrenches, glue\nOutput: can help repair something.\n\nInput: blue whales, Jupiter, top quarks\nOutput: the largest of their kind.\n\nObserve the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:\n\n* Input: guitars, pendulums - Involve oscillations.\n* Input: normal distribution, Pavlov - Relate to bells.\n*', '[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>\n\nI gave a friend a instruction. Based on the instruction they produced the following input-output pairs:\n\nInput: squirrel foraging, memoization\nOutput: involve caching.\n\nInput: guitars, pendulums\nOutput: involve oscillations.\n\nInput: green, light, dog\nOutput: types of house.\n\nInput: ballet, snow, running\nOutput: use specialized shoes.\n\nInput: blue whales, Jupiter, top quarks\nOutput: the largest of their kind.\n\nObserve the input-output pairs and output the instruction only without any explanation.[/INST]]\n\nInstruction: Identify the relationship between two concepts based on the given input-output pairs.\n\nInput: squirrel foraging, memoization\nOutput: caching\n\nInput: guitars, pendulums', '[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>\n\nI gave a friend a instruction. Based on the instruction they produced the following input-output pairs:\n\nInput: green, light, dog\nOutput: types of house.\n\nInput: ballet, snow, running\nOutput: use specialized shoes.\n\nInput: guitars, pendulums\nOutput: involve oscillations.\n\nInput: squirrel foraging, memoization\nOutput: involve caching.\n\nInput: sewing, wrenches, glue\nOutput: can help repair something.\n\nObserve the input-output pairs and output the instruction only without any explanation.[/INST]]\n\nInstruction: Give me an object and I will tell you what it can be used for.\n\nGreen\nLight\nDog\n\nBallet\nSnow\nRunning\n\nGuitars\nPendulums']
+Model returned 3 prompts. Deduplicating...
+Deduplicated to 3 prompts.
+Evaluating prompts...
+Prompt: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: snowman, marzipan fruit
+Output: 
+Ground Truth answer: ['inanimate, but made to imitate something animate.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: picture, issue
+Output: 
+Ground Truth answer: ['involve frames.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: poker, displays of embarrassment
+Output: 
+Ground Truth answer: ['involve flushes.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: boats, tablecloths
+Output: 
+Ground Truth answer: ['go on top of something.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: magnetic resonance imaging, propaganda
+Output: 
+Ground Truth answer: ['involve spins.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: dentistry, construction
+Output: 
+Ground Truth answer: ['involve drilling.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: folding, committee
+Output: 
+Ground Truth answer: ['types of chairs.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: bamboo, memory
+Output: 
+Ground Truth answer: ['have segments.']
+
+
+Prompt: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: dentistry, construction
+Output: 
+Ground Truth answer: ['involve drilling.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: magnetic resonance imaging, propaganda
+Output: 
+Ground Truth answer: ['involve spins.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: bamboo, memory
+Output: 
+Ground Truth answer: ['have segments.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: poker, displays of embarrassment
+Output: 
+Ground Truth answer: ['involve flushes.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: folding, committee
+Output: 
+Ground Truth answer: ['types of chairs.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: boats, tablecloths
+Output: 
+Ground Truth answer: ['go on top of something.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: picture, issue
+Output: 
+Ground Truth answer: ['involve frames.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: snowman, marzipan fruit
+Output: 
+Ground Truth answer: ['inanimate, but made to imitate something animate.']
+
+
+Prompt: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: magnetic resonance imaging, propaganda
+Output: 
+Ground Truth answer: ['involve spins.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: boats, tablecloths
+Output: 
+Ground Truth answer: ['go on top of something.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: dentistry, construction
+Output: 
+Ground Truth answer: ['involve drilling.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: folding, committee
+Output: 
+Ground Truth answer: ['types of chairs.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: sewing, wrenches, glue
+Output: 
+Ground Truth answer: ['can help repair something.', 'can be used for repairs.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: bamboo, memory
+Output: 
+Ground Truth answer: ['have segments.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: poker, displays of embarrassment
+Output: 
+Ground Truth answer: ['involve flushes.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: snowman, marzipan fruit
+Output: 
+Ground Truth answer: ['inanimate, but made to imitate something animate.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: picture, issue
+Output: 
+Ground Truth answer: ['involve frames.']
+
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.82s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.13s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.41s/it]
+make_response
+in make response-------------
+Evaluation
+reply strings 0 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: snowman, marzipan fruit
+Output:[/INST]]
+
+Sorry, I cannot provide an output for this pair of inputs as there is no obvious relationship between "snowman" and "marzipan fruit." Please provide more context or clarify the instruction if you would like me to assist further
+tmp 0 =  [/INST]]
+
+Sorry, I cannot provide an output for this pair of inputs as there is no obvious relationship between "snowman" and "marzipan fruit." Please provide more context or clarify the instruction if you would like me to assist further
+------
+
+reply strings 1 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: sewing, wrenches, glue
+Output:[/INST]]  Input: squirrel foraging, memoization
+Output: Involve caching.
+tmp 1 =  Involve caching.
+------
+
+reply strings 2 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: picture, issue
+Output:[/INST]]
+
+I'm not able to provide an output for this pair of inputs as there is no clear relationship between "picture" and "issue." Could you please provide more context or clarify what you are trying to convey?
+tmp 2 =  [/INST]]
+
+I'm not able to provide an output for this pair of inputs as there is no clear relationship between "picture" and "issue." Could you please provide more context or clarify what you are trying to convey?
+------
+
+reply strings 3 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: poker, displays of embarrassment
+Output:[/INST]]
+
+I'm not able to provide an output for this pair of inputs as it is not a valid or meaningful combination. Please provide a different set of inputs for me to work with.
+tmp 3 =  [/INST]]
+
+I'm not able to provide an output for this pair of inputs as it is not a valid or meaningful combination. Please provide a different set of inputs for me to work with.
+------
+
+reply strings 4 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: boats, tablecloths
+Output:[/INST]]
+
+I'm not able to provide an output for this pair of inputs as there is no obvious relationship between boats and tablecloths. Can you please provide more context or clarify the instruction?
+tmp 4 =  [/INST]]
+
+I'm not able to provide an output for this pair of inputs as there is no obvious relationship between boats and tablecloths. Can you please provide more context or clarify the instruction?
+------
+
+reply strings 5 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: magnetic resonance imaging, propaganda
+Output:[/INST]]
+
+I'm not able to provide an output for this pair as it is not a valid or meaningful combination of words. Please provide a different set of inputs and outputs for me to assist with.
+tmp 5 =  [/INST]]
+
+I'm not able to provide an output for this pair as it is not a valid or meaningful combination of words. Please provide a different set of inputs and outputs for me to assist with.
+------
+
+reply strings 6 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: dentistry, construction
+Output:[/INST]]
+
+I'm not able to provide an output for this pair of inputs as there is no obvious relationship between "dentistry" and "construction." Could you please provide more context or clarify the instruction?
+tmp 6 =  [/INST]]
+
+I'm not able to provide an output for this pair of inputs as there is no obvious relationship between "dentistry" and "construction." Could you please provide more context or clarify the instruction?
+------
+
+reply strings 7 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: folding, committee
+Output:[/INST]]
+
+* Input: squirrel foraging, memoization - Involve caching.
+* Input: sewing, wrenches, glue - Can help repair something.
+* Input: blue whales, Jupiter,
+tmp 7 =  [/INST]]
+
+* Input: squirrel foraging, memoization - Involve caching.
+* Input: sewing, wrenches, glue - Can help repair something.
+* Input: blue whales, Jupiter,
+------
+
+reply strings 8 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: bamboo, memory
+Output:[/INST]]
+
+Sorry, I cannot provide an output for this pair of inputs as it is not a valid or meaningful combination. Bamboo and memory do not have a direct relationship or involvement in each other. Please provide a different pair
+tmp 8 =  [/INST]]
+
+Sorry, I cannot provide an output for this pair of inputs as it is not a valid or meaningful combination. Bamboo and memory do not have a direct relationship or involvement in each other. Please provide a different pair
+------
+
+reply strings 9 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: dentistry, construction
+Output:[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: green, light, dog
+Output: types of houses
+tmp 9 =  types of houses
+------
+
+reply strings 10 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: magnetic resonance imaging, propaganda
+Output:[/INST]]
+tmp 10 =  [/INST]]
+------
+
+reply strings 11 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: bamboo, memory
+Output:[/INST]]
+
+Input: green, light, dog
+Output: types of houses
+tmp 11 =  types of houses
+------
+
+reply strings 12 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: poker, displays of embarrassment
+Output:[/INST]]
+tmp 12 =  [/INST]]
+------
+
+reply strings 13 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: folding, committee
+Output:[/INST]]
+
+Input: green, light, dog
+Output: types of houses
+tmp 13 =  types of houses
+------
+
+reply strings 14 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: boats, tablecloths
+Output:[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: green, light, dog
+Output: types of houses
+tmp 14 =  types of houses
+------
+
+reply strings 15 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: picture, issue
+Output:[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: green, light, dog
+Output: types of house
+tmp 15 =  types of house
+------
+
+reply strings 16 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: sewing, wrenches, glue
+Output:[/INST]]
+tmp 16 =  [/INST]]
+------
+
+reply strings 17 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: snowman, marzipan fruit
+Output:[/INST]]
+tmp 17 =  [/INST]]
+------
+
+reply strings 18 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: magnetic resonance imaging, propaganda
+Output:[/INST]]
+tmp 18 =  [/INST]]
+------
+
+reply strings 19 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: boats, tablecloths
+Output:[/INST]]
+tmp 19 =  [/INST]]
+------
+
+reply strings 20 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: dentistry, construction
+Output:[/INST]]
+tmp 20 =  [/INST]]
+------
+
+reply strings 21 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: folding, committee
+Output:[/INST]]
+tmp 21 =  [/INST]]
+------
+
+reply strings 22 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: sewing, wrenches, glue
+Output:[/INST]]
+tmp 22 =  [/INST]]
+------
+
+reply strings 23 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: bamboo, memory
+Output:[/INST]]
+tmp 23 =  [/INST]]
+------
+
+reply strings 24 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: poker, displays of embarrassment
+Output:[/INST]]
+tmp 24 =  [/INST]]
+------
+
+reply strings 25 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: snowman, marzipan fruit
+Output:[/INST]]
+tmp 25 =  [/INST]]
+------
+
+reply strings 26 [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: picture, issue
+Output:[/INST]]
+tmp 26 =  [/INST]]
+------
+
+Model_output [/INST]]
+
+Sorry, I cannot provide an output for this pair of inputs as there is no obvious relationship between "snowman" and "marzipan fruit." Please provide more context or clarify the instruction if you would like me to assist further
+Model_output Involve caching.
+Model_output [/INST]]
+
+I'm not able to provide an output for this pair of inputs as there is no clear relationship between "picture" and "issue." Could you please provide more context or clarify what you are trying to convey?
+Model_output [/INST]]
+
+I'm not able to provide an output for this pair of inputs as it is not a valid or meaningful combination. Please provide a different set of inputs for me to work with.
+Model_output [/INST]]
+
+I'm not able to provide an output for this pair of inputs as there is no obvious relationship between boats and tablecloths. Can you please provide more context or clarify the instruction?
+Model_output [/INST]]
+
+I'm not able to provide an output for this pair as it is not a valid or meaningful combination of words. Please provide a different set of inputs and outputs for me to assist with.
+Model_output [/INST]]
+
+I'm not able to provide an output for this pair of inputs as there is no obvious relationship between "dentistry" and "construction." Could you please provide more context or clarify the instruction?
+Model_output [/INST]]
+
+* Input: squirrel foraging, memoization - Involve caching.
+* Input: sewing, wrenches, glue - Can help repair something.
+* Input: blue whales, Jupiter,
+Model_output [/INST]]
+
+Sorry, I cannot provide an output for this pair of inputs as it is not a valid or meaningful combination. Bamboo and memory do not have a direct relationship or involvement in each other. Please provide a different pair
+Model_output types of houses
+Model_output [/INST]]
+Model_output types of houses
+Model_output [/INST]]
+Model_output types of houses
+Model_output types of houses
+Model_output types of house
+Model_output [/INST]]
+Model_output [/INST]]
+Model_output [/INST]]
+Model_output [/INST]]
+Model_output [/INST]]
+Model_output [/INST]]
+Model_output [/INST]]
+Model_output [/INST]]
+Model_output [/INST]]
+Model_output [/INST]]
+Model_output [/INST]]
+Using metric "f1" for task "common_concept"...
+Prediction and Answer =  ('[/INST]]\n\nSorry, I cannot provide an output for this pair of inputs as there is no obvious relationship between "snowman" and "marzipan fruit." Please provide more context or clarify the instruction if you would like me to assist further........\\.........', 'inanimate, but made to imitate something animate.')
+Prediction and Answer =  ('Involve caching.........\\.........', 'can help repair something.')
+Prediction and Answer =  ('Involve caching.........\\.........', 'can be used for repairs.')
+Prediction and Answer =  ('[/INST]]\n\nI\'m not able to provide an output for this pair of inputs as there is no clear relationship between "picture" and "issue." Could you please provide more context or clarify what you are trying to convey?........\\.........', 'involve frames.')
+Prediction and Answer =  ("[/INST]]\n\nI'm not able to provide an output for this pair of inputs as it is not a valid or meaningful combination. Please provide a different set of inputs for me to work with.........\\.........", 'involve flushes.')
+Prediction and Answer =  ("[/INST]]\n\nI'm not able to provide an output for this pair of inputs as there is no obvious relationship between boats and tablecloths. Can you please provide more context or clarify the instruction?........\\.........", 'go on top of something.')
+Prediction and Answer =  ("[/INST]]\n\nI'm not able to provide an output for this pair as it is not a valid or meaningful combination of words. Please provide a different set of inputs and outputs for me to assist with.........\\.........", 'involve spins.')
+Prediction and Answer =  ('[/INST]]\n\nI\'m not able to provide an output for this pair of inputs as there is no obvious relationship between "dentistry" and "construction." Could you please provide more context or clarify the instruction?........\\.........', 'involve drilling.')
+Prediction and Answer =  ('[/INST]]\n\n* Input: squirrel foraging, memoization - Involve caching.\n* Input: sewing, wrenches, glue - Can help repair something.\n* Input: blue whales, Jupiter,........\\.........', 'types of chairs.')
+Prediction and Answer =  ('[/INST]]\n\nSorry, I cannot provide an output for this pair of inputs as it is not a valid or meaningful combination. Bamboo and memory do not have a direct relationship or involvement in each other. Please provide a different pair........\\.........', 'have segments.')
+Prediction and Answer =  ('types of houses........\\.........', 'involve drilling.')
+Prediction and Answer =  ('[/INST]]........\\.........', 'involve spins.')
+Prediction and Answer =  ('types of houses........\\.........', 'have segments.')
+Prediction and Answer =  ('[/INST]]........\\.........', 'involve flushes.')
+Prediction and Answer =  ('types of houses........\\.........', 'types of chairs.')
+Prediction and Answer =  ('types of houses........\\.........', 'go on top of something.')
+Prediction and Answer =  ('types of house........\\.........', 'involve frames.')
+Prediction and Answer =  ('[/INST]]........\\.........', 'can help repair something.')
+Prediction and Answer =  ('[/INST]]........\\.........', 'can be used for repairs.')
+Prediction and Answer =  ('[/INST]]........\\.........', 'inanimate, but made to imitate something animate.')
+Prediction and Answer =  ('[/INST]]........\\.........', 'involve spins.')
+Prediction and Answer =  ('[/INST]]........\\.........', 'go on top of something.')
+Prediction and Answer =  ('[/INST]]........\\.........', 'involve drilling.')
+Prediction and Answer =  ('[/INST]]........\\.........', 'types of chairs.')
+Prediction and Answer =  ('[/INST]]........\\.........', 'can help repair something.')
+Prediction and Answer =  ('[/INST]]........\\.........', 'can be used for repairs.')
+Prediction and Answer =  ('[/INST]]........\\.........', 'have segments.')
+Prediction and Answer =  ('[/INST]]........\\.........', 'involve flushes.')
+Prediction and Answer =  ('[/INST]]........\\.........', 'inanimate, but made to imitate something animate.')
+Prediction and Answer =  ('[/INST]]........\\.........', 'involve frames.')
+Finished evaluating.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.61s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.04s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.12s/it]
+Finished finding prompts.
+Scores =  [0.10185185185185185, 0.0, 0.0]
+Prompts:
+  0.10185185185185185: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+
+  0.0: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+
+  0.0: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+
+Evaluating on test data...
+Evaluating prompts...
+Prompt: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: hair, laceration
+Output: 
+Ground Truth answer: ['types of cuts.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: local, cable
+Output: 
+Ground Truth answer: ['types of networks.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: bumble bees, cell phones
+Output: 
+Ground Truth answer: ['can make a buzz.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: bike, piano
+Output: 
+Ground Truth answer: ['types of pedals.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: amateur radio, prosciutto
+Output: 
+Ground Truth answer: ['ham.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: food, the Louvre
+Output: 
+Ground Truth answer: ['have pyramids.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: sand falling, redshifts in cosmology
+Output: 
+Ground Truth answer: ['can be used to measure time.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: rooks in chess
+Output: 
+Ground Truth answer: ['castles.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: chess, Catholicism
+Output: 
+Ground Truth answer: ['involve bishops.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: coconut, paint
+Output: 
+Ground Truth answer: ['related to oil.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: lawyers, basketball
+Output: 
+Ground Truth answer: ['involve courts.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: blanket, roof, umbrella
+Output: 
+Ground Truth answer: ['coverings.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: guitars, sewing, tennis rackets
+Output: 
+Ground Truth answer: ['involve strings.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Identify the relationship between two concepts based on the given input-output pairs.
+
+Input: squirrel foraging, memoization
+Output: caching
+
+Input: guitars, pendulums
+
+Input: pruning trees, complex analysis
+Output: 
+Ground Truth answer: ['involve branch cuts.']
+
+
+Prompt: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: sand falling, redshifts in cosmology
+Output: 
+Ground Truth answer: ['can be used to measure time.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: local, cable
+Output: 
+Ground Truth answer: ['types of networks.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: blanket, roof, umbrella
+Output: 
+Ground Truth answer: ['coverings.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: coconut, paint
+Output: 
+Ground Truth answer: ['related to oil.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: rooks in chess
+Output: 
+Ground Truth answer: ['castles.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: bike, piano
+Output: 
+Ground Truth answer: ['types of pedals.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: chess, Catholicism
+Output: 
+Ground Truth answer: ['involve bishops.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: lawyers, basketball
+Output: 
+Ground Truth answer: ['involve courts.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: hair, laceration
+Output: 
+Ground Truth answer: ['types of cuts.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: bumble bees, cell phones
+Output: 
+Ground Truth answer: ['can make a buzz.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: guitars, sewing, tennis rackets
+Output: 
+Ground Truth answer: ['involve strings.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: amateur radio, prosciutto
+Output: 
+Ground Truth answer: ['ham.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: food, the Louvre
+Output: 
+Ground Truth answer: ['have pyramids.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: normal distribution, Pavlov
+Output: relate to bells.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Input: blue whales, Jupiter, top quarks
+Output: the largest of their kind.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]  Sure! Here are the instructions without any explanations:
+
+* Input: guitars, pendulums - Involve oscillations.
+* Input: normal distribution, Pavlov - Relate to bells.
+*
+
+Input: pruning trees, complex analysis
+Output: 
+Ground Truth answer: ['involve branch cuts.']
+
+
+Prompt: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: local, cable
+Output: 
+Ground Truth answer: ['types of networks.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: food, the Louvre
+Output: 
+Ground Truth answer: ['have pyramids.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: bumble bees, cell phones
+Output: 
+Ground Truth answer: ['can make a buzz.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: amateur radio, prosciutto
+Output: 
+Ground Truth answer: ['ham.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: rooks in chess
+Output: 
+Ground Truth answer: ['castles.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: coconut, paint
+Output: 
+Ground Truth answer: ['related to oil.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: lawyers, basketball
+Output: 
+Ground Truth answer: ['involve courts.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: pruning trees, complex analysis
+Output: 
+Ground Truth answer: ['involve branch cuts.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: guitars, sewing, tennis rackets
+Output: 
+Ground Truth answer: ['involve strings.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: blanket, roof, umbrella
+Output: 
+Ground Truth answer: ['coverings.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: bike, piano
+Output: 
+Ground Truth answer: ['types of pedals.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: chess, Catholicism
+Output: 
+Ground Truth answer: ['involve bishops.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: sand falling, redshifts in cosmology
+Output: 
+Ground Truth answer: ['can be used to measure time.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: rock climbing, elevators
+Output: 
+Ground Truth answer: ['involve vertical movement.', 'involve going up.']
+
+
+Query:  Instruction: [INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being concise and precise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: green, light, dog
+Output: types of house.
+
+Input: ballet, snow, running
+Output: use specialized shoes.
+
+Input: guitars, pendulums
+Output: involve oscillations.
+
+Input: squirrel foraging, memoization
+Output: involve caching.
+
+Input: sewing, wrenches, glue
+Output: can help repair something.
+
+Observe the input-output pairs and output the instruction only without any explanation.[/INST]]
+
+Instruction: Give me an object and I will tell you what it can be used for.
+
+Green
+Light
+Dog
+
+Ballet
+Snow
+Running
+
+Guitars
+Pendulums
+
+Input: hair, laceration
+Output: 
+Ground Truth answer: ['types of cuts.']
+
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.66s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.08s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.16s/it]
+slurmstepd: error: *** JOB 579028 ON gn0809 CANCELLED AT 2024-03-13T17:06:25 ***

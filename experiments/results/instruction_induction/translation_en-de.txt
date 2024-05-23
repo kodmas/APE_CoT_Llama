@@ -1,0 +1,2 @@
+Test score: 0.63
+Best prompt: Translate words from English to German.

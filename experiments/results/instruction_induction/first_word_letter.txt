@@ -1,0 +1,2 @@
+Test score: 0.94
+Best prompt: Take the first letter of each word.

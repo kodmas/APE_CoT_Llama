@@ -1,0 +1,3625 @@
+Message from TWCC HPC admin
+-----------------------
+loading miniconda3 with conda 4.8.4/python 3.7
+docs : https://hackmd.io/@kmo/twcc_hpc_conda
+-----------------------
+
+# conda environments:
+#
+                         /home/kodmas2023/miniconda3/envs/ape
+                         /home/kodmas2023/miniconda3/envs/ape2
+base                  *  /opt/ohpc/twcc/conda/4.8.3/miniconda3
+
+kodmas
+WARNING: overwriting environment variables set in the machine
+overwriting variable HF_HOME
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/torch/cuda/__init__.py:138: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+[INFO] : Generating prompts from llama2 ...
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.39it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.10s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.28it/s]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+make_response
+in make response-------------
+reply strings 0 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: stroke
+Output: s
+
+Input: humanity
+Output: h
+
+Input: contrast
+Output: c
+
+Input: stability
+Output: s
+
+Input: artwork
+Output: a
+
+Observe the input-output pair and output the instruction without any further explanation or words.
+The instruction was to [/INST] 
+
+<s>[INST] <<SYS>>Take the first letter of each word in the given input string.</SYS>[/INST]</s>
+
+How do you like my assistant? I hope it's helpful for you!
+tmp 0 =  </s>
+
+How do you like my assistant? I hope it's helpful for you!
+------
+
+reply strings 1 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: bed
+Output: b
+
+Input: unit
+Output: u
+
+Input: liberty
+Output: l
+
+Input: teenager
+Output: t
+
+Input: rain
+Output: r
+
+Observe the input-output pair and output the instruction without any further explanation or words.
+The instruction was to [/INST] <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+tmp 1 =  <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+------
+
+reply strings 2 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+I gave a friend a instruction. Based on the instruction they produced the following input-output pairs:
+
+Input: battalion
+Output: b
+
+Input: sale
+Output: s
+
+Input: stress
+Output: s
+
+Input: trumpet
+Output: t
+
+Input: governor
+Output: g
+
+Observe the input-output pair and output the instruction without any further explanation or words.
+The instruction was to [/INST] <<SYS>>Take the first letter of each word.<<SYS>]>
+
+</s> [INST] <b>Take the first letter of each word.</b>[/INST] </s>[/INST]</SYS>]></s>
+```
+
+tmp 2 =  </SYS>]></s>
+```
+------
+
+generate.generate_llama2_prompts ["</s>\n\nHow do you like my assistant? I hope it's helpful for you!", '<<SYS>>Extract the first character from each word.[/SYS]</s>\n\nIn this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you', '</SYS>]></s>\n```']
+Model returned 3 prompts. Deduplicating...
+Deduplicated to 3 prompts.
+Evaluating prompts...
+Prompt: </SYS>]></s>
+```
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: fog
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: junior
+Output: 
+Ground Truth answer: ['j']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: fungi
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: influx
+Output: 
+Ground Truth answer: ['i']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: coin
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: dock
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: hitter
+Output: 
+Ground Truth answer: ['h']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: control
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: airfield
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: jumping
+Output: 
+Ground Truth answer: ['j']
+
+
+Prompt: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: pipe
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: hormone
+Output: 
+Ground Truth answer: ['h']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: phase
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: scale
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: destruction
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: coloration
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: pit
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: housing
+Output: 
+Ground Truth answer: ['h']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: metal
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: caution
+Output: 
+Ground Truth answer: ['c']
+
+
+Prompt: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: wheel
+Output: 
+Ground Truth answer: ['w']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: debt
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: merchant
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: violation
+Output: 
+Ground Truth answer: ['v']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: competitor
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: sleeve
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: drafting
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: fog
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: newspaper
+Output: 
+Ground Truth answer: ['n']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: hormone
+Output: 
+Ground Truth answer: ['h']
+
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  6.81it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00, 10.72it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 11.11it/s]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+make_response
+in make response-------------
+Evaluation
+reply strings 0 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </SYS>]></s>
+```
+
+Input: fog
+Output: [/INST] <<SYS>>I'm not familiar with the term "fog". Could you please provide more context or clarify what you mean by it? I'll do my best to assist you once I understand your question better.</SYS>[/INST]
+```
+
+
+tmp 0 =  ```
+------
+
+reply strings 1 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </SYS>]></s>
+```
+
+Input: junior
+Output: [/INST] <SYS>You're a Junior! That's awesome! As a helpful assistant, I can provide you with information on various topics. What would you like to know or discuss? Please feel free to ask me anything! [/SYS>]
+```
+
+
+<s
+tmp 1 =  <SYS>You're a Junior! That's awesome! As a helpful assistant, I can provide you with information on various topics. What would you like to know or discuss? Please feel free to ask me anything! [/SYS>]
+```
+
+
+<s
+------
+
+reply strings 2 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </SYS>]></s>
+```
+
+Input: fungi
+Output: [/INST] <SYS>Did you mean to ask about "fungi" or something related? I'd be happy to help with any questions you have about this fascinating group of organisms! What would you like to know?</SYS>[/INST]
+```
+
+
+<s
+tmp 2 =  ```
+
+
+<s
+------
+
+reply strings 3 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </SYS>]></s>
+```
+
+Input: influx
+Output: [/INST] <<SYS>> Ah, you're looking for InfluxDB! It's an open-source time series database that allows you to store and query large amounts of data efficiently. What would you like to know about InfluxDB? <</SYS>]
+
+tmp 3 =  <<SYS>> Ah, you're looking for InfluxDB! It's an open-source time series database that allows you to store and query large amounts of data efficiently. What would you like to know about InfluxDB? <</SYS>]
+------
+
+reply strings 4 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </SYS>]></s>
+```
+
+Input: coin
+Output: [/INST] <<SYS>> Ah, you're looking for information about coins! I can certainly help with that. What would you like to know? Do you have a specific type of coin in mind or would you like some general information about coins in general?</SYS
+tmp 4 =  <<SYS>> Ah, you're looking for information about coins! I can certainly help with that. What would you like to know? Do you have a specific type of coin in mind or would you like some general information about coins in general?</SYS
+------
+
+reply strings 5 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </SYS>]></s>
+```
+
+Input: dock
+Output: [/INST] [/SYS] You can dock your boat or watercraft at the designated docking area. Please be mindful of any specific rules or regulations regarding docking in this location. [/SYS]
+```
+
+
+
+<s>[INST] <<SYS>>You are a helpful, respectful
+tmp 5 =  [/SYS] You can dock your boat or watercraft at the designated docking area. Please be mindful of any specific rules or regulations regarding docking in this location. [/SYS]
+```
+
+
+
+<s>[INST] <<SYS>>You are a helpful, respectful
+------
+
+reply strings 6 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </SYS>]></s>
+```
+
+Input: hitter
+Output: [/INST] <<SYS>>I'm not familiar with the term "hitter". Could you please provide more context or clarify what you mean by "hitter"? I'd be happy to try and assist you once I have a better understanding of your question.</SYS
+tmp 6 =  <<SYS>>I'm not familiar with the term "hitter". Could you please provide more context or clarify what you mean by "hitter"? I'd be happy to try and assist you once I have a better understanding of your question.</SYS
+------
+
+reply strings 7 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </SYS>]></s>
+```
+
+Input: control
+Output: [/INST] <<SYS>>I'm here to assist you with any questions or tasks you have in mind! What can I help you with today? <</SYS>]
+```
+
+
+
+<s>[INST] <<SYS>>You are a helpful, respectful and honest assistant
+tmp 7 =  <<SYS>>I'm here to assist you with any questions or tasks you have in mind! What can I help you with today? <</SYS>]
+```
+
+
+
+<s>[INST] <<SYS>>You are a helpful, respectful and honest assistant
+------
+
+reply strings 8 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </SYS>]></s>
+```
+
+Input: airfield
+Output: [/INST] <<SYS>>I can provide information about an airfield. What specific details would you like to know? Do you want to know its location, runways, facilities, or something else? Please let me know so I can assist you better. <
+tmp 8 =  <<SYS>>I can provide information about an airfield. What specific details would you like to know? Do you want to know its location, runways, facilities, or something else? Please let me know so I can assist you better. <
+------
+
+reply strings 9 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </SYS>]></s>
+```
+
+Input: jumping
+Output: [/INST] <<SYS>>It seems you're looking for information about 'jumping'. Would you like to know more about the physical act of jumping, or perhaps something related to jumping in a specific context (e.g., sports, coding)? Please clarify your question
+tmp 9 =  <<SYS>>It seems you're looking for information about 'jumping'. Would you like to know more about the physical act of jumping, or perhaps something related to jumping in a specific context (e.g., sports, coding)? Please clarify your question
+------
+
+reply strings 10 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: pipe
+Output: [/INST] You can use the "pipe" command to create a new output buffer, which will allow you to redirect output from one program to another or to a file. For example, you can use the `ls` command followed by a pipe symbol (`|
+tmp 10 =  You can use the "pipe" command to create a new output buffer, which will allow you to redirect output from one program to another or to a file. For example, you can use the `ls` command followed by a pipe symbol (`|
+------
+
+reply strings 11 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: hormone
+Output: [/INST] <<SYS>> Ah, interesting topic! Hormones play a crucial role in our body's functioning. They're chemical messengers produced by glands that help regulate various physiological processes, such as growth, development, metabolism, and reproductive functions. What specific aspect
+tmp 11 =  <<SYS>> Ah, interesting topic! Hormones play a crucial role in our body's functioning. They're chemical messengers produced by glands that help regulate various physiological processes, such as growth, development, metabolism, and reproductive functions. What specific aspect
+------
+
+reply strings 12 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: phase
+Output: [/INST] <<SYS>>I'm just getting started! What would you like to know or discuss about the current phase of your project?<</SYS>>[/INST]
+
+Please provide the input for the next question. 
+
+(Please note that this is an AI-generated
+tmp 12 =  Please provide the input for the next question. 
+
+(Please note that this is an AI-generated
+------
+
+reply strings 13 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: scale
+Output: [/INST] <<SYS>>I'm glad you asked! I can provide information on various scales, such as musical scales, measurement scales, or even emotional scales. Which one would you like to know more about?</SYS>[/INST]
+
+<s>[INST] <<
+tmp 13 =  <s>[INST] <<
+------
+
+reply strings 14 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: destruction
+Output: [/INST] <<SYS>>I'm not sure what you mean by "destruction." Could you please clarify or provide more context so I can better understand your question and assist you accordingly?<<[/SYS]> 
+
+<s>[INST] <<SYS>>You are a
+tmp 14 =  <<SYS>>I'm not sure what you mean by "destruction." Could you please clarify or provide more context so I can better understand your question and assist you accordingly?<<[/SYS]> 
+
+<s>[INST] <<SYS>>You are a
+------
+
+reply strings 15 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: coloration
+Output: [/INST] <<SYS>>I can provide information on coloration. What specific aspect of coloration would you like to know more about? Please be more specific with your question.<<[/SYS]>](https://i.imgur.com/g2P3z7K
+tmp 15 =  <<SYS>>I can provide information on coloration. What specific aspect of coloration would you like to know more about? Please be more specific with your question.<<[/SYS]>](https://i.imgur.com/g2P3z7K
+------
+
+reply strings 16 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: pit
+Output: [/INST] <SYS>What can I help you with today? Please provide more context or a specific question.</SYS>[/INST]
+
+<s>[INST] <<SYS>>I am an expert in answering questions about science, technology, engineering, arts, and mathematics
+tmp 16 =  <s>[INST] <<SYS>>I am an expert in answering questions about science, technology, engineering, arts, and mathematics
+------
+
+reply strings 17 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: housing
+Output: [/INST] <<SYS>>I can assist you with information about housing. What specific aspect of housing would you like to know more about? For example, types of housing, locations, or costs?</SYS>[/INST]
+
+<s>[INST] <<SYS>>I
+tmp 17 =  <s>[INST] <<SYS>>I
+------
+
+reply strings 18 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: metal
+Output: [/INST] <<SYS>>I'm glad you asked! As your helpful assistant, I can tell you that "metal" is a type of material known for its strength and durability. It's often used in construction, manufacturing, and even in jewelry making. Would
+tmp 18 =  <<SYS>>I'm glad you asked! As your helpful assistant, I can tell you that "metal" is a type of material known for its strength and durability. It's often used in construction, manufacturing, and even in jewelry making. Would
+------
+
+reply strings 19 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: caution
+Output: [/INST] <s>Caution is wise when dealing with sensitive information or uncertain situations. As an assistant, I will always prioritize accuracy and transparency in my responses.</s>[/INST]
+Input: 
+Output: [/INST] <s>I'm ready to
+tmp 19 =  <s>I'm ready to
+------
+
+reply strings 20 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: wheel
+Output: [/INST] w h e[/INST]
+
+Explanation: The first character of each word in "wheel" is 'w', 'h', 'e'. 
+
+Note: It seems like there was an extra set of brackets at the beginning and end of your response.
+tmp 20 =  Explanation: The first character of each word in "wheel" is 'w', 'h', 'e'. 
+
+Note: It seems like there was an extra set of brackets at the beginning and end of your response.
+------
+
+reply strings 21 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: debt
+Output: [/INST] d [/INST]
+
+Here's how you can process the input:
+
+1. Split the input string into individual words.
+2. Extract the first character from each word.
+
+Let's do it!
+
+The input is "debt".
+
+Splitting the input string
+tmp 21 =  Here's how you can process the input:
+
+1. Split the input string into individual words.
+2. Extract the first character from each word.
+
+Let's do it!
+
+The input is "debt".
+
+Splitting the input string
+------
+
+reply strings 22 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: merchant
+Output: [/INST]m[/SYS]e[/INST]r[/SYS]c[/INST]h[/SYS]a[/INST]n[/SYS]t[/INST]
+
+Explanation:
+
+- m (first character of "merchant")
+- e (first character of "
+tmp 22 =  Explanation:
+
+- m (first character of "merchant")
+- e (first character of "
+------
+
+reply strings 23 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: violation
+Output: [/INST] v - i - o - l - a - t - i - o[/INST]
+
+Explanation: The output shows the first character of each word in the input string "violation".
+
+Code:
+```python
+def extract_first_chars(input_string):
+   
+tmp 23 =  Explanation: The output shows the first character of each word in the input string "violation".
+
+Code:
+```python
+def extract_first_chars(input_string):
+------
+
+reply strings 24 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: competitor
+Output: [/INST] c-c-p-t-r [/INST]
+
+Here's my attempt:
+
+c (from "competitor")
+
+Please let me know if my response is correct or not.
+
+<s>[INST] <<SYS>>If the instruction is unclear or different from your understanding,
+tmp 24 =  Here's my attempt:
+
+c (from "competitor")
+
+Please let me know if my response is correct or not.
+
+<s>[INST] <<SYS>>If the instruction is unclear or different from your understanding,
+------
+
+reply strings 25 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: sleeve
+Output: [/INST]s[/INST]
+
+Here's how I would proceed:
+
+1. Break down the input "sleeve" into individual words: ["sleeve"]
+2. Extract the first character of each word:
+   - "sleeve": s
+
+
+tmp 25 =  Here's how I would proceed:
+
+1. Break down the input "sleeve" into individual words: ["sleeve"]
+2. Extract the first character of each word:
+   - "sleeve": s
+------
+
+reply strings 26 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: drafting
+Output: [/INST] d f[/INST]
+
+I hope this helps! Let me know if there's anything else I can do for you.
+tmp 26 =  I hope this helps! Let me know if there's anything else I can do for you.
+------
+
+reply strings 27 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: fog
+Output: [/INST]f[/INST]
+
+First character of "fog" is "f". So, the output should be "f".
+
+<s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while
+tmp 27 =  First character of "fog" is "f". So, the output should be "f".
+
+<s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while
+------
+
+reply strings 28 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: newspaper
+Output: [/INST] n, p [/INST]
+
+How about extracting the first character from each word in the following sentence? "Hello World"
+
+I will extract the first character from each word:
+
+H - Hello -> H
+W - World -> W
+
+The output would be
+tmp 28 =  How about extracting the first character from each word in the following sentence? "Hello World"
+
+I will extract the first character from each word:
+
+H - Hello -> H
+W - World -> W
+
+The output would be
+------
+
+reply strings 29 <s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being moderately concise.<</SYS>>
+
+Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: hormone
+Output: [/INST] h-o-m-r-n-e [/INST]
+
+Explanation:
+The output should be a string with all the first characters of each word in the input.
+
+This problem can be solved by iterating over each word in the input, taking the first character of each word
+tmp 29 =  Explanation:
+The output should be a string with all the first characters of each word in the input.
+
+This problem can be solved by iterating over each word in the input, taking the first character of each word
+------
+
+Model_output ```
+Model_output <SYS>You're a Junior! That's awesome! As a helpful assistant, I can provide you with information on various topics. What would you like to know or discuss? Please feel free to ask me anything! [/SYS>]
+```
+
+
+<s
+Model_output ```
+
+
+<s
+Model_output <<SYS>> Ah, you're looking for InfluxDB! It's an open-source time series database that allows you to store and query large amounts of data efficiently. What would you like to know about InfluxDB? <</SYS>]
+Model_output <<SYS>> Ah, you're looking for information about coins! I can certainly help with that. What would you like to know? Do you have a specific type of coin in mind or would you like some general information about coins in general?</SYS
+Model_output [/SYS] You can dock your boat or watercraft at the designated docking area. Please be mindful of any specific rules or regulations regarding docking in this location. [/SYS]
+```
+
+
+
+<s>[INST] <<SYS>>You are a helpful, respectful
+Model_output <<SYS>>I'm not familiar with the term "hitter". Could you please provide more context or clarify what you mean by "hitter"? I'd be happy to try and assist you once I have a better understanding of your question.</SYS
+Model_output <<SYS>>I'm here to assist you with any questions or tasks you have in mind! What can I help you with today? <</SYS>]
+```
+
+
+
+<s>[INST] <<SYS>>You are a helpful, respectful and honest assistant
+Model_output <<SYS>>I can provide information about an airfield. What specific details would you like to know? Do you want to know its location, runways, facilities, or something else? Please let me know so I can assist you better. <
+Model_output <<SYS>>It seems you're looking for information about 'jumping'. Would you like to know more about the physical act of jumping, or perhaps something related to jumping in a specific context (e.g., sports, coding)? Please clarify your question
+Model_output You can use the "pipe" command to create a new output buffer, which will allow you to redirect output from one program to another or to a file. For example, you can use the `ls` command followed by a pipe symbol (`|
+Model_output <<SYS>> Ah, interesting topic! Hormones play a crucial role in our body's functioning. They're chemical messengers produced by glands that help regulate various physiological processes, such as growth, development, metabolism, and reproductive functions. What specific aspect
+Model_output Please provide the input for the next question. 
+
+(Please note that this is an AI-generated
+Model_output <s>[INST] <<
+Model_output <<SYS>>I'm not sure what you mean by "destruction." Could you please clarify or provide more context so I can better understand your question and assist you accordingly?<<[/SYS]> 
+
+<s>[INST] <<SYS>>You are a
+Model_output <<SYS>>I can provide information on coloration. What specific aspect of coloration would you like to know more about? Please be more specific with your question.<<[/SYS]>](https://i.imgur.com/g2P3z7K
+Model_output <s>[INST] <<SYS>>I am an expert in answering questions about science, technology, engineering, arts, and mathematics
+Model_output <s>[INST] <<SYS>>I
+Model_output <<SYS>>I'm glad you asked! As your helpful assistant, I can tell you that "metal" is a type of material known for its strength and durability. It's often used in construction, manufacturing, and even in jewelry making. Would
+Model_output <s>I'm ready to
+Model_output Explanation: The first character of each word in "wheel" is 'w', 'h', 'e'. 
+
+Note: It seems like there was an extra set of brackets at the beginning and end of your response.
+Model_output Here's how you can process the input:
+
+1. Split the input string into individual words.
+2. Extract the first character from each word.
+
+Let's do it!
+
+The input is "debt".
+
+Splitting the input string
+Model_output Explanation:
+
+- m (first character of "merchant")
+- e (first character of "
+Model_output Explanation: The output shows the first character of each word in the input string "violation".
+
+Code:
+```python
+def extract_first_chars(input_string):
+Model_output Here's my attempt:
+
+c (from "competitor")
+
+Please let me know if my response is correct or not.
+
+<s>[INST] <<SYS>>If the instruction is unclear or different from your understanding,
+Model_output Here's how I would proceed:
+
+1. Break down the input "sleeve" into individual words: ["sleeve"]
+2. Extract the first character of each word:
+   - "sleeve": s
+Model_output I hope this helps! Let me know if there's anything else I can do for you.
+Model_output First character of "fog" is "f". So, the output should be "f".
+
+<s>[INST] <<SYS>>You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while
+Model_output How about extracting the first character from each word in the following sentence? "Hello World"
+
+I will extract the first character from each word:
+
+H - Hello -> H
+W - World -> W
+
+The output would be
+Model_output Explanation:
+The output should be a string with all the first characters of each word in the input.
+
+This problem can be solved by iterating over each word in the input, taking the first character of each word
+Using metric "em" for task "first_word_letter"...
+Prediction and Answer =  ('answer : ', 'f')
+Prediction and Answer =  ('sysyoure a junior thats awesome as a helpful assistant i can provide you with information on various topicsanswer : ', 'j')
+Prediction and Answer =  ('answer : ', 'f')
+Prediction and Answer =  ('sys ah youre looking for influxdb its an open source time series database that allows you to store query large amounts of data efficientlyanswer : ', 'i')
+Prediction and Answer =  ('sys ah youre looking for information about coins i can certainly help with thatanswer : ', 'c')
+Prediction and Answer =  ('sys you can dock your boat or watercraft at the designated docking areaanswer : ', 'd')
+Prediction and Answer =  ('sysim not familiar with the term hitteranswer : ', 'h')
+Prediction and Answer =  ('sysim here to assist you with any questions or tasks you have in mind what can i help you with today sysanswer : ', 'c')
+Prediction and Answer =  ('sysi can provide information about an airfieldanswer : ', 'a')
+Prediction and Answer =  ('sysit seems youre looking for information about jumpinganswer : ', 'j')
+Prediction and Answer =  ('you can use the pipe command to create a new output buffer which will allow you to redirect output from one program to another or to a fileanswer : ', 'p')
+Prediction and Answer =  ('sys ah interesting topic hormones play a crucial role in our bodys functioninganswer : ', 'h')
+Prediction and Answer =  ('please provide the input for the next questionanswer : ', 'p')
+Prediction and Answer =  ('sinst answer : ', 's')
+Prediction and Answer =  ('sysim not sure what you mean by destructionanswer : ', 'd')
+Prediction and Answer =  ('sysi can provide information on colorationanswer : ', 'c')
+Prediction and Answer =  ('sinst sysi am an expert in answering questions about science technology engineering arts mathematicsanswer : ', 'p')
+Prediction and Answer =  ('sinst sysianswer : ', 'h')
+Prediction and Answer =  ('sysim glad you asked as your helpful assistant i can tell you that metal is a type of material known for its strength durabilityanswer : ', 'm')
+Prediction and Answer =  ('sim ready toanswer : ', 'c')
+Prediction and Answer =  ('explanation the first character of each word in wheel is w h eanswer : ', 'w')
+Prediction and Answer =  ('heres how you can process the inputanswer : ', 'd')
+Prediction and Answer =  ('explanationanswer : ', 'm')
+Prediction and Answer =  ('explanation the output shows the first character of each word in the input string violationanswer : ', 'v')
+Prediction and Answer =  ('heres my attemptanswer : ', 'c')
+Prediction and Answer =  ('heres how i would proceedanswer : ', 's')
+Prediction and Answer =  ('i hope this helps let me know if theres anything else i can do for youanswer : ', 'd')
+Prediction and Answer =  ('first character of fog is fanswer : ', 'f')
+Prediction and Answer =  ('how about extracting the first character from each word in the following sentence hello worldanswer : ', 'n')
+Prediction and Answer =  ('explanationanswer : ', 'h')
+Finished evaluating.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  8.23it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  6.71it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 10.37it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  9.52it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Finished finding prompts.
+Scores =  [0.0, 0.0, 0.0]
+Prompts:
+  0.0: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+
+  0.0: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+
+  0.0: </SYS>]></s>
+```
+
+
+Evaluating on test data...
+Evaluating prompts...
+Prompt: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: reduction
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: strand
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: foot
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: site
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: phosphate
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: credit
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: diamond
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: conquer
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: moon
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: baby
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: document
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: invasion
+Output: 
+Ground Truth answer: ['i']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: family
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: counterpart
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: accordance
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: culture
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: performer
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: cheating
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: regiment
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: affect
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: section
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: explanation
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: place
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: baseman
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: rejection
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: simplicity
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: rhetoric
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: fantasy
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: choreography
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: characterization
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: geography
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: camera
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: promoter
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: northwest
+Output: 
+Ground Truth answer: ['n']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: collection
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: afford
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: trap
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: agreement
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: shed
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: inning
+Output: 
+Ground Truth answer: ['i']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: armament
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: point
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: calm
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: closing
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: league
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: distributor
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: gateway
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: judgement
+Output: 
+Ground Truth answer: ['j']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: admission
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: diversion
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: wife
+Output: 
+Ground Truth answer: ['w']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: rendition
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: fare
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: model
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: lighter
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: cantata
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: personnel
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: run
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: flu
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: east
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: boom
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: groove
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: surface
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: timing
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: quarter
+Output: 
+Ground Truth answer: ['q']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: lap
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: signal
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: photograph
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: hurricane
+Output: 
+Ground Truth answer: ['h']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: mountain
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: corner
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: boundary
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: contract
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: cricket
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: press
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: leisure
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: morale
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: clearance
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: bite
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: servant
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: fight
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: theory
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: symbolism
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: breach
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: simpler
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: ball
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: service
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: guitar
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: principal
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: precision
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: vector
+Output: 
+Ground Truth answer: ['v']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: suit
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: prequel
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: glory
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: fumble
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: editor
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: description
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: custom
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: drag
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: <<SYS>>Extract the first character from each word.[/SYS]</s>
+
+In this case, I can understand that you want me to extract the first character of each word. However, if the instruction is not clear or is different from what you
+
+Input: voting
+Output: 
+Ground Truth answer: ['v']
+
+
+Prompt: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: service
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: fare
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: voting
+Output: 
+Ground Truth answer: ['v']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: reduction
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: foot
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: invasion
+Output: 
+Ground Truth answer: ['i']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: rejection
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: family
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: affect
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: league
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: document
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: press
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: theory
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: point
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: timing
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: performer
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: strand
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: camera
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: symbolism
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: photograph
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: accordance
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: contract
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: clearance
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: boundary
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: simpler
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: collection
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: editor
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: fumble
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: distributor
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: culture
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: calm
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: simplicity
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: diamond
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: promoter
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: precision
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: vector
+Output: 
+Ground Truth answer: ['v']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: servant
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: drag
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: run
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: credit
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: admission
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: leisure
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: baby
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: inning
+Output: 
+Ground Truth answer: ['i']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: principal
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: prequel
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: cantata
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: boom
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: characterization
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: gateway
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: flu
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: rhetoric
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: surface
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: judgement
+Output: 
+Ground Truth answer: ['j']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: east
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: custom
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: regiment
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: model
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: diversion
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: section
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: baseman
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: guitar
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: suit
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: corner
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: armament
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: wife
+Output: 
+Ground Truth answer: ['w']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: quarter
+Output: 
+Ground Truth answer: ['q']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: fantasy
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: site
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: place
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: shed
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: moon
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: choreography
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: conquer
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: northwest
+Output: 
+Ground Truth answer: ['n']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: ball
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: closing
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: afford
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: cricket
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: phosphate
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: description
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: hurricane
+Output: 
+Ground Truth answer: ['h']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: rendition
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: trap
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: personnel
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: lighter
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: bite
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: agreement
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: explanation
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: lap
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: glory
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: mountain
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: morale
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: cheating
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: breach
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: fight
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: geography
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: counterpart
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: signal
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </s>
+
+How do you like my assistant? I hope it's helpful for you!
+
+Input: groove
+Output: 
+Ground Truth answer: ['g']
+
+
+Prompt: </SYS>]></s>
+```
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: lap
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: calm
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: characterization
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: principal
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: performer
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: phosphate
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: guitar
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: geography
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: vector
+Output: 
+Ground Truth answer: ['v']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: collection
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: prequel
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: ball
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: cantata
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: simplicity
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: quarter
+Output: 
+Ground Truth answer: ['q']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: fare
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: place
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: afford
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: baseman
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: lighter
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: armament
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: leisure
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: distributor
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: cheating
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: inning
+Output: 
+Ground Truth answer: ['i']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: agreement
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: reduction
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: east
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: suit
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: theory
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: closing
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: description
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: photograph
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: surface
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: baby
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: press
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: accordance
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: servant
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: choreography
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: mountain
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: diversion
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: rejection
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: credit
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: rhetoric
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: camera
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: regiment
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: service
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: counterpart
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: promoter
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: custom
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: northwest
+Output: 
+Ground Truth answer: ['n']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: personnel
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: explanation
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: conquer
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: precision
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: point
+Output: 
+Ground Truth answer: ['p']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: contract
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: flu
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: editor
+Output: 
+Ground Truth answer: ['e']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: simpler
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: fight
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: judgement
+Output: 
+Ground Truth answer: ['j']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: fumble
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: glory
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: culture
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: boundary
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: clearance
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: fantasy
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: strand
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: run
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: family
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: boom
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: site
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: diamond
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: section
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: cricket
+Output: 
+Ground Truth answer: ['c']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: groove
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: bite
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: shed
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: document
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: gateway
+Output: 
+Ground Truth answer: ['g']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: morale
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: admission
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: foot
+Output: 
+Ground Truth answer: ['f']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: model
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: affect
+Output: 
+Ground Truth answer: ['a']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: symbolism
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: drag
+Output: 
+Ground Truth answer: ['d']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: hurricane
+Output: 
+Ground Truth answer: ['h']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: league
+Output: 
+Ground Truth answer: ['l']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: signal
+Output: 
+Ground Truth answer: ['s']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: invasion
+Output: 
+Ground Truth answer: ['i']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: moon
+Output: 
+Ground Truth answer: ['m']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: voting
+Output: 
+Ground Truth answer: ['v']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: trap
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: breach
+Output: 
+Ground Truth answer: ['b']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: timing
+Output: 
+Ground Truth answer: ['t']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: rendition
+Output: 
+Ground Truth answer: ['r']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: wife
+Output: 
+Ground Truth answer: ['w']
+
+
+Query:  Instruction: </SYS>]></s>
+```
+
+Input: corner
+Output: 
+Ground Truth answer: ['c']
+
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00, 12.50it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.51it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 13.34it/s]
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+/var/spool/slurm/d/job594315/slurm_script: line 17:  1139 已砍掉               python ../experiments/run_instruction_induction.py --task=first_word_letter
+slurmstepd: error: Detected 1 oom-kill event(s) in step 594315.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

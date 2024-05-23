@@ -1,0 +1,27 @@
+Message from TWCC HPC admin
+-----------------------
+loading miniconda3 with conda 4.8.4/python 3.7
+docs : https://hackmd.io/@kmo/twcc_hpc_conda
+-----------------------
+
+# conda environments:
+#
+                         /home/kodmas2023/miniconda3/envs/ape
+                         /home/kodmas2023/miniconda3/envs/ape2
+base                  *  /opt/ohpc/twcc/conda/4.8.3/miniconda3
+
+kodmas
+WARNING: overwriting environment variables set in the machine
+overwriting variable HF_HOME
+Traceback (most recent call last):
+  File "/work/kodmas2023/automatic_prompt_engineer/slurm/../experiments/run_instruction_induction.py", line 128, in <module>
+    fire.Fire(run)
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/home/kodmas2023/miniconda3/envs/ape/lib/python3.9/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/work/kodmas2023/automatic_prompt_engineer/slurm/../experiments/run_instruction_induction.py", line 18, in run
+    assert task in tasks, 'Task not found!'
+AssertionError: Task not found!
